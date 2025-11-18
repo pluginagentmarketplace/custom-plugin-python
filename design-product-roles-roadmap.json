@@ -1,0 +1,1215 @@
+{
+  "metadata": {
+    "title": "Design & Product Roles Roadmap 2025",
+    "description": "Comprehensive guide to Design and Product career paths",
+    "version": "2025.1",
+    "last_updated": "2025-11-18"
+  },
+  "roles": {
+    "ux_designer": {
+      "role_name": "UX Designer",
+      "rol_aciklamasi": "UX tasarımcıları, kullanıcıların dijital ürünlerle etkileşimini kolay, keyifli ve verimli hale getiren profesyonellerdir. Son kullanıcı veya müşteri için savunucu olurken, ürün veya hizmetin iş hedeflerini karşılamasını sağlarlar. Kullanıcı araştırması, tasarım ve test süreçlerini yöneterek kullanıcı deneyimini optimize ederler.",
+      "kilit_sorumlulugu": [
+        "Kullanıcı araştırması ve kullanılabilirlik testleri yürütmek (röportajlar, anketler, kullanıcı davranışlarını gözlemlemek)",
+        "Wireframe, prototip ve mockup oluşturmak",
+        "Kullanıcı yolculuklarını (user journey) ve bilgi mimarisini tasarlamak",
+        "A/B testleri ve veri analizi ile tasarım kararlarını desteklemek",
+        "Cross-functional ekiplerle (ürün, mühendislik, pazarlama) işbirliği yapmak",
+        "Tasarım sistemlerini ve stil kılavuzlarını oluşturmak ve sürdürmek",
+        "Erişilebilirlik (accessibility) standartlarına uygunluk sağlamak"
+      ],
+      "ogrenme_rotasi": {
+        "seviye_1_temel": {
+          "baslik": "Temel Beceriler (0-6 ay)",
+          "konular": [
+            "UX tasarım prensipleri ve temel kavramlar",
+            "Kullanıcı araştırma metodolojileri (nitel ve nicel)",
+            "Bilgi mimarisi ve kullanıcı akışları",
+            "Wireframing ve prototipleme temelleri",
+            "Temel görsel tasarım prensipleri",
+            "Erişilebilirlik (WCAG) standartları"
+          ]
+        },
+        "seviye_2_orta": {
+          "baslik": "Orta Seviye Beceriler (6-18 ay)",
+          "konular": [
+            "İleri seviye kullanılabilirlik testleri",
+            "İnteraktif prototip geliştirme",
+            "Design thinking ve çevik (agile) metodolojiler",
+            "Veri analizi ve kullanıcı metrikleri",
+            "Tasarım sistemleri ve component kütüphaneleri",
+            "Cross-platform tasarım (web, mobile, tablet)",
+            "Kullanıcı persona ve empati haritaları oluşturma"
+          ]
+        },
+        "seviye_3_ileri": {
+          "baslik": "İleri Seviye Beceriler (18+ ay)",
+          "konular": [
+            "UX strateji geliştirme",
+            "Tasarım liderliği ve mentorluk",
+            "Karmaşık bilgi mimarileri tasarlama",
+            "UX metrikleri ve ROI analizi",
+            "Yeni teknolojiler (AI, VR/AR, voice UI) için UX",
+            "Organizasyonel UX olgunluğunu artırma",
+            "Tasarım sistemi yönetimi ve governance"
+          ]
+        }
+      },
+      "gerekli_beceriler": {
+        "teknik_beceriler": [
+          "Wireframing ve prototipleme",
+          "Kullanıcı araştırma metodolojileri",
+          "Bilgi mimarisi",
+          "Etkileşim tasarımı (interaction design)",
+          "Görsel tasarım prensipleri",
+          "Erişilebilirlik standartları",
+          "Temel HTML/CSS bilgisi",
+          "Veri analizi ve metriklerin yorumlanması"
+        ],
+        "soft_skills": [
+          "Empatik düşünme",
+          "Problem çözme ve analitik düşünme",
+          "Etkili iletişim ve sunum",
+          "İşbirliği ve takım çalışması",
+          "Adaptasyon yeteneği",
+          "Eleştirel geri bildirimleri alma ve verme",
+          "Zaman yönetimi ve önceliklendirme"
+        ],
+        "business_skills": [
+          "İş hedefleriyle kullanıcı ihtiyaçlarını dengeleme",
+          "ROI ve iş etkisini ölçme",
+          "Stakeholder yönetimi",
+          "Temel proje yönetimi"
+        ]
+      },
+      "tools_ve_metodoloji": {
+        "tasarim_araclar": [
+          "Figma (wireframe, prototip, işbirliği)",
+          "Adobe XD (tasarım ve prototipleme)",
+          "Sketch (UI tasarım)",
+          "InVision (prototipleme ve işbirliği)",
+          "Framer (ileri seviye prototipleme)"
+        ],
+        "arastirma_araclar": [
+          "Hotjar (kullanıcı davranış analizi)",
+          "UserTesting (kullanılabilirlik testleri)",
+          "Maze (tasarım testleri)",
+          "Optimal Workshop (bilgi mimarisi testleri)",
+          "Lookback (kullanıcı röportajları)"
+        ],
+        "isbirligi_araclar": [
+          "Miro (brainstorming ve workshop'lar)",
+          "FigJam (işbirlikçi tasarım)",
+          "Slack (iletişim)",
+          "Notion (dokümantasyon)",
+          "Jira (proje takibi)"
+        ],
+        "analiz_araclar": [
+          "Google Analytics (web analizi)",
+          "Amplitude (ürün analizi)",
+          "Mixpanel (kullanıcı davranış analizi)",
+          "FullStory (session recording)"
+        ],
+        "metodolojiler": [
+          "Design Thinking",
+          "Lean UX",
+          "Agile/Scrum UX",
+          "Jobs-to-be-Done (JTBD)",
+          "Human-Centered Design",
+          "Double Diamond Process"
+        ]
+      },
+      "kariyer_gelisimi": {
+        "entry_level": {
+          "pozisyon": "Junior UX Designer / UX Designer",
+          "deneyim": "0-3 yıl",
+          "sorumluluklar": "Kullanıcı araştırmalarına destek, basit wireframe'ler ve prototiplerin oluşturulması, senior tasarımcıların rehberliğinde çalışma",
+          "ortalama_maas": "$60,000 - $95,000"
+        },
+        "mid_level": {
+          "pozisyon": "Mid-Level / Senior UX Designer",
+          "deneyim": "3-5 yıl",
+          "sorumluluklar": "Ürün özellikleri veya alanlarından tam sorumluluk, cross-functional işbirliği, kullanıcı araştırmalarının yönetilmesi",
+          "ortalama_maas": "$95,000 - $115,000"
+        },
+        "senior_level": {
+          "pozisyon": "Senior UX Designer",
+          "deneyim": "5-8 yıl",
+          "sorumluluklar": "UX stratejisine liderlik etme, mentorluk, karmaşık tasarım problemlerini çözme, tasarım sistemlerine katkı",
+          "ortalama_maas": "$115,000 - $140,000+"
+        },
+        "lead_level": {
+          "pozisyon": "UX Lead / UX Manager",
+          "deneyim": "8-12 yıl",
+          "sorumluluklar": "Tasarım ekibini yönetme, tasarım sistemlerini yönetme, organizasyonel UX vizyonunu belirleme",
+          "ortalama_maas": "$130,000 - $170,000+"
+        },
+        "director_level": {
+          "pozisyon": "Director of UX / Head of Experience",
+          "deneyim": "12+ yıl",
+          "sorumluluklar": "Organizasyon seviyesinde kullanıcı deneyimi stratejisi belirleme, çok disiplinli ekipleri yönetme, executive liderlik",
+          "ortalama_maas": "$160,000 - $250,000+"
+        }
+      }
+    },
+    "design_system_engineer": {
+      "role_name": "Design System Engineer",
+      "rol_aciklamasi": "Design System Engineer'lar, görsel konseptlerden işlevsel koda sorunsuz geçişi sağlayan ve UI bileşenleri ile tasarım kılavuzlarını standartlaştıran merkezi bir tasarım sistemini yöneten profesyonellerdir. Kod sorumluluğunu geliştiricilerle, kullanıcı deneyimi ve tasarım prensipleriniyse UX tasarım ekibiyle paylaşırlar.",
+      "kilit_sorumlulugu": [
+        "Tasarım sisteminin oluşturulması, bakımı ve evrimini sağlamak",
+        "UI komponentlerini kodlamak ve dokümante etmek",
+        "Tasarımcılar ve geliştiriciler arasında köprü kurmak",
+        "Tasarım token'larını ve stil kılavuzlarını yönetmek",
+        "Component kütüphanelerinin kalite kontrolünü sağlamak",
+        "Tasarım sisteminin ölçeklenebilirliğini ve erişilebilirliğini garanti etmek",
+        "Cross-team işbirliğini kolaylaştırmak ve eğitim vermek"
+      ],
+      "ogrenme_rotasi": {
+        "seviye_1_temel": {
+          "baslik": "Temel Beceriler (0-6 ay)",
+          "konular": [
+            "HTML, CSS temelleri ve modern CSS (Flexbox, Grid)",
+            "JavaScript temelleri",
+            "Git ve versiyon kontrolü",
+            "Temel tasarım prensipleri",
+            "Component-based architecture",
+            "Figma veya Sketch ile çalışma"
+          ]
+        },
+        "seviye_2_orta": {
+          "baslik": "Orta Seviye Beceriler (6-18 ay)",
+          "konular": [
+            "React, Vue veya Angular gibi modern framework'ler",
+            "Tasarım token sistemleri",
+            "CSS-in-JS veya CSS modülleri",
+            "Storybook veya benzeri dokümantasyon araçları",
+            "Testing (unit, integration, visual regression)",
+            "CI/CD pipeline'ları",
+            "Accessibility (a11y) en iyi uygulamaları",
+            "Component API tasarımı"
+          ]
+        },
+        "seviye_3_ileri": {
+          "baslik": "İleri Seviye Beceriler (18+ ay)",
+          "konular": [
+            "Tasarım sistemi architecture ve governance",
+            "Multi-platform tasarım sistemleri (web, native, cross-platform)",
+            "Otomatik tasarım-kod senkronizasyonu",
+            "Performance optimization",
+            "Özel build tooling ve automation",
+            "Design API'ları ve design tokens spesifikasyonları",
+            "Organizasyonel değişim yönetimi"
+          ]
+        }
+      },
+      "gerekli_beceriler": {
+        "teknik_beceriler": [
+          "HTML, CSS, JavaScript (ileri seviye)",
+          "Modern frontend framework'ler (React, Vue, Angular)",
+          "Tasarım araçları (Figma, Sketch, Adobe XD)",
+          "Git ve versiyon kontrolü",
+          "Build tools (Webpack, Vite, Rollup)",
+          "Testing frameworks (Jest, Playwright, Chromatic)",
+          "CSS preprocessors (Sass, Less) veya CSS-in-JS",
+          "Package management (npm, yarn)"
+        ],
+        "tasarim_beceriler": [
+          "UI/UX tasarım prensipleri",
+          "Tipografi ve renk teorisi",
+          "Layout ve composition",
+          "Erişilebilirlik standartları",
+          "Responsive ve adaptive tasarım",
+          "Design tokens konsepti"
+        ],
+        "soft_skills": [
+          "Tasarımcılar ve geliştiriciler arası iletişim",
+          "Teknik dokümantasyon yazma",
+          "Sistem düşüncesi (systems thinking)",
+          "İşbirliği ve konsensüs oluşturma",
+          "Problem çözme ve debug etme",
+          "Eğitim ve mentorluk"
+        ]
+      },
+      "tools_ve_metodoloji": {
+        "tasarim_araclar": [
+          "Figma (tasarım ve token yönetimi)",
+          "Sketch (UI tasarım)",
+          "Adobe XD (tasarım)",
+          "Zeroheight (dokümantasyon)",
+          "Supernova (tasarım-kod senkronizasyonu)"
+        ],
+        "gelistirme_araclar": [
+          "React / Vue / Angular (component development)",
+          "Storybook (component dokümantasyon)",
+          "Styled Components / Emotion (CSS-in-JS)",
+          "TypeScript (tip güvenliği)",
+          "Chromatic (visual regression testing)",
+          "Jest / Testing Library (unit testing)"
+        ],
+        "versiyon_ve_deployment": [
+          "Git / GitHub / GitLab",
+          "npm / yarn (package yönetimi)",
+          "Semantic versioning",
+          "CI/CD (GitHub Actions, Jenkins, CircleCI)",
+          "Lerna / Nx (monorepo yönetimi)"
+        ],
+        "metodolojiler": [
+          "Atomic Design",
+          "Component-Driven Development",
+          "Design Tokens",
+          "Living Style Guides",
+          "Progressive Enhancement",
+          "Agile/Scrum"
+        ]
+      },
+      "kariyer_gelisimi": {
+        "entry_level": {
+          "pozisyon": "Junior Design System Engineer / Frontend Developer",
+          "deneyim": "0-2 yıl",
+          "sorumluluklar": "Mevcut componentlerin bakımı, basit yeni componentlerin oluşturulması, dokümantasyona katkı",
+          "ortalama_maas": "$70,000 - $95,000"
+        },
+        "mid_level": {
+          "pozisyon": "Design System Engineer",
+          "deneyim": "2-5 yıl",
+          "sorumluluklar": "Yeni component'lerin tasarımı ve uygulanması, tasarım token sistemleri, cross-team işbirliği",
+          "ortalama_maas": "$95,000 - $130,000"
+        },
+        "senior_level": {
+          "pozisyon": "Senior Design System Engineer",
+          "deneyim": "5-8 yıl",
+          "sorumluluklar": "Tasarım sistemi mimarisi, kompleks component'ler, mentorluk, teknik strateji",
+          "ortalama_maas": "$130,000 - $160,000"
+        },
+        "lead_level": {
+          "pozisyon": "Lead Design System Engineer / Design System Architect",
+          "deneyim": "8+ yıl",
+          "sorumluluklar": "Tasarım sistemi stratejisi, ekip liderliği, organizasyonel adoption, teknik vizyoner",
+          "ortalama_maas": "$150,000 - $190,000+"
+        },
+        "director_level": {
+          "pozisyon": "Director of Design/Engineering",
+          "deneyim": "10+ yıl",
+          "sorumluluklar": "Tasarım ve mühendislik stratejisine liderlik, departman yönetimi, executive işbirliği",
+          "ortalama_maas": "$180,000 - $250,000+"
+        }
+      }
+    },
+    "product_manager": {
+      "role_name": "Product Manager",
+      "rol_aciklamasi": "Product Manager'lar, ürün vizyonunu ve stratejisini iş hedefleriyle uyumlu olarak tanımlayan profesyonellerdir. Müşteri geri bildirimlerini ve pazar trendlerini toplayıp önceliklendirerek gelecekteki ürün geliştirmelerini yönlendirirler. Çeşitli departmanları birbirine bağlayarak ürünün pazar taleplerine ve şirket stratejik hedeflerine uygun olmasını sağlarlar.",
+      "kilit_sorumlulugu": [
+        "Ürün vizyonu ve stratejisini tanımlamak ve iletmek",
+        "Ürün roadmap'ini oluşturmak ve yönetmek",
+        "Müşteri ihtiyaçlarını ve pazar trendlerini araştırmak",
+        "Özellik önceliklendirmesi ve backlog yönetimi",
+        "Cross-functional ekipleri (mühendislik, tasarım, pazarlama) koordine etmek",
+        "Ürün metriklerini tanımlamak ve ölçmek",
+        "Stakeholder'larla iletişim ve beklenti yönetimi",
+        "Ürün lansmanlarını planlamak ve yürütmek"
+      ],
+      "ogrenme_rotasi": {
+        "seviye_1_temel": {
+          "baslik": "Temel Beceriler (0-6 ay)",
+          "konular": [
+            "Ürün yönetimi temelleri ve terminoloji",
+            "Ürün yaşam döngüsü (product lifecycle)",
+            "Temel kullanıcı araştırma metodolojileri",
+            "Agile ve Scrum framework'leri",
+            "Temel veri analizi ve metrikler",
+            "Stakeholder yönetimi temelleri",
+            "Wireframing ve prototipleme araçları"
+          ]
+        },
+        "seviye_2_orta": {
+          "baslik": "Orta Seviye Beceriler (6-18 ay)",
+          "konular": [
+            "İleri seviye önceliklendirme çerçeveleri (RICE, KANO, MoSCoW)",
+            "Veri odaklı karar verme ve SQL",
+            "A/B testing ve deney tasarımı",
+            "Go-to-market (GTM) stratejileri",
+            "Ürün stratejisi ve OKR'lar",
+            "Rekabet analizi ve pazar araştırması",
+            "Kullanıcı segmentasyonu ve persona geliştirme",
+            "Teknik mimari anlayışı"
+          ]
+        },
+        "seviye_3_ileri": {
+          "baslik": "İleri Seviye Beceriler (18+ ay)",
+          "konular": [
+            "Ürün vizyonu ve uzun vadeli strateji",
+            "Platform ve ekosistem düşüncesi",
+            "Pricing ve monetization stratejileri",
+            "AI/ML ürün yönetimi",
+            "Organizasyonel etkiyi ölçme ve gösterme",
+            "Ürün liderliği ve mentorluk",
+            "İş geliştirme ve ortaklıklar",
+            "Uluslararası ürün stratejisi"
+          ]
+        }
+      },
+      "gerekli_beceriler": {
+        "teknik_beceriler": [
+          "Veri analizi ve SQL",
+          "A/B testing ve deney metodolojileri",
+          "Temel teknik mimari anlayışı",
+          "API'lar ve entegrasyonlar",
+          "Analytics araçları (Google Analytics, Amplitude, Mixpanel)",
+          "Prototipleme araçları (Figma, Sketch)",
+          "Proje yönetim araçları (Jira, Asana)",
+          "Temel UX/UI prensipleri"
+        ],
+        "business_beceriler": [
+          "İş stratejisi ve business model'leri",
+          "Finansal analiz ve P&L yönetimi",
+          "Pazar araştırması ve rekabet analizi",
+          "Pricing ve monetization",
+          "Go-to-market stratejileri",
+          "Stakeholder yönetimi",
+          "ROI ve business case oluşturma"
+        ],
+        "soft_skills": [
+          "Liderlik ve etki yaratma",
+          "Etkili iletişim ve sunum",
+          "Stratejik düşünme",
+          "Problem çözme",
+          "Önceliklendirme ve karar verme",
+          "Empati ve kullanıcı odaklılık",
+          "Çatışma çözümü ve müzakere",
+          "Adaptasyon ve öğrenme yeteneği"
+        ]
+      },
+      "tools_ve_metodoloji": {
+        "roadmap_ve_planlama": [
+          "Jira / Linear (backlog yönetimi)",
+          "ProductBoard / Aha! (roadmap yönetimi)",
+          "Miro / FigJam (stratejik planlama)",
+          "Confluence / Notion (dokümantasyon)",
+          "Asana / Monday.com (proje yönetimi)"
+        ],
+        "analiz_araclar": [
+          "Google Analytics (web analizi)",
+          "Amplitude / Mixpanel (ürün analizi)",
+          "Tableau / Looker (veri görselleştirme)",
+          "SQL (veri sorgulama)",
+          "Hotjar / FullStory (kullanıcı davranış analizi)"
+        ],
+        "arastirma_araclar": [
+          "UserTesting (kullanılabilirlik testleri)",
+          "SurveyMonkey / Typeform (anketler)",
+          "Dovetail (araştırma deposu)",
+          "Similar Web (pazar analizi)",
+          "App Annie / Sensor Tower (mobile app analizi)"
+        ],
+        "iletisim_araclar": [
+          "Slack / Teams (ekip iletişimi)",
+          "Loom (video dokümantasyon)",
+          "Google Workspace / Office 365",
+          "Zoom (toplantılar)"
+        ],
+        "metodolojiler": [
+          "Agile / Scrum",
+          "Lean Product Development",
+          "Design Thinking",
+          "Jobs-to-be-Done (JTBD)",
+          "OKRs (Objectives and Key Results)",
+          "RICE / KANO / MoSCoW (önceliklendirme)",
+          "North Star Framework",
+          "Product-Led Growth (PLG)"
+        ]
+      },
+      "kariyer_gelisimi": {
+        "entry_level": {
+          "pozisyon": "Associate Product Manager (APM) / Junior PM",
+          "deneyim": "0-2 yıl",
+          "sorumluluklar": "Özellik geliştirme desteği, kullanıcı araştırmaları, backlog yönetimi, senior PM'lerle çalışma",
+          "ortalama_maas": "$80,000 - $110,000"
+        },
+        "mid_level": {
+          "pozisyon": "Product Manager",
+          "deneyim": "2-5 yıl",
+          "sorumluluklar": "Bir veya birkaç ürün özelliğinden tam sorumluluk, roadmap yönetimi, cross-functional liderlik",
+          "ortalama_maas": "$110,000 - $150,000"
+        },
+        "senior_level": {
+          "pozisyon": "Senior Product Manager",
+          "deneyim": "5-8 yıl",
+          "sorumluluklar": "Büyük ürün alanları veya platformlar, ürün stratejisi, mentorluk, kompleks problemler",
+          "ortalama_maas": "$140,000 - $190,000"
+        },
+        "lead_level": {
+          "pozisyon": "Lead Product Manager / Principal PM",
+          "deneyim": "8-12 yıl",
+          "sorumluluklar": "Birden fazla ürün veya ekip, ürün vizyonu, teknik ve stratejik liderlik",
+          "ortalama_maas": "$170,000 - $230,000"
+        },
+        "director_level": {
+          "pozisyon": "Director of Product / VP of Product",
+          "deneyim": "12+ yıl",
+          "sorumluluklar": "Ürün organizasyonu, çok ürünlü portföy stratejisi, executive liderlik, P&L sorumluluğu",
+          "ortalama_maas": "$200,000 - $350,000+"
+        },
+        "executive_level": {
+          "pozisyon": "Chief Product Officer (CPO)",
+          "deneyim": "15+ yıl",
+          "sorumluluklar": "Tüm ürün stratejisi, şirket vizyonu, board seviyesi liderlik, organizasyonel dönüşüm",
+          "ortalama_maas": "$250,000 - $500,000+"
+        }
+      }
+    },
+    "engineering_manager": {
+      "role_name": "Engineering Manager",
+      "rol_aciklamasi": "Engineering Manager'lar, mühendis ekiplerini yöneten ve liderlik eden profesyonellerdir. İşe alım, eğitim, performans beklentilerini belirleme, koçluk ve geri bildirim sağlama, kariyer gelişim fırsatları sunma gibi görevleri üstlenirler. Proje yönetimi, süreç iyileştirme ve diğer departmanlarla mühendislik faaliyetlerini iş hedefleriyle uyumlu hale getirme sorumluluklarını taşırlar.",
+      "kilit_sorumlulugu": [
+        "Mühendislik ekibini yönetmek ve mentorluk yapmak",
+        "İşe alım, onboarding ve ekip oluşturma",
+        "Performans değerlendirmesi ve kariyer gelişimi",
+        "Proje planlama, timeline ve bütçe yönetimi",
+        "Teknik karar alma ve mimari rehberlik",
+        "Süreç iyileştirme ve ekip verimliliğini optimize etme",
+        "Cross-departman işbirliği (ürün, tasarım, business)",
+        "Teknik borcu (technical debt) yönetme",
+        "Ekip kültürü ve mühendislik mükemmeliyetini teşvik etme"
+      ],
+      "ogrenme_rotasi": {
+        "seviye_1_temel": {
+          "baslik": "Mühendislik Geçmişi (Senior Engineer seviyesi)",
+          "konular": [
+            "Güçlü teknik beceriler ve kod inceleme",
+            "Sistem tasarımı ve mimari",
+            "Yazılım geliştirme yaşam döngüsü (SDLC)",
+            "Agile/Scrum metodolojileri",
+            "Versiyon kontrolü ve CI/CD",
+            "Mentorluk ve teknik liderlik deneyimi"
+          ]
+        },
+        "seviye_2_yonetim_temelleri": {
+          "baslik": "Yönetim Geçişi (0-12 ay)",
+          "konular": [
+            "1-on-1 toplantıları ve performans yönetimi",
+            "Geri bildirim verme ve alma teknikleri",
+            "Ekip dinamikleri ve psikolojik güvenlik",
+            "Proje planlama ve önceliklendirme",
+            "İşe alım ve mülakat süreçleri",
+            "Temel bütçe ve kaynak yönetimi",
+            "Delegasyon ve güven oluşturma",
+            "Çatışma çözümü"
+          ]
+        },
+        "seviye_3_ileri_yonetim": {
+          "baslik": "İleri Seviye Yönetim (12+ ay)",
+          "konular": [
+            "Organizasyonel tasarım ve ekip ölçekleme",
+            "Mühendislik stratejisi ve vizyonu",
+            "Yönetici yönetimi (managing managers)",
+            "Organizasyonel değişim yönetimi",
+            "Mühendislik kültürü oluşturma",
+            "Metrikler ve mühendislik verimliliği",
+            "Teknik ve business dengesini kurma",
+            "Executive liderlik ve etki"
+          ]
+        }
+      },
+      "gerekli_beceriler": {
+        "teknik_beceriler": [
+          "Güçlü yazılım geliştirme geçmişi",
+          "Sistem tasarımı ve mimari",
+          "Kod review ve kalite standartları",
+          "DevOps ve CI/CD prensipleri",
+          "Güvenlik en iyi uygulamaları",
+          "Teknik debt yönetimi",
+          "Cloud platformları (AWS, Azure, GCP)",
+          "Ölçeklenebilir sistemler"
+        ],
+        "yonetim_beceriler": [
+          "İnsan kaynakları yönetimi",
+          "Performans yönetimi ve koçluk",
+          "Proje ve kaynak planlaması",
+          "İşe alım ve talent development",
+          "Bütçe yönetimi",
+          "Süreç iyileştirme",
+          "Agile/Scrum uygulama",
+          "Risk yönetimi"
+        ],
+        "liderlik_beceriler": [
+          "Vizyoner düşünme ve strateji",
+          "Etkili iletişim (yukarı, aşağı, yatay)",
+          "Empati ve duygusal zeka",
+          "Karar verme ve problem çözme",
+          "Çatışma çözümü",
+          "Etki ve ikna",
+          "Delegasyon",
+          "Değişim liderliği",
+          "Mentorluk ve koçluk"
+        ]
+      },
+      "tools_ve_metodoloji": {
+        "proje_yonetim": [
+          "Jira / Linear (proje takibi)",
+          "Asana / Monday.com",
+          "Confluence (dokümantasyon)",
+          "Notion (bilgi yönetimi)",
+          "Miro / Lucidchart (sistem tasarımı)"
+        ],
+        "gelistirme_araclar": [
+          "GitHub / GitLab / Bitbucket (kod yönetimi)",
+          "Jenkins / CircleCI / GitHub Actions (CI/CD)",
+          "Docker / Kubernetes (containerization)",
+          "AWS / Azure / GCP (cloud platformları)",
+          "Terraform (infrastructure as code)"
+        ],
+        "iletisim_ve_isbirligi": [
+          "Slack / Teams (ekip iletişimi)",
+          "Zoom / Google Meet (toplantılar)",
+          "1Password / Lattice (performans yönetimi)",
+          "Culture Amp / Officevibe (ekip anketi)",
+          "Google Workspace / Office 365"
+        ],
+        "metrikler_ve_analiz": [
+          "DataDog / New Relic (monitoring)",
+          "Grafana / Prometheus (metriklər)",
+          "Linear B / Jellyfish (mühendislik metrikleri)",
+          "GitHub Insights (kod metrikleri)"
+        ],
+        "metodolojiler": [
+          "Agile / Scrum / Kanban",
+          "Lean Software Development",
+          "DevOps ve SRE prensipleri",
+          "Continuous Integration/Continuous Deployment (CI/CD)",
+          "Test-Driven Development (TDD)",
+          "Pair Programming",
+          "OKRs (Objectives and Key Results)",
+          "SPACE Framework (mühendislik verimliliği)"
+        ]
+      },
+      "kariyer_gelisimi": {
+        "entry_level": {
+          "pozisyon": "Tech Lead / Team Lead",
+          "deneyim": "5-7 yıl (mühendislik)",
+          "sorumluluklar": "Küçük ekip oversight'ı, teknik kararlar, mentorluk, hala bazı kodlama",
+          "ortalama_maas": "$140,000 - $180,000"
+        },
+        "mid_level": {
+          "pozisyon": "Engineering Manager",
+          "deneyim": "7-10 yıl toplam (1-3 yıl yönetim)",
+          "sorumluluklar": "5-10 kişilik ekip yönetimi, proje yönetimi, işe alım, performans yönetimi",
+          "ortalama_maas": "$160,000 - $210,000"
+        },
+        "senior_level": {
+          "pozisyon": "Senior Engineering Manager",
+          "deneyim": "10-12 yıl (3-5 yıl yönetim)",
+          "sorumluluklar": "Birden fazla ekip veya büyük ekip, süreç iyileştirme, organizasyonel etki",
+          "ortalama_maas": "$180,000 - $250,000"
+        },
+        "director_level": {
+          "pozisyon": "Director of Engineering",
+          "deneyim": "12-15 yıl (5-8 yıl yönetim)",
+          "sorumluluklar": "Departman yönetimi, yönetici yönetimi, mühendislik stratejisi, bütçe",
+          "ortalama_maas": "$200,000 - $300,000"
+        },
+        "vp_level": {
+          "pozisyon": "VP of Engineering",
+          "deneyim": "15+ yıl (8+ yıl yönetim)",
+          "sorumluluklar": "Mühendislik organizasyonu, şirket stratejisi, executive liderlik, organizasyonel ölçekleme",
+          "ortalama_maas": "$250,000 - $400,000+"
+        },
+        "executive_level": {
+          "pozisyon": "CTO (Chief Technology Officer)",
+          "deneyim": "18+ yıl (10+ yıl liderlik)",
+          "sorumluluklar": "Teknoloji vizyonu ve stratejisi, board seviyesi liderlik, şirket dönüşümü",
+          "ortalama_maas": "$300,000 - $600,000+"
+        }
+      }
+    },
+    "technical_writer": {
+      "role_name": "Technical Writer",
+      "rol_aciklamasi": "Technical Writer'lar, karmaşık ve uzmanlaşmış bilgileri hedef kitleye netlik ve hassasiyetle aktaran profesyonel iletişimcilerdir. Teknik jargonu erişilebilir bir dile çevirmede ustaydırlar. API referansları, kullanım kılavuzları, online yardım sistemleri ve interaktif dokümantasyon oluşturarak kullanıcıların bilgiyi kolayca sindirmesini sağlarlar.",
+      "kilit_sorumlulugu": [
+        "Teknik dokümantasyon oluşturmak (API docs, kullanım kılavuzları, tutorial'lar)",
+        "Konu uzmanları (SME) ile çalışarak bilgi toplamak",
+        "Karmaşık teknik konseptleri basitleştirmek ve açıklamak",
+        "Dokümantasyon standartları ve stil kılavuzları oluşturmak",
+        "İçerik yönetim sistemlerinde dokümantasyon yönetmek",
+        "Görseller, diyagramlar ve video içerik oluşturmak",
+        "Dokümantasyonun doğruluğunu ve güncelliğini sağlamak",
+        "Kullanıcı geri bildirimlerini değerlendirip iyileştirmeler yapmak"
+      ],
+      "ogrenme_rotasi": {
+        "seviye_1_temel": {
+          "baslik": "Temel Beceriler (0-6 ay)",
+          "konular": [
+            "Teknik yazma prensipleri ve stil kılavuzları",
+            "Gramer, syntax ve açık yazma",
+            "Temel dokümantasyon türleri (how-to, tutorial, reference)",
+            "Dokümantasyon araçları (MS Word, Google Docs)",
+            "Bilgi mimarisi temelleri",
+            "Konu uzmanlarıyla röportaj teknikleri",
+            "Temel HTML ve Markdown"
+          ]
+        },
+        "seviye_2_orta": {
+          "baslik": "Orta Seviye Beceriler (6-18 ay)",
+          "konular": [
+            "API dokümantasyonu (REST, GraphQL)",
+            "Docs-as-code yaklaşımı ve Git",
+            "İçerik yönetim sistemleri (CMS)",
+            "DITA ve yapılandırılmış yazma (structured authoring)",
+            "UX writing prensipleri",
+            "Video ve multimedya içerik oluşturma",
+            "Temel CSS ve JavaScript",
+            "Confluence, Notion gibi işbirliği araçları",
+            "Görsel oluşturma araçları (Snagit, Canva, Figma)"
+          ]
+        },
+        "seviye_3_ileri": {
+          "baslik": "İleri Seviye Beceriler (18+ ay)",
+          "konular": [
+            "Dokümantasyon stratejisi ve information architecture",
+            "AI ve otomasyon araçları ile içerik üretimi",
+            "Developer portal tasarımı ve yönetimi",
+            "Dokümantasyon metrikleri ve analizi",
+            "Çoklu platform dokümantasyon",
+            "Lokalizasyon ve internationalization",
+            "Dokümantasyon ekibi liderliği",
+            "İçerik stratejisi ve governance"
+          ]
+        }
+      },
+      "gerekli_beceriler": {
+        "yazma_beceriler": [
+          "Açık ve öz yazma",
+          "Teknik konseptleri basitleştirme",
+          "Hedef kitle analizi",
+          "Farklı dokümantasyon türleri (tutorial, reference, how-to, explanation)",
+          "Stil kılavuzlarına uyum (Microsoft, Google, Chicago)",
+          "Editing ve proofreading",
+          "Storytelling ve içerik akışı"
+        ],
+        "teknik_beceriler": [
+          "HTML, CSS temelleri",
+          "Markdown ve reStructuredText",
+          "Git ve versiyon kontrolü",
+          "API temelleri (REST, GraphQL, SOAP)",
+          "Temel programlama anlayışı (Python, JavaScript)",
+          "Command line kullanımı",
+          "Docs-as-code workflow",
+          "Static site generators (Jekyll, Hugo, Docusaurus)"
+        ],
+        "arac_ve_platform": [
+          "Dokümantasyon araçları (MadCap Flare, Adobe FrameMaker)",
+          "CMS platformları (Confluence, SharePoint)",
+          "Görsel araçlar (Snagit, Canva, Figma)",
+          "Video editing (Camtasia, Loom)",
+          "İçerik yönetim araçları"
+        ],
+        "soft_skills": [
+          "İletişim ve işbirliği",
+          "Empati ve kullanıcı odaklılık",
+          "Zaman yönetimi ve çok görevlilik",
+          "Detaylara dikkat",
+          "Problem çözme",
+          "Merak ve öğrenme isteği",
+          "Adaptasyon yeteneği"
+        ]
+      },
+      "tools_ve_metodoloji": {
+        "yazma_ve_editing_araclar": [
+          "MadCap Flare (professional authoring)",
+          "Adobe FrameMaker",
+          "Microsoft Word / Google Docs",
+          "Grammarly / Hemingway Editor",
+          "Vale (style guide linter)"
+        ],
+        "docs_as_code": [
+          "Markdown / reStructuredText",
+          "Git / GitHub / GitLab",
+          "Static site generators (Docusaurus, MkDocs, Jekyll, Hugo)",
+          "Sphinx (Python documentation)",
+          "Read the Docs",
+          "VS Code / Sublime Text"
+        ],
+        "api_dokumantasyon": [
+          "Swagger / OpenAPI",
+          "Postman",
+          "Stoplight",
+          "Readme.io",
+          "Redoc"
+        ],
+        "gorsel_ve_multimedya": [
+          "Snagit (screenshots)",
+          "Canva / Figma (graphics)",
+          "Lucidchart / Draw.io (diagrams)",
+          "Loom / Camtasia (video)",
+          "Mermaid (diagram as code)"
+        ],
+        "isbirligi_ve_cms": [
+          "Confluence",
+          "Notion",
+          "SharePoint",
+          "GitBook",
+          "Zendesk Guide"
+        ],
+        "metodolojiler": [
+          "Docs-as-Code",
+          "DITA (Darwin Information Typing Architecture)",
+          "Information Architecture",
+          "Minimalism (task-oriented documentation)",
+          "Topic-based authoring",
+          "Agile documentation",
+          "Diátaxis Framework (tutorial, how-to, reference, explanation)"
+        ]
+      },
+      "kariyer_gelisimi": {
+        "entry_level": {
+          "pozisyon": "Junior Technical Writer",
+          "deneyim": "0-2 yıl",
+          "sorumluluklar": "Mevcut dokümantasyonu güncelleme, basit kullanım kılavuzları, senior writer'larla çalışma",
+          "ortalama_maas": "$50,000 - $70,000"
+        },
+        "mid_level": {
+          "pozisyon": "Technical Writer",
+          "deneyim": "2-5 yıl",
+          "sorumluluklar": "Bağımsız dokümantasyon projeleri, API docs, SME'lerle işbirliği, çoklu proje yönetimi",
+          "ortalama_maas": "$70,000 - $95,000"
+        },
+        "senior_level": {
+          "pozisyon": "Senior Technical Writer",
+          "deneyim": "5-8 yıl",
+          "sorumluluklar": "Kompleks dokümantasyon projeleri, stil kılavuzu oluşturma, mentorluk, dokümantasyon stratejisi",
+          "ortalama_maas": "$90,000 - $120,000"
+        },
+        "lead_level": {
+          "pozisyon": "Lead Technical Writer / Documentation Manager",
+          "deneyim": "8-12 yıl",
+          "sorumluluklar": "Dokümantasyon ekibini yönetme, dokümantasyon stratejisi, tooling seçimi, cross-team işbirliği",
+          "ortalama_maas": "$110,000 - $145,000"
+        },
+        "director_level": {
+          "pozisyon": "Director of Documentation / Content Strategy",
+          "deneyim": "12+ yıl",
+          "sorumluluklar": "Organizasyonel dokümantasyon stratejisi, çoklu ekip yönetimi, executive işbirliği",
+          "ortalama_maas": "$130,000 - $180,000"
+        },
+        "alternatif_yollar": {
+          "technical_editor": "Dokümantasyon kalitesi ve standartları",
+          "ux_writer": "Ürün içi metin ve mikro-copy",
+          "developer_advocate": "Teknik yazma + topluluk etkileşimi",
+          "content_strategist": "İçerik stratejisi ve yönetimi",
+          "information_architect": "Bilgi yapılandırma ve sistematik yaklaşım"
+        }
+      }
+    },
+    "devrel_engineer": {
+      "role_name": "Developer Relations (DevRel) Engineer",
+      "rol_aciklamasi": "Developer Relations Engineer'lar, ürün, mühendislik ve pazarlama arasında bir sınır alanında çalışan interdisipliner bir roldür. Teknik becerilerini eğitim verme, eğlendirme ve başkalarıyla etkileşim kurma yetenekleriyle birleştirerek geliştirici topluluğuyla derin bağlar kurarlar. Topluluk oluşturma, teknik içerik üretimi ve developer advocacy sorumlulukları taşırlar.",
+      "kilit_sorumlulugu": [
+        "Developer topluluğu oluşturmak ve büyütmek",
+        "Teknik içerik üretmek (blog, video, tutorial, course)",
+        "Konferans ve etkinliklerde konuşma yapmak",
+        "Geliştirici geri bildirimlerini ürün ekibine iletmek",
+        "Teknik dokümantasyon, kod örnekleri ve demo'lar oluşturmak",
+        "Developer experience'ı iyileştirmek",
+        "Community programları ve hackathon'lar organize etmek",
+        "Social media ve online platformlarda developer engagement",
+        "Developer onboarding sürecini kolaylaştırmak"
+      ],
+      "ogrenme_rotasi": {
+        "seviye_1_temel": {
+          "baslik": "Teknik Temel (Önkoşul)",
+          "konular": [
+            "Yazılım geliştirme deneyimi (genellikle 2-5 yıl)",
+            "En az bir programlama dilinde yeterlilik",
+            "API'lar ve entegrasyonlar",
+            "Git ve versiyon kontrolü",
+            "Web teknolojileri (HTTP, REST, GraphQL)",
+            "Cloud platformları temelleri"
+          ]
+        },
+        "seviye_2_devrel_temelleri": {
+          "baslik": "DevRel Beceriler (0-12 ay)",
+          "konular": [
+            "Teknik yazma ve içerik oluşturma",
+            "Public speaking ve sunum becerileri",
+            "Community management temelleri",
+            "Social media stratejisi",
+            "Developer empathy ve user research",
+            "Temel video production",
+            "Event organization",
+            "Feedback collection ve analizi"
+          ]
+        },
+        "seviye_3_ileri": {
+          "baslik": "İleri Seviye DevRel (12+ ay)",
+          "konular": [
+            "Developer advocacy stratejisi",
+            "Community metrics ve impact ölçümü",
+            "Developer program tasarımı",
+            "Partner ve ecosystem yönetimi",
+            "Developer marketing",
+            "Personal branding ve thought leadership",
+            "Program yönetimi ve ölçeklendirme",
+            "Cross-functional stakeholder yönetimi"
+          ]
+        }
+      },
+      "gerekli_beceriler": {
+        "teknik_beceriler": [
+          "Yazılım geliştirme (minimum 1-2 programlama dili)",
+          "API tasarımı ve kullanımı",
+          "Cloud platformları (AWS, Azure, GCP)",
+          "DevOps ve CI/CD temelleri",
+          "Web teknolojileri",
+          "Database temelleri",
+          "Version control (Git)",
+          "Debugging ve problem çözme"
+        ],
+        "icerik_ve_iletisim": [
+          "Teknik yazma",
+          "Blog ve makale yazarlığı",
+          "Video içerik oluşturma ve editing",
+          "Public speaking ve sunum",
+          "Social media management",
+          "Podcast hosting",
+          "Live coding ve demo",
+          "Technical storytelling"
+        ],
+        "topluluk_ve_engagement": [
+          "Community building",
+          "Event organization",
+          "Workshop ve training facilitation",
+          "Forum ve chat moderation",
+          "Developer empathy",
+          "Networking",
+          "Conflict resolution",
+          "Inclusive communication"
+        ],
+        "soft_skills": [
+          "Empati ve dinleme",
+          "Adaptasyon ve öğrenme hızı",
+          "Yaratıcılık",
+          "Zaman yönetimi ve çok görevlilik",
+          "Authenticity ve kişilik",
+          "Sabır ve mentorluk",
+          "Cultural awareness"
+        ]
+      },
+      "tools_ve_metodoloji": {
+        "icerik_olusturma": [
+          "Video: OBS Studio, Loom, Camtasia",
+          "Editing: Final Cut Pro, Adobe Premiere",
+          "Graphics: Canva, Figma, Adobe Creative Suite",
+          "Screen recording: Loom, ScreenFlow",
+          "Live streaming: Twitch, YouTube Live, StreamYard",
+          "Presentation: PowerPoint, Keynote, Google Slides, Pitch"
+        ],
+        "gelistirme_araclar": [
+          "GitHub / GitLab (kod örnekleri, open source)",
+          "CodeSandbox / Replit (online demos)",
+          "Postman (API testing)",
+          "VS Code (IDE)",
+          "Docker (demo environments)"
+        ],
+        "topluluk_platformlar": [
+          "Discord / Slack (community chat)",
+          "Discourse / Circle (forum)",
+          "Twitter / LinkedIn (social media)",
+          "Dev.to / Hashnode (blog platformları)",
+          "Stack Overflow (Q&A)",
+          "Reddit (community discussions)"
+        ],
+        "analiz_ve_metrikler": [
+          "Google Analytics (web traffic)",
+          "YouTube Analytics (video performance)",
+          "Twitter Analytics (social engagement)",
+          "Orbit / Common Room (community analytics)",
+          "Airtable / Notion (program tracking)"
+        ],
+        "event_yonetimi": [
+          "Eventbrite / Lu.ma (event registration)",
+          "Zoom / StreamYard (online events)",
+          "Hopin / Airmeet (virtual conferences)",
+          "Sessionize (CFP management)"
+        ],
+        "metodolojiler": [
+          "Developer Journey Mapping",
+          "Community-Led Growth",
+          "Developer Experience (DX) Framework",
+          "Content Marketing Funnel",
+          "Developer Advocacy Framework",
+          "Feedback Loop Management",
+          "Community Health Metrics"
+        ]
+      },
+      "kariyer_gelisimi": {
+        "entry_level": {
+          "pozisyon": "Junior Developer Advocate / Community Manager",
+          "deneyim": "2-4 yıl (geliştirme)",
+          "sorumluluklar": "İçerik oluşturma, community support, küçük etkinlikler, social media",
+          "ortalama_maas": "$70,000 - $95,000"
+        },
+        "mid_level": {
+          "pozisyon": "Developer Advocate / DevRel Engineer",
+          "deneyim": "4-7 yıl toplam",
+          "sorumluluklar": "Konferanslarda konuşma, kompleks içerik, developer programs, feedback loops",
+          "ortalama_maas": "$90,000 - $130,000"
+        },
+        "senior_level": {
+          "pozisyon": "Senior Developer Advocate / Principal DevRel",
+          "deneyim": "7-10 yıl",
+          "sorumluluklar": "DevRel stratejisi, program tasarımı, thought leadership, mentorluk, high-impact initiatives",
+          "ortalama_maas": "$120,000 - $165,000"
+        },
+        "lead_level": {
+          "pozisyon": "Lead Developer Advocate / DevRel Manager",
+          "deneyim": "10+ yıl",
+          "sorumluluklar": "Ekip yönetimi, DevRel stratejisi, budget ownership, cross-functional liderlik",
+          "ortalama_maas": "$140,000 - $190,000"
+        },
+        "director_level": {
+          "pozisyon": "Director of Developer Relations / VP DevRel",
+          "deneyim": "12+ yıl",
+          "sorumluluklar": "Global DevRel stratejisi, organizasyonel liderlik, executive alignment, developer ecosystem",
+          "ortalama_maas": "$160,000 - $250,000+"
+        },
+        "alternatif_yollar": {
+          "product_management": "DevRel deneyimi ile developer-focused ürünlere geçiş",
+          "engineering": "DevRel'den tekrar software engineering'e dönüş",
+          "technical_marketing": "Developer marketing ve positioning",
+          "developer_experience": "DX-focused product roles",
+          "entrepreneurship": "DevTools veya developer-focused startups"
+        }
+      }
+    },
+    "qa_engineer": {
+      "role_name": "QA Engineer (Quality Assurance Engineer)",
+      "rol_aciklamasi": "QA Engineer'lar, yazılım, sistem veya ürünlerin belirlenen standartlara uygun olduğundan ve hatalardan arındırılmış olduğundan emin olmak için test ve değerlendirme yapan teknik profesyonellerdir. Bug, hata ve iyileştirme alanlarını tespit etmek için çeşitli test teknikleri ve araçları kullanırlar. Yazılım ürünlerini geliştirmek için development ekipleriyle yakın işbirliği yaparlar.",
+      "kilit_sorumlulugu": [
+        "Test planları ve test senaryoları tasarlamak ve yürütmek",
+        "Manuel ve otomatik testler gerçekleştirmek",
+        "Bug'ları tespit etmek, dokümante etmek ve takip etmek",
+        "Regression, integration, performance ve security testleri yapmak",
+        "Test automation framework'leri geliştirmek ve sürdürmek",
+        "QA süreçlerini ve best practice'leri iyileştirmek",
+        "CI/CD pipeline'larına test entegrasyonu sağlamak",
+        "Quality metrics'leri izlemek ve raporlamak",
+        "Development ekibiyle işbirliği yaparak quality assurance sağlamak"
+      ],
+      "ogrenme_rotasi": {
+        "seviye_1_temel": {
+          "baslik": "QA Temelleri (0-6 ay)",
+          "konular": [
+            "Software testing temelleri ve terminolojisi",
+            "Test yaşam döngüsü (STLC)",
+            "Test case yazma ve yönetimi",
+            "Manuel testing teknikleri",
+            "Bug reporting ve tracking",
+            "SDLC modelleri (Waterfall, Agile)",
+            "Temel SQL",
+            "Test dokümantasyonu"
+          ]
+        },
+        "seviye_2_orta": {
+          "baslik": "Automation ve İleri Test (6-18 ay)",
+          "konular": [
+            "Test automation temelleri",
+            "Programlama dili (Python, Java, JavaScript)",
+            "Selenium WebDriver",
+            "API testing (REST, SOAP)",
+            "Performance testing temelleri",
+            "CI/CD ve Jenkins",
+            "Test framework'leri (TestNG, JUnit, pytest)",
+            "Git ve versiyon kontrolü",
+            "Agile/Scrum testing",
+            "Mobile testing (iOS, Android)"
+          ]
+        },
+        "seviye_3_ileri": {
+          "baslik": "İleri Seviye QA (18+ ay)",
+          "konular": [
+            "Test architecture ve framework tasarımı",
+            "Performance ve load testing (JMeter, K6)",
+            "Security testing temelleri",
+            "Cloud testing (AWS, Azure, GCP)",
+            "Containerization testing (Docker, Kubernetes)",
+            "AI-powered test automation",
+            "Test stratejisi ve planlama",
+            "QA metrikleri ve analytics",
+            "Shift-left ve shift-right testing"
+          ]
+        }
+      },
+      "gerekli_beceriler": {
+        "teknik_beceriler": [
+          "Manuel ve otomatik testing",
+          "Test automation tools (Selenium, Cypress, Playwright)",
+          "Programlama (Python, Java, JavaScript)",
+          "API testing (Postman, REST Assured)",
+          "Performance testing (JMeter, Gatling, K6)",
+          "SQL ve database testing",
+          "CI/CD tools (Jenkins, GitHub Actions, CircleCI)",
+          "Version control (Git)",
+          "Bug tracking tools (Jira, Bugzilla)",
+          "Cloud platforms (AWS, Azure, GCP)"
+        ],
+        "test_turleri": [
+          "Functional testing",
+          "Regression testing",
+          "Integration testing",
+          "Performance ve load testing",
+          "Security testing",
+          "Usability testing",
+          "Smoke ve sanity testing",
+          "End-to-end testing",
+          "Mobile testing",
+          "Cross-browser testing"
+        ],
+        "metodoloji_ve_process": [
+          "SDLC ve STLC",
+          "Agile/Scrum testing",
+          "Test-Driven Development (TDD)",
+          "Behavior-Driven Development (BDD)",
+          "Continuous Testing",
+          "Risk-based testing",
+          "Exploratory testing"
+        ],
+        "soft_skills": [
+          "Detaylara dikkat",
+          "Analitik düşünme ve problem çözme",
+          "İletişim ve raporlama",
+          "Takım çalışması",
+          "Sabır ve titizlik",
+          "Merak ve öğrenme arzusu",
+          "Adaptasyon yeteneği",
+          "Zaman yönetimi"
+        ]
+      },
+      "tools_ve_metodoloji": {
+        "test_automation": [
+          "Selenium WebDriver (web automation)",
+          "Cypress (modern web testing)",
+          "Playwright (cross-browser testing)",
+          "Appium (mobile automation)",
+          "TestCafe (web testing)",
+          "Puppeteer (headless browser testing)"
+        ],
+        "api_testing": [
+          "Postman (API testing)",
+          "REST Assured (Java API testing)",
+          "SoapUI (SOAP ve REST)",
+          "Karate DSL (API test automation)",
+          "Insomnia (API client)"
+        ],
+        "performance_testing": [
+          "JMeter (load testing)",
+          "Gatling (performance testing)",
+          "K6 (modern load testing)",
+          "Locust (Python-based load testing)",
+          "Artillery (load testing)"
+        ],
+        "ci_cd_ve_devops": [
+          "Jenkins (CI/CD)",
+          "GitHub Actions (automation)",
+          "CircleCI (continuous integration)",
+          "GitLab CI/CD",
+          "Docker (containerization)",
+          "Kubernetes (orchestration)"
+        ],
+        "test_yonetimi": [
+          "Jira (bug tracking)",
+          "TestRail (test case management)",
+          "Zephyr (test management)",
+          "qTest (test management)",
+          "Azure DevOps (ALM)"
+        ],
+        "cloud_ve_cross_browser": [
+          "BrowserStack (cross-browser/device testing)",
+          "Sauce Labs (cloud testing)",
+          "LambdaTest (cross-browser testing)",
+          "AWS Device Farm (mobile testing)"
+        ],
+        "ai_ve_modern_tools": [
+          "Mabl (AI-powered testing)",
+          "Testim (AI test automation)",
+          "Applitools (visual AI testing)",
+          "Percy (visual testing)"
+        ],
+        "metodolojiler": [
+          "Test Pyramid",
+          "Shift-Left Testing",
+          "Shift-Right Testing (production monitoring)",
+          "Risk-Based Testing",
+          "Exploratory Testing",
+          "BDD (Behavior-Driven Development)",
+          "TDD (Test-Driven Development)",
+          "Continuous Testing"
+        ]
+      },
+      "kariyer_gelisimi": {
+        "entry_level": {
+          "pozisyon": "Junior QA Engineer / QA Tester",
+          "deneyim": "0-2 yıl",
+          "sorumluluklar": "Manuel testing, test case execution, bug reporting, temel automation",
+          "ortalama_maas": "$55,000 - $75,000"
+        },
+        "mid_level": {
+          "pozisyon": "QA Engineer / Test Automation Engineer",
+          "deneyim": "2-5 yıl",
+          "sorumluluklar": "Test automation, framework geliştirme, test stratejisi, CI/CD entegrasyonu",
+          "ortalama_maas": "$75,000 - $105,000"
+        },
+        "senior_level": {
+          "pozisyon": "Senior QA Engineer / SDET (Software Development Engineer in Test)",
+          "deneyim": "5-8 yıl",
+          "sorumluluklar": "Test architecture, kompleks automation, mentorluk, quality stratejisi",
+          "ortalama_maas": "$100,000 - $140,000"
+        },
+        "lead_level": {
+          "pozisyon": "QA Lead / Test Manager",
+          "deneyim": "8-12 yıl",
+          "sorumluluklar": "QA ekibi yönetimi, test stratejisi, süreç iyileştirme, resource planning",
+          "ortalama_maas": "$120,000 - $160,000"
+        },
+        "director_level": {
+          "pozisyon": "Director of QA / Quality Engineering Manager",
+          "deneyim": "12+ yıl",
+          "sorumluluklar": "Organizasyonel quality stratejisi, çoklu ekip yönetimi, executive liderlik",
+          "ortalama_maas": "$140,000 - $200,000+"
+        },
+        "uzmanlik_yollari": {
+          "performance_engineer": "Performance ve load testing uzmanlığı",
+          "security_tester": "Security ve penetration testing",
+          "sdet": "Development + Testing hybrid rol",
+          "mobile_qa": "Mobile testing specialization",
+          "devops_engineer": "DevOps ve CI/CD odaklı geçiş",
+          "quality_architect": "Test architecture ve stratejisi"
+        }
+      }
+    }
+  },
+  "genel_notlar": {
+    "kariyer_gecis_ipuclari": [
+      "Her rol için networking ve community involvement kritik öneme sahiptir",
+      "Continuous learning ve sertifikasyonlar kariyer ilerlemesini hızlandırır",
+      "Side project'ler ve open source katkıları portfolio'nuzu güçlendirir",
+      "Mentorluk hem öğrenme hem de liderlik becerileri için değerlidir",
+      "Soft skills'lere yatırım yapmak teknik becerileri tamamlar"
+    ],
+    "2025_trendleri": [
+      "AI ve ML entegrasyonu tüm rollerde giderek önem kazanmaktadır",
+      "Remote ve hybrid çalışma modelleri yaygınlaşmıştır",
+      "Developer experience (DX) ve user experience (UX) birleşmektedir",
+      "Automation ve no-code/low-code araçlar artmaktadır",
+      "Accessibility ve inclusive design zorunlu hale gelmektedir",
+      "Data-driven decision making tüm rollerde kritiktir",
+      "Cloud-native ve microservices architecture yaygındır"
+    ],
+    "egitim_kaynaklari": [
+      "Online platformlar: Coursera, Udemy, Pluralsight, Frontend Masters",
+      "Sertifikasyonlar: Google UX, AWS, Scrum, ISTQB",
+      "Community'ler: Designer Hangout, Product School, DevRel Collective",
+      "Konferanslar: Config (Figma), ProductCon, DevRelCon",
+      "Kitaplar: Don't Make Me Think, Inspired, The Phoenix Project",
+      "Podcast'ler: Design Better, This is Product Management, Changelog"
+    ]
+  }
+}
