@@ -1,0 +1,112 @@
+{
+  "hooks": {
+    "on-plugin-load": {
+      "enabled": true,
+      "description": "Initialize plugin on first load",
+      "actions": [
+        "log-plugin-status",
+        "initialize-user-preferences"
+      ]
+    },
+    "on-roadmap-selection": {
+      "enabled": true,
+      "description": "Track user roadmap selection",
+      "actions": [
+        "log-selection",
+        "initialize-learning-path",
+        "set-initial-progress"
+      ]
+    },
+    "on-agent-invocation": {
+      "enabled": true,
+      "description": "Log agent usage for analytics",
+      "actions": [
+        "track-agent-usage",
+        "load-agent-context",
+        "initialize-conversation"
+      ]
+    },
+    "on-skill-triggered": {
+      "enabled": true,
+      "description": "Auto-trigger skills based on keywords",
+      "actions": [
+        "load-skill-content",
+        "provide-examples",
+        "track-skill-usage"
+      ]
+    },
+    "on-assessment-complete": {
+      "enabled": true,
+      "description": "Process assessment results",
+      "actions": [
+        "save-assessment-results",
+        "generate-recommendations",
+        "update-user-profile",
+        "unlock-content"
+      ]
+    },
+    "on-project-start": {
+      "enabled": true,
+      "description": "Initialize project workspace",
+      "actions": [
+        "create-project-structure",
+        "initialize-git-repo",
+        "provide-starter-code",
+        "link-resources"
+      ]
+    },
+    "on-progress-update": {
+      "enabled": true,
+      "description": "Track learning progress",
+      "actions": [
+        "update-progress-metrics",
+        "check-milestones",
+        "provide-encouragement",
+        "suggest-next-steps"
+      ]
+    },
+    "on-certification": {
+      "enabled": true,
+      "description": "Award certification badge",
+      "actions": [
+        "verify-requirements",
+        "generate-certificate",
+        "send-notification",
+        "update-profile"
+      ]
+    }
+  },
+  "analytics": {
+    "enabled": true,
+    "track": [
+      "roadmap-selections",
+      "agent-interactions",
+      "skill-usage",
+      "assessment-scores",
+      "project-completions",
+      "learning-time",
+      "progress-milestones"
+    ],
+    "retention": "12 months"
+  },
+  "notifications": {
+    "enabled": true,
+    "types": [
+      "milestone-reached",
+      "daily-reminder",
+      "roadmap-update",
+      "new-content",
+      "skill-recommendation",
+      "certification-unlocked"
+    ]
+  },
+  "caching": {
+    "enabled": true,
+    "cache_duration": 3600,
+    "refresh_on": [
+      "new-roadmap-version",
+      "user-profile-change",
+      "skill-update"
+    ]
+  }
+}

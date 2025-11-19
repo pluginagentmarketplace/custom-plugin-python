@@ -1,0 +1,2629 @@
+{
+  "roadmaps": {
+    "cyber_security": {
+      "alan_tanimi": {
+        "baslik": "Siber Güvenlik (Cyber Security)",
+        "aciklama": "Bilgisayar sistemlerini, ağları, programları ve verileri dijital saldırılara karşı koruma bilimi ve uygulaması. Sistemlerin gizlilik, bütünlük ve erişilebilirliğini sağlama odaklı çalışma alanı.",
+        "kariyer_yollari": [
+          "Security Analyst",
+          "Penetration Tester",
+          "Security Engineer",
+          "SOC Analyst",
+          "Incident Response Specialist",
+          "Security Architect",
+          "Chief Information Security Officer (CISO)"
+        ],
+        "ortalama_maas": "$80,000 - $180,000",
+        "is_talep_durumu": "Çok Yüksek"
+      },
+      "temel_bilgiler": {
+        "networking_fundamentals": {
+          "konular": [
+            "OSI ve TCP/IP modelleri",
+            "IP adresleme ve subnetting",
+            "DNS, DHCP, HTTP/HTTPS protokolleri",
+            "Routing ve switching temelleri",
+            "Firewall ve NAT kavramları"
+          ],
+          "oneri_suresi": "4-6 hafta"
+        },
+        "operating_systems": {
+          "konular": [
+            "Linux komut satırı (Bash, terminal)",
+            "Windows Server yönetimi",
+            "Dosya sistemleri ve izinler",
+            "Process ve service yönetimi",
+            "Log analizi temelleri"
+          ],
+          "kritik_sistemler": ["Kali Linux", "Ubuntu Server", "Windows Server"]
+        },
+        "programming_basics": {
+          "diller": ["Python", "Bash/Shell scripting", "PowerShell"],
+          "konular": [
+            "Veri yapıları ve algoritmalar",
+            "Dosya okuma/yazma",
+            "API kullanımı",
+            "Regex (Regular Expressions)",
+            "Scripting ve otomasyon"
+          ]
+        },
+        "security_fundamentals": {
+          "konular": [
+            "CIA Triad (Confidentiality, Integrity, Availability)",
+            "Authentication vs Authorization",
+            "Encryption (Symmetric, Asymmetric)",
+            "Hashing ve digital signatures",
+            "Common vulnerabilities (OWASP Top 10)",
+            "Security best practices"
+          ]
+        }
+      },
+      "ileri_seviye_konular": {
+        "penetration_testing": {
+          "konular": [
+            "Reconnaissance ve information gathering",
+            "Vulnerability scanning ve assessment",
+            "Exploitation techniques",
+            "Post-exploitation",
+            "Privilege escalation (Linux & Windows)",
+            "Lateral movement",
+            "Report writing"
+          ],
+          "metodolojiler": ["OWASP", "PTES", "OSSTMM", "NIST"]
+        },
+        "malware_analysis": {
+          "konular": [
+            "Static analysis",
+            "Dynamic analysis",
+            "Reverse engineering",
+            "Debugging techniques",
+            "Behavioral analysis",
+            "Memory forensics"
+          ]
+        },
+        "network_security": {
+          "konular": [
+            "IDS/IPS sistemleri",
+            "VPN teknolojileri",
+            "Network segmentation",
+            "Zero Trust Architecture",
+            "DDoS mitigation",
+            "Wireless security (WPA2/WPA3)"
+          ]
+        },
+        "application_security": {
+          "konular": [
+            "Web application security",
+            "SQL Injection",
+            "XSS (Cross-Site Scripting)",
+            "CSRF, SSRF",
+            "API security",
+            "Mobile application security",
+            "Secure coding practices"
+          ]
+        },
+        "cloud_security": {
+          "konular": [
+            "AWS/Azure/GCP security",
+            "Container security (Docker, Kubernetes)",
+            "Serverless security",
+            "Cloud IAM",
+            "Cloud compliance",
+            "CSPM (Cloud Security Posture Management)"
+          ]
+        },
+        "incident_response": {
+          "fazlar": [
+            "Preparation",
+            "Identification",
+            "Containment",
+            "Eradication",
+            "Recovery",
+            "Lessons Learned"
+          ],
+          "konular": [
+            "SIEM kullanımı",
+            "Threat hunting",
+            "Forensics",
+            "Chain of custody",
+            "IR playbooks"
+          ]
+        }
+      },
+      "pratik_uygulamalar": {
+        "hands_on_platforms": [
+          {
+            "platform": "HackTheBox",
+            "tip": "Online lab",
+            "seviye": "Beginner to Advanced",
+            "url": "https://hackthebox.eu"
+          },
+          {
+            "platform": "TryHackMe",
+            "tip": "Online lab",
+            "seviye": "Beginner to Intermediate",
+            "url": "https://tryhackme.com"
+          },
+          {
+            "platform": "PortSwigger Web Security Academy",
+            "tip": "Web security",
+            "seviye": "All levels",
+            "url": "https://portswigger.net/web-security"
+          },
+          {
+            "platform": "VulnHub",
+            "tip": "Vulnerable VMs",
+            "seviye": "All levels",
+            "url": "https://vulnhub.com"
+          },
+          {
+            "platform": "PentesterLab",
+            "tip": "Online lab",
+            "seviye": "Intermediate to Advanced",
+            "url": "https://pentesterlab.com"
+          }
+        ],
+        "ctf_competitions": [
+          "PicoCTF",
+          "SANS Holiday Hack Challenge",
+          "Google CTF",
+          "DEF CON CTF",
+          "HackerOne CTF"
+        ],
+        "home_lab_projects": [
+          "Kendi SOC lab'ı kurma (Security Onion)",
+          "Active Directory pentesting lab",
+          "Malware analysis lab (REMnux, FLARE VM)",
+          "Vulnerable application deployment (DVWA, WebGoat)",
+          "Honeypot kurulumu ve monitoring"
+        ]
+      },
+      "tools_ve_teknolojiler": {
+        "reconnaissance": [
+          "Nmap",
+          "Masscan",
+          "theHarvester",
+          "Shodan",
+          "Maltego",
+          "Recon-ng",
+          "Amass"
+        ],
+        "vulnerability_scanning": [
+          "Nessus",
+          "OpenVAS",
+          "Qualys",
+          "Nikto",
+          "Burp Suite",
+          "OWASP ZAP"
+        ],
+        "exploitation": [
+          "Metasploit Framework",
+          "SQLmap",
+          "BeEF",
+          "Social Engineering Toolkit (SET)",
+          "Empire/Covenant"
+        ],
+        "wireless": [
+          "Aircrack-ng",
+          "Wireshark",
+          "Kismet",
+          "WiFi Pineapple"
+        ],
+        "forensics": [
+          "Autopsy",
+          "Volatility",
+          "FTK Imager",
+          "Wireshark",
+          "Sleuth Kit"
+        ],
+        "reverse_engineering": [
+          "IDA Pro",
+          "Ghidra",
+          "radare2",
+          "x64dbg",
+          "OllyDbg"
+        ],
+        "siem_and_monitoring": [
+          "Splunk",
+          "ELK Stack (Elasticsearch, Logstash, Kibana)",
+          "Graylog",
+          "ArcSight",
+          "QRadar"
+        ],
+        "password_cracking": [
+          "Hashcat",
+          "John the Ripper",
+          "Hydra",
+          "Medusa"
+        ]
+      },
+      "sertifikasyon_yollari": {
+        "entry_level": [
+          {
+            "sertifika": "CompTIA Security+",
+            "organizasyon": "CompTIA",
+            "maliyet": "$370",
+            "gecerlilik": "3 yıl",
+            "zorluk": "Beginner",
+            "tavsiye": "Giriş seviyesi için ideal"
+          },
+          {
+            "sertifika": "Certified Ethical Hacker (CEH)",
+            "organizasyon": "EC-Council",
+            "maliyet": "$1,199",
+            "gecerlilik": "3 yıl",
+            "zorluk": "Intermediate",
+            "tavsiye": "Popüler ancak pahalı"
+          }
+        ],
+        "intermediate": [
+          {
+            "sertifika": "CompTIA CySA+ (Cybersecurity Analyst)",
+            "organizasyon": "CompTIA",
+            "maliyet": "$370",
+            "gecerlilik": "3 yıl",
+            "zorluk": "Intermediate"
+          },
+          {
+            "sertifika": "GIAC Security Essentials (GSEC)",
+            "organizasyon": "GIAC/SANS",
+            "maliyet": "$2,499 (exam only)",
+            "gecerlilik": "4 yıl",
+            "zorluk": "Intermediate"
+          },
+          {
+            "sertifika": "eLearnSecurity Junior Penetration Tester (eJPT)",
+            "organizasyon": "eLearnSecurity/INE",
+            "maliyet": "$200-400",
+            "zorluk": "Beginner to Intermediate",
+            "tavsiye": "Pratik odaklı, uygun fiyatlı"
+          }
+        ],
+        "advanced": [
+          {
+            "sertifika": "Offensive Security Certified Professional (OSCP)",
+            "organizasyon": "Offensive Security",
+            "maliyet": "$1,649 (90 days lab + exam)",
+            "zorluk": "Advanced",
+            "tavsiye": "Penetration testing için altın standart"
+          },
+          {
+            "sertifika": "GIAC Penetration Tester (GPEN)",
+            "organizasyon": "GIAC/SANS",
+            "maliyet": "$2,499",
+            "gecerlilik": "4 yıl",
+            "zorluk": "Advanced"
+          },
+          {
+            "sertifika": "Certified Information Systems Security Professional (CISSP)",
+            "organizasyon": "ISC²",
+            "maliyet": "$749",
+            "gecerlilik": "3 yıl",
+            "zorluk": "Advanced",
+            "gereksinim": "5 yıl deneyim",
+            "tavsiye": "Management pozisyonları için önemli"
+          }
+        ],
+        "expert": [
+          {
+            "sertifika": "Offensive Security Certified Expert (OSCE)",
+            "organizasyon": "Offensive Security",
+            "zorluk": "Expert",
+            "tavsiye": "Çok ileri seviye"
+          },
+          {
+            "sertifika": "GIAC Security Expert (GSE)",
+            "organizasyon": "GIAC/SANS",
+            "zorluk": "Expert",
+            "tavsiye": "En prestijli GIAC sertifikası"
+          }
+        ],
+        "specialty": [
+          {
+            "sertifika": "Certified Cloud Security Professional (CCSP)",
+            "organizasyon": "ISC²",
+            "alan": "Cloud Security"
+          },
+          {
+            "sertifika": "GIAC Reverse Engineering Malware (GREM)",
+            "organizasyon": "GIAC/SANS",
+            "alan": "Malware Analysis"
+          },
+          {
+            "sertifika": "Offensive Security Web Expert (OSWE)",
+            "organizasyon": "Offensive Security",
+            "alan": "Web Application Security"
+          }
+        ]
+      }
+    },
+    "blockchain": {
+      "alan_tanimi": {
+        "baslik": "Blockchain Development",
+        "aciklama": "Dağıtık defter teknolojisi (DLT) kullanarak merkezi olmayan uygulamalar (dApps), akıllı kontratlar ve kripto para sistemleri geliştirme alanı. Şeffaflık, güvenlik ve merkezi olmayan yapılar oluşturma odaklıdır.",
+        "kariyer_yollari": [
+          "Blockchain Developer",
+          "Smart Contract Developer",
+          "Blockchain Architect",
+          "DeFi Developer",
+          "Blockchain Security Engineer",
+          "Cryptocurrency Developer",
+          "NFT Platform Developer",
+          "Blockchain Consultant"
+        ],
+        "ortalama_maas": "$100,000 - $200,000",
+        "is_talep_durumu": "Yüksek"
+      },
+      "temel_bilgiler": {
+        "blockchain_basics": {
+          "konular": [
+            "Blockchain nedir? Nasıl çalışır?",
+            "Distributed Ledger Technology (DLT)",
+            "Blocks, chains, nodes kavramları",
+            "Consensus mechanisms (PoW, PoS)",
+            "Cryptographic hashing (SHA-256)",
+            "Public vs Private blockchains",
+            "Merkezi vs Merkezi olmayan sistemler"
+          ],
+          "temel_kavramlar": [
+            "Immutability (Değiştirilemezlik)",
+            "Transparency (Şeffaflık)",
+            "Decentralization (Merkeziyetsizlik)",
+            "Byzantine Fault Tolerance"
+          ]
+        },
+        "cryptography": {
+          "konular": [
+            "Public key cryptography",
+            "Private/Public key pairs",
+            "Digital signatures",
+            "Hash functions",
+            "Merkle trees",
+            "Elliptic Curve Cryptography (ECC)"
+          ]
+        },
+        "programming_fundamentals": {
+          "required_languages": [
+            {
+              "dil": "JavaScript/TypeScript",
+              "kullanim": "Web3 development, dApp frontends"
+            },
+            {
+              "dil": "Solidity",
+              "kullanim": "Ethereum smart contracts"
+            },
+            {
+              "dil": "Python",
+              "kullanim": "Blockchain scripting, data analysis"
+            },
+            {
+              "dil": "Go",
+              "kullanim": "Hyperledger, blockchain infrastructure"
+            }
+          ],
+          "konular": [
+            "Object-oriented programming",
+            "Asynchronous programming",
+            "API integration",
+            "Data structures",
+            "Design patterns"
+          ]
+        },
+        "bitcoin_basics": {
+          "konular": [
+            "Bitcoin nasıl çalışır?",
+            "UTXO modeli",
+            "Bitcoin scripting",
+            "Mining process",
+            "Wallets ve addresses",
+            "Transaction structure"
+          ]
+        },
+        "ethereum_basics": {
+          "konular": [
+            "Ethereum Virtual Machine (EVM)",
+            "Accounts (EOA vs Contract)",
+            "Gas ve transaction fees",
+            "Smart contracts nedir?",
+            "Ether ve Wei",
+            "State ve transactions"
+          ]
+        }
+      },
+      "ileri_seviye_konular": {
+        "smart_contracts": {
+          "solidity_advanced": [
+            "Contract inheritance",
+            "Libraries ve interfaces",
+            "Events ve logging",
+            "Modifiers",
+            "Error handling (require, assert, revert)",
+            "Storage vs Memory vs Calldata",
+            "Gas optimization techniques",
+            "Upgradeable contracts (Proxy patterns)",
+            "Security best practices"
+          ],
+          "design_patterns": [
+            "Factory pattern",
+            "Proxy pattern (Transparent, UUPS)",
+            "Registry pattern",
+            "Oracle pattern",
+            "State machine pattern",
+            "Access control patterns"
+          ]
+        },
+        "defi_development": {
+          "konular": [
+            "Decentralized Exchanges (DEX) - AMM",
+            "Liquidity pools",
+            "Yield farming protocols",
+            "Lending/Borrowing platforms",
+            "Stablecoins",
+            "Flash loans",
+            "Oracles (Chainlink)",
+            "Token standards (ERC-20, ERC-721, ERC-1155)"
+          ],
+          "protocols": [
+            "Uniswap",
+            "Aave",
+            "Compound",
+            "MakerDAO",
+            "Curve Finance"
+          ]
+        },
+        "layer_2_solutions": {
+          "konular": [
+            "Scaling solutions genel bakış",
+            "State channels",
+            "Sidechains",
+            "Rollups (Optimistic, ZK)",
+            "Plasma",
+            "Polygon (Matic)",
+            "Arbitrum, Optimism"
+          ]
+        },
+        "advanced_topics": {
+          "consensus_algorithms": [
+            "Proof of Work (PoW)",
+            "Proof of Stake (PoS)",
+            "Delegated Proof of Stake (DPoS)",
+            "Proof of Authority (PoA)",
+            "Practical Byzantine Fault Tolerance (PBFT)"
+          ],
+          "zero_knowledge_proofs": [
+            "zk-SNARKs",
+            "zk-STARKs",
+            "Privacy coins (Zcash, Monero)",
+            "ZK-Rollups"
+          ],
+          "cross_chain": [
+            "Bridges",
+            "Inter-blockchain communication",
+            "Polkadot parachains",
+            "Cosmos IBC"
+          ]
+        },
+        "blockchain_security": {
+          "konular": [
+            "Smart contract vulnerabilities",
+            "Reentrancy attacks",
+            "Integer overflow/underflow",
+            "Front-running",
+            "Flash loan attacks",
+            "Oracle manipulation",
+            "Private key management",
+            "Audit best practices"
+          ]
+        },
+        "nft_and_metaverse": {
+          "konular": [
+            "ERC-721 ve ERC-1155 standartları",
+            "NFT marketplace development",
+            "IPFS ve decentralized storage",
+            "Metadata standards",
+            "Royalty mechanisms",
+            "Gaming ve Metaverse integration"
+          ]
+        }
+      },
+      "pratik_uygulamalar": {
+        "beginner_projects": [
+          {
+            "proje": "Simple Token (ERC-20)",
+            "aciklama": "Kendi ERC-20 tokenınızı oluşturun",
+            "teknolojiler": ["Solidity", "Hardhat", "OpenZeppelin"]
+          },
+          {
+            "proje": "NFT Collection",
+            "aciklama": "Basit bir NFT koleksiyonu mint edin",
+            "teknolojiler": ["Solidity", "ERC-721", "IPFS", "Pinata"]
+          },
+          {
+            "proje": "Voting dApp",
+            "aciklama": "Blockchain tabanlı oylama uygulaması",
+            "teknolojiler": ["Solidity", "React", "Web3.js", "MetaMask"]
+          }
+        ],
+        "intermediate_projects": [
+          {
+            "proje": "Decentralized Marketplace",
+            "aciklama": "NFT veya ürün alım-satımı için marketplace",
+            "teknolojiler": ["Solidity", "React", "Ethers.js", "The Graph"]
+          },
+          {
+            "proje": "Token Staking Platform",
+            "aciklama": "Kullanıcıların token stake edebileceği platform",
+            "teknolojiler": ["Solidity", "Time-locks", "Rewards calculation"]
+          },
+          {
+            "proje": "DAO (Decentralized Autonomous Organization)",
+            "aciklama": "Yönetişim ve oylama mekanizması",
+            "teknolojiler": ["Solidity", "Governor contracts", "Snapshot"]
+          }
+        ],
+        "advanced_projects": [
+          {
+            "proje": "DEX (Decentralized Exchange)",
+            "aciklama": "AMM tabanlı token swap platformu",
+            "teknolojiler": ["Solidity", "Uniswap V2/V3 forks", "Liquidity pools"]
+          },
+          {
+            "proje": "Lending Protocol",
+            "aciklama": "Borç verme/alma platformu",
+            "teknolojiler": ["Compound fork", "Collateralization", "Liquidation"]
+          },
+          {
+            "proje": "Cross-chain Bridge",
+            "aciklama": "Farklı blockchain'ler arası varlık transferi",
+            "teknolojiler": ["Multi-chain", "Lock & Mint", "Validators"]
+          }
+        ],
+        "learning_platforms": [
+          {
+            "platform": "CryptoZombies",
+            "tip": "Interactive tutorial",
+            "url": "https://cryptozombies.io",
+            "seviye": "Beginner"
+          },
+          {
+            "platform": "Ethernaut",
+            "tip": "Security challenges",
+            "url": "https://ethernaut.openzeppelin.com",
+            "seviye": "Intermediate to Advanced"
+          },
+          {
+            "platform": "Buildspace",
+            "tip": "Project-based learning",
+            "url": "https://buildspace.so",
+            "seviye": "All levels"
+          },
+          {
+            "platform": "Alchemy University",
+            "tip": "Comprehensive courses",
+            "url": "https://university.alchemy.com",
+            "seviye": "All levels"
+          }
+        ],
+        "testnets": [
+          "Ethereum Sepolia",
+          "Ethereum Goerli",
+          "Polygon Mumbai",
+          "BSC Testnet",
+          "Avalanche Fuji"
+        ]
+      },
+      "tools_ve_teknolojiler": {
+        "development_frameworks": [
+          {
+            "tool": "Hardhat",
+            "aciklama": "Ethereum development environment",
+            "kullanim": "Testing, deployment, debugging"
+          },
+          {
+            "tool": "Truffle",
+            "aciklama": "Smart contract development framework",
+            "kullanim": "Development, testing, deployment"
+          },
+          {
+            "tool": "Foundry",
+            "aciklama": "Fast, portable Ethereum testing framework",
+            "kullanim": "Testing, fuzzing (Rust-based)"
+          },
+          {
+            "tool": "Brownie",
+            "aciklama": "Python-based development framework",
+            "kullanim": "Python developers için ideal"
+          }
+        ],
+        "web3_libraries": [
+          "Web3.js - JavaScript library",
+          "Ethers.js - Modern, lightweight JavaScript library",
+          "Web3.py - Python library",
+          "viem - TypeScript library"
+        ],
+        "frontend_tools": [
+          "React/Next.js",
+          "RainbowKit - Wallet connection",
+          "WalletConnect",
+          "ConnectKit",
+          "thirdweb SDK"
+        ],
+        "testing_tools": [
+          "Mocha/Chai",
+          "Waffle",
+          "Foundry (Forge)",
+          "Ganache - Local blockchain",
+          "Tenderly - Monitoring & debugging"
+        ],
+        "security_tools": [
+          {
+            "tool": "Slither",
+            "tip": "Static analysis",
+            "aciklama": "Solidity kaynak kod analizi"
+          },
+          {
+            "tool": "Mythril",
+            "tip": "Security analysis",
+            "aciklama": "EVM bytecode analizi"
+          },
+          {
+            "tool": "OpenZeppelin Defender",
+            "tip": "Security operations",
+            "aciklama": "Contract monitoring & automation"
+          },
+          {
+            "tool": "Echidna",
+            "tip": "Fuzzing",
+            "aciklama": "Smart contract fuzzing"
+          }
+        ],
+        "node_providers": [
+          "Alchemy",
+          "Infura",
+          "QuickNode",
+          "Moralis",
+          "Ankr"
+        ],
+        "data_indexing": [
+          "The Graph - Indexing protocol",
+          "Moralis - Web3 data",
+          "Covalent API",
+          "Dune Analytics"
+        ],
+        "storage": [
+          "IPFS - Decentralized storage",
+          "Arweave - Permanent storage",
+          "Filecoin",
+          "Pinata - IPFS pinning service"
+        ],
+        "wallets": [
+          "MetaMask",
+          "WalletConnect",
+          "Coinbase Wallet",
+          "Rainbow Wallet",
+          "Ledger (Hardware wallet)"
+        ]
+      },
+      "sertifikasyon_yollari": {
+        "certifications": [
+          {
+            "sertifika": "Certified Blockchain Developer (CBD)",
+            "organizasyon": "Blockchain Council",
+            "maliyet": "$199 - $349",
+            "seviye": "Entry to Intermediate"
+          },
+          {
+            "sertifika": "Ethereum Developer Certification",
+            "organizasyon": "ConsenSys",
+            "seviye": "Intermediate",
+            "tavsiye": "Ethereum ekosistemi için"
+          },
+          {
+            "sertifika": "Certified Blockchain Solution Architect (CBSA)",
+            "organizasyon": "Blockchain Training Alliance",
+            "maliyet": "$195",
+            "seviye": "Intermediate to Advanced"
+          },
+          {
+            "sertifika": "Hyperledger Fabric Administrator",
+            "organizasyon": "Linux Foundation",
+            "seviye": "Intermediate",
+            "alan": "Enterprise blockchain"
+          },
+          {
+            "sertifika": "Certified Smart Contract Auditor",
+            "organizasyon": "Various providers",
+            "seviye": "Advanced",
+            "alan": "Security auditing"
+          }
+        ],
+        "university_programs": [
+          {
+            "program": "Blockchain Fundamentals",
+            "organizasyon": "UC Berkeley (edX)",
+            "ucret": "Free audit, $99 certificate"
+          },
+          {
+            "program": "Blockchain Specialization",
+            "organizasyon": "University at Buffalo (Coursera)",
+            "ucret": "Coursera subscription"
+          }
+        ],
+        "alternative_credentials": [
+          {
+            "type": "Hackathons",
+            "ornek": "ETHGlobal, Chainlink hackathons",
+            "deger": "Portfolio building, networking"
+          },
+          {
+            "type": "Bug Bounties",
+            "platform": "Immunefi, Code4rena",
+            "deger": "Real-world security experience"
+          },
+          {
+            "type": "Open Source Contributions",
+            "ornek": "Contribute to DeFi protocols",
+            "deger": "Community recognition"
+          }
+        ],
+        "tavsiyeler": [
+          "Blockchain alanında sertifika yerine portföy ve pratik deneyim daha değerli",
+          "Audit raporları yazın ve GitHub'da paylaşın",
+          "Hackathon'lara katılın ve projeler oluşturun",
+          "Twitter/X'te aktif olun ve community'ye katılın",
+          "Medium/Dev.to'da teknik makaleler yazın"
+        ]
+      }
+    },
+    "game_developer": {
+      "alan_tanimi": {
+        "baslik": "Oyun Geliştirme (Game Development)",
+        "aciklama": "Video oyunları tasarlama, geliştirme ve yayınlama süreci. Programlama, grafik, ses, tasarım ve hikaye anlatımını birleştiren multidisipliner alan. Mobil, PC, konsol ve web platformları için oyun yaratma.",
+        "kariyer_yollari": [
+          "Gameplay Programmer",
+          "Graphics Programmer",
+          "Engine Programmer",
+          "AI Programmer",
+          "Network/Multiplayer Programmer",
+          "Tools Programmer",
+          "Technical Artist",
+          "Game Designer",
+          "Level Designer",
+          "Technical Director"
+        ],
+        "ortalama_maas": "$60,000 - $150,000",
+        "is_talep_durumu": "Orta-Yüksek"
+      },
+      "temel_bilgiler": {
+        "programming_fundamentals": {
+          "core_languages": [
+            {
+              "dil": "C++",
+              "kullanim": "AAA games, engine development, Unreal Engine",
+              "oncelik": "Yüksek"
+            },
+            {
+              "dil": "C#",
+              "kullanim": "Unity development, .NET games",
+              "oncelik": "Yüksek"
+            },
+            {
+              "dil": "Python",
+              "kullanim": "Scripting, tools, prototyping",
+              "oncelik": "Orta"
+            },
+            {
+              "dil": "JavaScript/TypeScript",
+              "kullanim": "Web games, HTML5 games",
+              "oncelik": "Orta"
+            }
+          ],
+          "konular": [
+            "Object-Oriented Programming (OOP)",
+            "Data structures (arrays, lists, trees, graphs)",
+            "Algorithms (sorting, searching, pathfinding)",
+            "Memory management",
+            "Design patterns (Singleton, Factory, Observer, State)",
+            "Version control (Git)"
+          ]
+        },
+        "mathematics_for_games": {
+          "konular": [
+            "Linear algebra (vectors, matrices)",
+            "Trigonometry",
+            "Calculus basics",
+            "Physics (kinematics, dynamics)",
+            "Coordinate systems",
+            "Quaternions (rotation)",
+            "Interpolation (lerp, slerp)"
+          ],
+          "uygulamalar": [
+            "Character movement",
+            "Camera control",
+            "Collision detection",
+            "Projectile motion",
+            "AI pathfinding"
+          ]
+        },
+        "game_engines_basics": {
+          "unity": {
+            "aciklama": "En popüler oyun motoru, C# tabanlı, kolay öğrenme eğrisi",
+            "platform_destegi": ["PC", "Mobile", "Console", "VR/AR", "Web"],
+            "temel_konular": [
+              "GameObjects ve Components",
+              "Prefabs",
+              "Scenes",
+              "Unity Editor",
+              "Scripting (MonoBehaviour)",
+              "Input system",
+              "Physics (Rigidbody, Colliders)",
+              "Animation system",
+              "UI (Canvas, UI elements)"
+            ]
+          },
+          "unreal_engine": {
+            "aciklama": "AAA oyunlar için güçlü motor, C++ ve Blueprint",
+            "platform_destegi": ["PC", "Console", "Mobile", "VR"],
+            "temel_konular": [
+              "Actors ve Components",
+              "Blueprints (visual scripting)",
+              "C++ programming",
+              "Materials",
+              "Lighting",
+              "Landscape tools",
+              "Animation Blueprint",
+              "Niagara (particle system)"
+            ]
+          },
+          "godot": {
+            "aciklama": "Open-source, lightweight, GDScript/C#",
+            "avantaj": "Ücretsiz, kolay, indie games için ideal"
+          }
+        },
+        "game_design_basics": {
+          "konular": [
+            "Game mechanics",
+            "Core gameplay loop",
+            "Player motivation",
+            "Level design principles",
+            "Game balance",
+            "User experience (UX)",
+            "Feedback systems",
+            "Prototyping"
+          ]
+        }
+      },
+      "ileri_seviye_konular": {
+        "graphics_programming": {
+          "rendering": [
+            "Rendering pipeline",
+            "Shaders (Vertex, Fragment/Pixel shaders)",
+            "HLSL/GLSL/Cg",
+            "Lighting models (Phong, PBR)",
+            "Shadows (shadow mapping)",
+            "Post-processing effects",
+            "Texture mapping",
+            "Normal mapping",
+            "Ambient occlusion"
+          ],
+          "advanced_rendering": [
+            "Deferred rendering",
+            "Forward+ rendering",
+            "Ray tracing",
+            "Global illumination",
+            "Volumetric lighting",
+            "Screen space reflections",
+            "Particle systems",
+            "GPU optimization"
+          ]
+        },
+        "game_ai": {
+          "konular": [
+            "Finite State Machines (FSM)",
+            "Behavior Trees",
+            "Pathfinding (A*, Dijkstra, NavMesh)",
+            "Decision making",
+            "Steering behaviors",
+            "Flocking",
+            "Goal-Oriented Action Planning (GOAP)",
+            "Machine learning in games"
+          ]
+        },
+        "physics_and_collision": {
+          "konular": [
+            "Rigid body dynamics",
+            "Collision detection (broad phase, narrow phase)",
+            "Collision response",
+            "Raycasting",
+            "Physics materials",
+            "Joints ve constraints",
+            "Soft body physics",
+            "Cloth simulation",
+            "Ragdoll physics"
+          ]
+        },
+        "networking_multiplayer": {
+          "konular": [
+            "Client-Server architecture",
+            "Peer-to-peer",
+            "Network protocols (TCP, UDP)",
+            "Latency compensation",
+            "Client prediction",
+            "Server reconciliation",
+            "Lag compensation",
+            "Matchmaking",
+            "Dedicated servers vs Listen servers",
+            "Netcode optimization"
+          ],
+          "technologies": [
+            "Photon",
+            "Mirror (Unity)",
+            "Netcode for GameObjects (Unity)",
+            "Unreal Replication",
+            "WebRTC (web games)"
+          ]
+        },
+        "optimization": {
+          "performance": [
+            "Profiling (CPU, GPU, Memory)",
+            "Draw call batching",
+            "Level of Detail (LOD)",
+            "Occlusion culling",
+            "Frustum culling",
+            "Object pooling",
+            "Texture atlasing",
+            "Compression",
+            "Memory management",
+            "Loading screens ve streaming"
+          ]
+        },
+        "audio_programming": {
+          "konular": [
+            "Audio engines (FMOD, Wwise)",
+            "3D audio",
+            "Dynamic music",
+            "Sound effects triggering",
+            "Audio mixing",
+            "Occlusion ve obstruction"
+          ]
+        },
+        "procedural_generation": {
+          "konular": [
+            "Perlin noise",
+            "Random generation",
+            "Terrain generation",
+            "Dungeon generation",
+            "Content generation",
+            "Procedural animations"
+          ]
+        },
+        "vr_ar_development": {
+          "konular": [
+            "VR SDKs (Oculus, SteamVR, OpenXR)",
+            "Hand tracking",
+            "Room-scale VR",
+            "Locomotion in VR",
+            "VR optimization",
+            "AR tracking (ARKit, ARCore)",
+            "Spatial anchors"
+          ]
+        }
+      },
+      "pratik_uygulamalar": {
+        "beginner_projects": [
+          {
+            "proje": "2D Platformer",
+            "aciklama": "Mario tarzı platform oyunu",
+            "ogrenilen": ["Character controller", "Collision", "Level design"],
+            "sure": "2-4 hafta"
+          },
+          {
+            "proje": "Flappy Bird Clone",
+            "aciklama": "Basit arcade oyunu",
+            "ogrenilen": ["Physics", "Score system", "Game loop"],
+            "sure": "1 hafta"
+          },
+          {
+            "proje": "Pong/Breakout",
+            "aciklama": "Klasik arcade oyunları",
+            "ogrenilen": ["Ball physics", "Paddle control", "UI"],
+            "sure": "1-2 hafta"
+          }
+        ],
+        "intermediate_projects": [
+          {
+            "proje": "Top-Down Shooter",
+            "aciklama": "Enter the Gungeon tarzı",
+            "ogrenilen": ["Enemy AI", "Weapon systems", "Procedural generation"],
+            "sure": "4-8 hafta"
+          },
+          {
+            "proje": "3D First-Person Game",
+            "aciklama": "FPS mekanikleri",
+            "ogrenilen": ["FPS controller", "Raycasting", "3D level design"],
+            "sure": "6-10 hafta"
+          },
+          {
+            "proje": "Tower Defense",
+            "aciklama": "Strateji oyunu",
+            "ogrenilen": ["Pathfinding", "Resource management", "Wave system"],
+            "sure": "6-8 hafta"
+          },
+          {
+            "proje": "Multiplayer Game",
+            "aciklama": "Basit online oyun",
+            "ogrenilen": ["Networking", "Synchronization", "Matchmaking"],
+            "sure": "8-12 hafta"
+          }
+        ],
+        "advanced_projects": [
+          {
+            "proje": "Open-World RPG",
+            "aciklama": "Skyrim tarzı RPG",
+            "ogrenilen": ["Large world streaming", "Quest system", "Inventory", "Save system"],
+            "sure": "6+ ay"
+          },
+          {
+            "proje": "Custom Game Engine",
+            "aciklama": "Kendi oyun motorunuzu yazın",
+            "ogrenilen": ["Engine architecture", "Rendering", "ECS", "Low-level programming"],
+            "sure": "1+ yıl"
+          },
+          {
+            "proje": "VR Experience",
+            "aciklama": "Immersive VR oyunu",
+            "ogrenilen": ["VR interactions", "Locomotion", "Performance optimization"],
+            "sure": "4-6 ay"
+          }
+        ],
+        "game_jams": [
+          "Ludum Dare (48/72 saat)",
+          "Global Game Jam (48 saat)",
+          "GMTK Game Jam",
+          "Brackeys Game Jam",
+          "itch.io jams"
+        ],
+        "learning_resources": [
+          {
+            "kaynak": "Unity Learn",
+            "tip": "Official tutorials",
+            "url": "https://learn.unity.com"
+          },
+          {
+            "kaynak": "Unreal Online Learning",
+            "tip": "Official courses",
+            "url": "https://dev.epicgames.com/community/learning"
+          },
+          {
+            "kaynak": "Brackeys (YouTube)",
+            "tip": "Unity tutorials",
+            "url": "https://youtube.com/@Brackeys"
+          },
+          {
+            "kaynak": "Sebastian Lague (YouTube)",
+            "tip": "Advanced game dev",
+            "url": "https://youtube.com/@SebastianLague"
+          },
+          {
+            "kaynak": "Game Programming Patterns",
+            "tip": "Book",
+            "yazar": "Robert Nystrom"
+          }
+        ]
+      },
+      "tools_ve_teknolojiler": {
+        "game_engines": [
+          {
+            "engine": "Unity",
+            "dil": "C#",
+            "lisans": "Free (Personal), Paid (Plus, Pro)",
+            "kullanim": "Mobile, PC, Console, VR/AR"
+          },
+          {
+            "engine": "Unreal Engine",
+            "dil": "C++, Blueprints",
+            "lisans": "Free (5% royalty after $1M)",
+            "kullanim": "AAA games, high-end graphics"
+          },
+          {
+            "engine": "Godot",
+            "dil": "GDScript, C#, C++",
+            "lisans": "Open-source (MIT)",
+            "kullanim": "2D/3D indie games"
+          },
+          {
+            "engine": "GameMaker Studio 2",
+            "dil": "GML",
+            "kullanim": "2D games, rapid prototyping"
+          },
+          {
+            "engine": "CryEngine",
+            "dil": "C++, C#",
+            "kullanim": "High-fidelity graphics"
+          }
+        ],
+        "3d_modeling_animation": [
+          {
+            "tool": "Blender",
+            "tip": "3D modeling, animation",
+            "lisans": "Free, open-source",
+            "tavsiye": "Industry standard for indie devs"
+          },
+          {
+            "tool": "Maya",
+            "tip": "3D animation, modeling",
+            "lisans": "Paid (Autodesk)"
+          },
+          {
+            "tool": "3ds Max",
+            "tip": "3D modeling",
+            "lisans": "Paid (Autodesk)"
+          },
+          {
+            "tool": "ZBrush",
+            "tip": "Digital sculpting",
+            "kullanim": "High-poly character models"
+          }
+        ],
+        "2d_art_tools": [
+          "Photoshop - Texture creation",
+          "GIMP - Free alternative",
+          "Aseprite - Pixel art",
+          "Spine - 2D skeletal animation",
+          "TexturePacker - Sprite sheets"
+        ],
+        "audio_tools": [
+          {
+            "tool": "FMOD",
+            "tip": "Audio middleware",
+            "kullanim": "Dynamic audio, AAA games"
+          },
+          {
+            "tool": "Wwise",
+            "tip": "Audio middleware",
+            "kullanim": "Interactive audio"
+          },
+          {
+            "tool": "Audacity",
+            "tip": "Audio editing",
+            "lisans": "Free"
+          },
+          {
+            "tool": "FL Studio/Ableton",
+            "tip": "Music production"
+          }
+        ],
+        "level_design_tools": [
+          "Probuilder (Unity)",
+          "BSP tools (Unreal)",
+          "Tiled Map Editor - 2D tile maps",
+          "World Machine - Terrain generation"
+        ],
+        "version_control": [
+          "Git + GitHub/GitLab",
+          "Perforce - AAA studios",
+          "Plastic SCM - Game-focused VCS",
+          "Unity Collaborate (deprecated)",
+          "Unreal Game Sync"
+        ],
+        "project_management": [
+          "Jira",
+          "Trello",
+          "HacknPlan - Game-specific",
+          "Notion",
+          "Monday.com"
+        ],
+        "analytics": [
+          "Unity Analytics",
+          "GameAnalytics",
+          "Firebase Analytics",
+          "deltaDNA"
+        ]
+      },
+      "sertifikasyon_yollari": {
+        "unity_certifications": [
+          {
+            "sertifika": "Unity Certified User",
+            "seviye": "Beginner",
+            "maliyet": "$99",
+            "tavsiye": "Entry-level için"
+          },
+          {
+            "sertifika": "Unity Certified Associate: Game Developer",
+            "seviye": "Intermediate",
+            "maliyet": "$99",
+            "tavsiye": "1-2 yıl deneyim sonrası"
+          },
+          {
+            "sertifika": "Unity Certified Professional: Programmer",
+            "seviye": "Advanced",
+            "maliyet": "$200",
+            "tavsiye": "Professional pozisyonlar için"
+          },
+          {
+            "sertifika": "Unity Certified Expert: Gameplay Programmer",
+            "seviye": "Expert",
+            "maliyet": "$400",
+            "tavsiye": "En üst seviye"
+          }
+        ],
+        "unreal_certifications": [
+          {
+            "sertifika": "Unreal Engine Associate Developer",
+            "seviye": "Beginner to Intermediate",
+            "maliyet": "Free",
+            "tavsiye": "Unreal başlangıç için"
+          }
+        ],
+        "academic_programs": [
+          {
+            "program": "Game Design and Development Specialization",
+            "platform": "Coursera (Michigan State University)",
+            "sure": "6 ay"
+          },
+          {
+            "program": "CS50's Introduction to Game Development",
+            "platform": "edX (Harvard)",
+            "ucret": "Free"
+          },
+          {
+            "program": "Unreal Engine C++ Developer",
+            "platform": "Udemy",
+            "instructor": "Ben Tristem"
+          }
+        ],
+        "alternative_paths": [
+          {
+            "yol": "Portfolio Development",
+            "aciklama": "3-5 polished games showcase",
+            "onem": "Sertifikadan çok daha önemli"
+          },
+          {
+            "yol": "Game Jams",
+            "aciklama": "Regular participation, itch.io portfolio",
+            "fayda": "Speed, creativity, networking"
+          },
+          {
+            "yol": "Open Source Contributions",
+            "ornek": "Godot engine, Unity packages",
+            "fayda": "Real-world code experience"
+          },
+          {
+            "yol": "Indie Game Release",
+            "platform": "Steam, itch.io, mobile stores",
+            "fayda": "Complete development cycle experience"
+          }
+        ],
+        "tavsiyeler": [
+          "Oyun geliştirmede portfolio ve shipped games sertifikadan daha değerlidir",
+          "Her projenizi GitHub'da paylaşın",
+          "Game jam'lere düzenli katılın (Ludum Dare, Global Game Jam)",
+          "Kendi oyununuzu release edin (Steam, itch.io)",
+          "Postmortems yazın ve experience'inizi paylaşın",
+          "YouTube/Twitch'te development process paylaşın",
+          "Reddit, Discord communities'de aktif olun (r/gamedev, r/Unity3D)"
+        ]
+      }
+    },
+    "computer_science": {
+      "alan_tanimi": {
+        "baslik": "Bilgisayar Bilimi (Computer Science)",
+        "aciklama": "Hesaplama, bilgi işleme, ve bilgisayar sistemlerinin teorik temellerini inceleyen bilim dalı. Algoritma tasarımı, yazılım geliştirme, sistem mimarisi ve bilgisayarların matematiksel temellerini kapsar.",
+        "kariyer_yollari": [
+          "Software Engineer",
+          "Systems Architect",
+          "Research Scientist",
+          "Data Scientist",
+          "Machine Learning Engineer",
+          "Backend Developer",
+          "DevOps Engineer",
+          "Compiler Engineer",
+          "Database Administrator",
+          "Academic Researcher"
+        ],
+        "ortalama_maas": "$70,000 - $200,000+",
+        "is_talep_durumu": "Çok Yüksek"
+      },
+      "temel_bilgiler": {
+        "programming_fundamentals": {
+          "core_concepts": [
+            "Variables ve data types",
+            "Control structures (if, loops)",
+            "Functions/Methods",
+            "Arrays ve collections",
+            "Object-Oriented Programming",
+            "Input/Output operations",
+            "Error handling",
+            "Debugging techniques"
+          ],
+          "languages_to_learn": [
+            {
+              "dil": "Python",
+              "neden": "Beginner-friendly, versatile, widely used",
+              "oncelik": 1
+            },
+            {
+              "dil": "Java",
+              "neden": "OOP principles, enterprise applications",
+              "oncelik": 2
+            },
+            {
+              "dil": "C/C++",
+              "neden": "Low-level understanding, performance",
+              "oncelik": 3
+            },
+            {
+              "dil": "JavaScript",
+              "neden": "Web development, full-stack",
+              "oncelik": 2
+            }
+          ]
+        },
+        "discrete_mathematics": {
+          "konular": [
+            "Logic (Propositional, Predicate)",
+            "Set theory",
+            "Functions ve Relations",
+            "Combinatorics",
+            "Graph theory basics",
+            "Number theory",
+            "Proof techniques (Induction, Contradiction)",
+            "Boolean algebra"
+          ],
+          "neden_onemli": "Algorithm analysis, cryptography, database theory temelini oluşturur"
+        },
+        "computer_architecture": {
+          "konular": [
+            "Binary, hexadecimal number systems",
+            "Boolean logic gates",
+            "CPU architecture (ALU, registers, control unit)",
+            "Memory hierarchy (cache, RAM, disk)",
+            "Instruction set architecture (ISA)",
+            "Von Neumann architecture",
+            "Assembly language basics",
+            "I/O systems"
+          ]
+        },
+        "operating_systems_basics": {
+          "konular": [
+            "Process management",
+            "Memory management",
+            "File systems",
+            "Shell/Command line",
+            "Permissions ve security",
+            "System calls",
+            "Device drivers"
+          ],
+          "practical": [
+            "Linux command line mastery",
+            "Windows administration",
+            "Shell scripting"
+          ]
+        },
+        "networking_basics": {
+          "konular": [
+            "OSI ve TCP/IP models",
+            "IP addressing",
+            "DNS, DHCP",
+            "HTTP/HTTPS",
+            "Sockets programming",
+            "Client-Server model",
+            "Network protocols"
+          ]
+        }
+      },
+      "ileri_seviye_konular": {
+        "advanced_algorithms": {
+          "konular": [
+            "Divide and conquer",
+            "Dynamic programming",
+            "Greedy algorithms",
+            "Backtracking",
+            "Graph algorithms (Dijkstra, Bellman-Ford, Floyd-Warshall)",
+            "String algorithms (KMP, Rabin-Karp)",
+            "NP-completeness",
+            "Approximation algorithms",
+            "Randomized algorithms"
+          ]
+        },
+        "advanced_data_structures": {
+          "konular": [
+            "Advanced trees (AVL, Red-Black, B-trees)",
+            "Heaps (Binary, Fibonacci)",
+            "Hash tables (collision resolution)",
+            "Tries",
+            "Segment trees",
+            "Fenwick trees",
+            "Disjoint set (Union-Find)",
+            "Skip lists",
+            "Bloom filters"
+          ]
+        },
+        "theory_of_computation": {
+          "konular": [
+            "Finite automata (DFA, NFA)",
+            "Regular expressions",
+            "Context-free grammars",
+            "Pushdown automata",
+            "Turing machines",
+            "Decidability",
+            "Computability theory",
+            "Complexity classes (P, NP, NP-Complete)"
+          ]
+        },
+        "compilers_and_interpreters": {
+          "konular": [
+            "Lexical analysis",
+            "Syntax analysis (parsing)",
+            "Semantic analysis",
+            "Intermediate code generation",
+            "Code optimization",
+            "Code generation",
+            "Runtime environments"
+          ],
+          "projects": [
+            "Build a simple interpreter",
+            "Create a compiler for toy language",
+            "LLVM projects"
+          ]
+        },
+        "operating_systems_advanced": {
+          "konular": [
+            "Process scheduling algorithms",
+            "Concurrency ve synchronization",
+            "Deadlocks (detection, prevention)",
+            "Virtual memory",
+            "Paging ve segmentation",
+            "File system implementation",
+            "Distributed systems",
+            "Real-time systems"
+          ]
+        },
+        "database_systems": {
+          "konular": [
+            "Relational model",
+            "SQL mastery",
+            "Normalization (1NF to BCNF)",
+            "Indexing (B-trees, Hash indexes)",
+            "Query optimization",
+            "Transactions ve ACID",
+            "Concurrency control",
+            "Recovery systems",
+            "NoSQL databases",
+            "Distributed databases"
+          ]
+        },
+        "computer_networks": {
+          "konular": [
+            "Network layer protocols",
+            "Transport layer (TCP, UDP)",
+            "Routing algorithms",
+            "Network security",
+            "Quality of Service (QoS)",
+            "Software-Defined Networking (SDN)",
+            "Network programming"
+          ]
+        },
+        "artificial_intelligence": {
+          "konular": [
+            "Search algorithms (A*, Alpha-beta pruning)",
+            "Knowledge representation",
+            "Machine learning basics",
+            "Neural networks",
+            "Natural language processing",
+            "Computer vision",
+            "Reinforcement learning",
+            "Expert systems"
+          ]
+        },
+        "software_engineering": {
+          "konular": [
+            "Software development lifecycle",
+            "Design patterns (GoF patterns)",
+            "SOLID principles",
+            "Testing (Unit, Integration, E2E)",
+            "CI/CD pipelines",
+            "Agile methodologies",
+            "Microservices architecture",
+            "System design"
+          ]
+        },
+        "parallel_and_distributed_computing": {
+          "konular": [
+            "Multithreading",
+            "Parallel algorithms",
+            "Distributed systems principles",
+            "MapReduce",
+            "Consensus algorithms (Paxos, Raft)",
+            "CAP theorem",
+            "Distributed file systems"
+          ]
+        },
+        "cryptography": {
+          "konular": [
+            "Symmetric encryption (AES, DES)",
+            "Asymmetric encryption (RSA, ECC)",
+            "Hash functions",
+            "Digital signatures",
+            "Public Key Infrastructure (PKI)",
+            "Cryptographic protocols",
+            "Blockchain ve cryptocurrency"
+          ]
+        }
+      },
+      "pratik_uygulamalar": {
+        "coding_practice_platforms": [
+          {
+            "platform": "LeetCode",
+            "focus": "Interview preparation, algorithms",
+            "url": "https://leetcode.com",
+            "tavsiye": "En popüler interview prep"
+          },
+          {
+            "platform": "HackerRank",
+            "focus": "Algorithms, data structures",
+            "url": "https://hackerrank.com"
+          },
+          {
+            "platform": "Codeforces",
+            "focus": "Competitive programming",
+            "url": "https://codeforces.com",
+            "seviye": "Intermediate to Advanced"
+          },
+          {
+            "platform": "TopCoder",
+            "focus": "Competitive programming",
+            "url": "https://topcoder.com"
+          },
+          {
+            "platform": "CodeChef",
+            "focus": "Competitive programming",
+            "url": "https://codechef.com"
+          },
+          {
+            "platform": "AtCoder",
+            "focus": "Japanese competitive programming",
+            "url": "https://atcoder.jp"
+          },
+          {
+            "platform": "Project Euler",
+            "focus": "Mathematical programming",
+            "url": "https://projecteuler.net"
+          }
+        ],
+        "project_ideas": {
+          "beginner": [
+            {
+              "proje": "Command-line TODO app",
+              "ogrenilen": ["File I/O", "Data structures", "CLI"]
+            },
+            {
+              "proje": "Simple web server",
+              "ogrenilen": ["Networking", "HTTP", "Sockets"]
+            },
+            {
+              "proje": "Calculator with parser",
+              "ogrenilen": ["Parsing", "Expression evaluation"]
+            }
+          ],
+          "intermediate": [
+            {
+              "proje": "Database from scratch",
+              "ogrenilen": ["B-trees", "File systems", "Query processing"]
+            },
+            {
+              "proje": "Text editor",
+              "ogrenilen": ["Data structures", "UI", "File handling"]
+            },
+            {
+              "proje": "Compiler/Interpreter",
+              "ogrenilen": ["Lexing", "Parsing", "Code generation"]
+            },
+            {
+              "proje": "Operating System kernel",
+              "ogrenilen": ["Low-level programming", "Memory management"]
+            }
+          ],
+          "advanced": [
+            {
+              "proje": "Distributed key-value store",
+              "ogrenilen": ["Distributed systems", "Consensus", "Networking"]
+            },
+            {
+              "proje": "Search engine",
+              "ogrenilen": ["Indexing", "Ranking algorithms", "Web crawling"]
+            },
+            {
+              "proje": "Virtual machine",
+              "ogrenilen": ["Instruction sets", "Memory management", "JIT compilation"]
+            }
+          ]
+        },
+        "competitions": [
+          "ACM ICPC - International Collegiate Programming Contest",
+          "Google Code Jam",
+          "Facebook Hacker Cup",
+          "Microsoft Imagine Cup",
+          "Google Summer of Code (GSoC)"
+        ],
+        "open_source_contribution": [
+          "Linux kernel",
+          "GCC/Clang compilers",
+          "PostgreSQL/MySQL",
+          "Python/Node.js",
+          "Git",
+          "VS Code"
+        ]
+      },
+      "tools_ve_teknolojiler": {
+        "ides_and_editors": [
+          "Visual Studio Code",
+          "IntelliJ IDEA",
+          "Eclipse",
+          "PyCharm",
+          "Vim/Neovim",
+          "Emacs"
+        ],
+        "version_control": [
+          "Git",
+          "GitHub/GitLab/Bitbucket",
+          "SVN (legacy)"
+        ],
+        "build_tools": [
+          "Make",
+          "CMake",
+          "Maven (Java)",
+          "Gradle (Java)",
+          "npm/yarn (JavaScript)"
+        ],
+        "debugging_tools": [
+          "GDB (GNU Debugger)",
+          "LLDB",
+          "Valgrind - Memory debugging",
+          "WinDbg (Windows)"
+        ],
+        "profiling_tools": [
+          "gprof",
+          "Valgrind",
+          "perf (Linux)",
+          "Intel VTune"
+        ],
+        "containerization": [
+          "Docker",
+          "Kubernetes",
+          "Podman"
+        ],
+        "cloud_platforms": [
+          "AWS (EC2, S3, Lambda)",
+          "Google Cloud Platform",
+          "Microsoft Azure",
+          "DigitalOcean"
+        ],
+        "databases": [
+          {
+            "tip": "Relational",
+            "ornekler": ["PostgreSQL", "MySQL", "SQLite"]
+          },
+          {
+            "tip": "NoSQL",
+            "ornekler": ["MongoDB", "Redis", "Cassandra", "DynamoDB"]
+          },
+          {
+            "tip": "Graph",
+            "ornekler": ["Neo4j"]
+          }
+        ],
+        "testing_frameworks": [
+          "JUnit (Java)",
+          "pytest (Python)",
+          "Jest (JavaScript)",
+          "Google Test (C++)"
+        ]
+      },
+      "sertifikasyon_yollari": {
+        "academic_degrees": [
+          {
+            "derece": "Bachelor's in Computer Science",
+            "sure": "4 yıl",
+            "tavsiye": "Traditional path, strong fundamentals"
+          },
+          {
+            "derece": "Master's in Computer Science",
+            "sure": "2 yıl",
+            "tavsiye": "Specialization, research, higher salary"
+          },
+          {
+            "derece": "Ph.D. in Computer Science",
+            "sure": "4-6 yıl",
+            "tavsiye": "Research, academia, top-tier companies"
+          }
+        ],
+        "online_degrees": [
+          {
+            "program": "OMSCS (Online Master of Science in CS)",
+            "universite": "Georgia Tech",
+            "maliyet": "~$7,000 total",
+            "tavsiye": "En uygun fiyatlı accredited online MS"
+          },
+          {
+            "program": "MCS (Master of Computer Science)",
+            "universite": "University of Illinois (Coursera)",
+            "maliyet": "~$20,000"
+          }
+        ],
+        "moocs_and_courses": [
+          {
+            "kurs": "CS50 - Introduction to Computer Science",
+            "platform": "edX (Harvard)",
+            "ucret": "Free",
+            "tavsiye": "En iyi CS giriş kursu"
+          },
+          {
+            "kurs": "Algorithms Specialization",
+            "platform": "Coursera (Stanford)",
+            "instructor": "Tim Roughgarden"
+          },
+          {
+            "kurs": "Machine Learning",
+            "platform": "Coursera (Stanford)",
+            "instructor": "Andrew Ng"
+          },
+          {
+            "kurs": "MIT OpenCourseWare",
+            "aciklama": "Tüm MIT CS derslerine ücretsiz erişim",
+            "url": "https://ocw.mit.edu"
+          }
+        ],
+        "professional_certifications": [
+          {
+            "sertifika": "AWS Certified Solutions Architect",
+            "alan": "Cloud computing"
+          },
+          {
+            "sertifika": "Google Professional Cloud Architect",
+            "alan": "Cloud computing"
+          },
+          {
+            "sertifika": "Certified Kubernetes Administrator (CKA)",
+            "alan": "DevOps"
+          },
+          {
+            "sertifika": "Oracle Certified Professional Java Programmer",
+            "alan": "Java development"
+          }
+        ],
+        "books": [
+          {
+            "kitap": "Introduction to Algorithms (CLRS)",
+            "yazar": "Cormen, Leiserson, Rivest, Stein",
+            "tavsiye": "Algorithm kitaplarının İncil'i"
+          },
+          {
+            "kitap": "The Art of Computer Programming",
+            "yazar": "Donald Knuth",
+            "tavsiye": "Comprehensive, matematiksel"
+          },
+          {
+            "kitap": "Structure and Interpretation of Computer Programs (SICP)",
+            "yazar": "Abelson & Sussman",
+            "tavsiye": "Programming paradigmları"
+          },
+          {
+            "kitap": "Operating System Concepts (Dinosaur Book)",
+            "yazar": "Silberschatz, Galvin, Gagne"
+          },
+          {
+            "kitap": "Computer Networking: A Top-Down Approach",
+            "yazar": "Kurose & Ross"
+          },
+          {
+            "kitap": "Designing Data-Intensive Applications",
+            "yazar": "Martin Kleppmann",
+            "tavsiye": "Modern systems design"
+          }
+        ],
+        "alternative_paths": [
+          {
+            "yol": "Bootcamp",
+            "sure": "3-6 ay",
+            "ornekler": ["App Academy", "Hack Reactor"],
+            "tavsiye": "Hızlı iş geçişi için, ancak derinlik eksik"
+          },
+          {
+            "yol": "Self-taught + Portfolio",
+            "tavsiye": "Disiplin gerektirir, ancak mümkün",
+            "kaynaklar": ["OSSU CS Curriculum", "Teach Yourself CS"]
+          },
+          {
+            "yol": "Open Source Contributions",
+            "tavsiye": "Real-world experience, networking"
+          }
+        ],
+        "career_roadmap": [
+          "1. Fundamentals: Programming, data structures, algorithms (6-12 ay)",
+          "2. Core CS: OS, Networks, Databases (6-12 ay)",
+          "3. Advanced topics: Seçtiğiniz specialization (6-12 ay)",
+          "4. Projects: 3-5 substantial projects",
+          "5. Competitive programming: LeetCode practice",
+          "6. System design: For senior roles",
+          "7. Continuous learning: Yeni teknolojiler, papers"
+        ]
+      }
+    },
+    "data_structures_and_algorithms": {
+      "alan_tanimi": {
+        "baslik": "Veri Yapıları ve Algoritmalar (DSA)",
+        "aciklama": "Verileri organize etme yöntemleri (data structures) ve problemleri çözme stratejileri (algorithms). Yazılım mühendisliğinin temeli ve teknik mülakatların can alıcı konusu. Etkili ve verimli kod yazmanın anahtarı.",
+        "neden_onemli": [
+          "Technical interview'lerin %80'i DSA üzerine",
+          "Kod performansını optimize etme",
+          "Problem solving becerilerini geliştirme",
+          "System design için temel",
+          "FAANG companies için zorunlu"
+        ],
+        "kariyer_etkisi": "Strong DSA knowledge = Higher salary offers",
+        "ortalama_study_suresi": "6-12 ay (interview-ready olmak için)"
+      },
+      "temel_bilgiler": {
+        "complexity_analysis": {
+          "time_complexity": {
+            "konular": [
+              "Big O notation",
+              "Big Omega (Ω)",
+              "Big Theta (Θ)",
+              "Best, average, worst case",
+              "Asymptotic analysis"
+            ],
+            "common_complexities": [
+              "O(1) - Constant",
+              "O(log n) - Logarithmic",
+              "O(n) - Linear",
+              "O(n log n) - Linearithmic",
+              "O(n²) - Quadratic",
+              "O(2^n) - Exponential",
+              "O(n!) - Factorial"
+            ]
+          },
+          "space_complexity": {
+            "konular": [
+              "Auxiliary space",
+              "Input space vs auxiliary space",
+              "Space-time tradeoff",
+              "In-place algorithms"
+            ]
+          }
+        },
+        "basic_data_structures": {
+          "array": {
+            "operations": {
+              "access": "O(1)",
+              "search": "O(n)",
+              "insertion": "O(n)",
+              "deletion": "O(n)"
+            },
+            "konular": [
+              "Static vs dynamic arrays",
+              "Multi-dimensional arrays",
+              "Array manipulation techniques",
+              "Two-pointer technique",
+              "Sliding window"
+            ]
+          },
+          "linked_list": {
+            "types": [
+              "Singly linked list",
+              "Doubly linked list",
+              "Circular linked list"
+            ],
+            "operations": {
+              "access": "O(n)",
+              "search": "O(n)",
+              "insertion": "O(1)",
+              "deletion": "O(1)"
+            },
+            "common_problems": [
+              "Reverse linked list",
+              "Detect cycle",
+              "Find middle element",
+              "Merge two sorted lists"
+            ]
+          },
+          "stack": {
+            "principle": "LIFO (Last In First Out)",
+            "operations": {
+              "push": "O(1)",
+              "pop": "O(1)",
+              "peek": "O(1)"
+            },
+            "applications": [
+              "Function call stack",
+              "Expression evaluation",
+              "Backtracking",
+              "Browser history"
+            ]
+          },
+          "queue": {
+            "principle": "FIFO (First In First Out)",
+            "types": [
+              "Simple queue",
+              "Circular queue",
+              "Priority queue",
+              "Deque (Double-ended queue)"
+            ],
+            "operations": {
+              "enqueue": "O(1)",
+              "dequeue": "O(1)"
+            }
+          },
+          "hash_table": {
+            "operations": {
+              "insert": "O(1) average",
+              "delete": "O(1) average",
+              "search": "O(1) average"
+            },
+            "konular": [
+              "Hash functions",
+              "Collision resolution (Chaining, Open addressing)",
+              "Load factor",
+              "Rehashing"
+            ]
+          }
+        },
+        "basic_algorithms": {
+          "searching": [
+            {
+              "algorithm": "Linear Search",
+              "complexity": "O(n)",
+              "use_case": "Unsorted data"
+            },
+            {
+              "algorithm": "Binary Search",
+              "complexity": "O(log n)",
+              "requirement": "Sorted data",
+              "tavsiye": "Çok önemli, birçok problemde kullanılır"
+            }
+          ],
+          "sorting": [
+            {
+              "algorithm": "Bubble Sort",
+              "time": "O(n²)",
+              "space": "O(1)",
+              "stable": true
+            },
+            {
+              "algorithm": "Selection Sort",
+              "time": "O(n²)",
+              "space": "O(1)",
+              "stable": false
+            },
+            {
+              "algorithm": "Insertion Sort",
+              "time": "O(n²)",
+              "space": "O(1)",
+              "stable": true
+            },
+            {
+              "algorithm": "Merge Sort",
+              "time": "O(n log n)",
+              "space": "O(n)",
+              "stable": true,
+              "tavsiye": "Divide and conquer örneği"
+            },
+            {
+              "algorithm": "Quick Sort",
+              "time": "O(n log n) average, O(n²) worst",
+              "space": "O(log n)",
+              "stable": false,
+              "tavsiye": "Practice'te en hızlı"
+            },
+            {
+              "algorithm": "Heap Sort",
+              "time": "O(n log n)",
+              "space": "O(1)",
+              "stable": false
+            }
+          ]
+        }
+      },
+      "ileri_seviye_konular": {
+        "advanced_data_structures": {
+          "trees": {
+            "binary_tree": {
+              "types": [
+                "Full binary tree",
+                "Complete binary tree",
+                "Perfect binary tree",
+                "Balanced binary tree"
+              ],
+              "traversals": [
+                "Inorder (Left, Root, Right)",
+                "Preorder (Root, Left, Right)",
+                "Postorder (Left, Right, Root)",
+                "Level order (BFS)"
+              ]
+            },
+            "binary_search_tree": {
+              "operations": {
+                "search": "O(log n) average, O(n) worst",
+                "insertion": "O(log n) average",
+                "deletion": "O(log n) average"
+              },
+              "problems": [
+                "Validate BST",
+                "Lowest common ancestor",
+                "Kth smallest element",
+                "BST iterator"
+              ]
+            },
+            "balanced_trees": [
+              {
+                "type": "AVL Tree",
+                "balance_factor": "Height difference ≤ 1",
+                "rotations": ["LL", "RR", "LR", "RL"]
+              },
+              {
+                "type": "Red-Black Tree",
+                "properties": "Self-balancing with color properties",
+                "use": "C++ STL map/set"
+              },
+              {
+                "type": "B-Tree",
+                "use": "Databases, file systems"
+              }
+            ],
+            "heap": {
+              "types": ["Min heap", "Max heap"],
+              "operations": {
+                "insert": "O(log n)",
+                "delete": "O(log n)",
+                "get_min/max": "O(1)"
+              },
+              "applications": [
+                "Priority queue",
+                "Heap sort",
+                "K largest/smallest elements",
+                "Median in stream"
+              ]
+            },
+            "trie": {
+              "use_case": "String searching, autocomplete",
+              "operations": {
+                "insert": "O(m) where m = word length",
+                "search": "O(m)"
+              }
+            },
+            "segment_tree": {
+              "use": "Range queries (sum, min, max)",
+              "complexity": "O(log n) for query and update"
+            }
+          },
+          "graphs": {
+            "representations": [
+              "Adjacency matrix - O(V²) space",
+              "Adjacency list - O(V+E) space",
+              "Edge list"
+            ],
+            "types": [
+              "Directed vs Undirected",
+              "Weighted vs Unweighted",
+              "Cyclic vs Acyclic (DAG)"
+            ],
+            "traversals": [
+              {
+                "algorithm": "BFS (Breadth-First Search)",
+                "complexity": "O(V+E)",
+                "use": "Shortest path (unweighted), level order"
+              },
+              {
+                "algorithm": "DFS (Depth-First Search)",
+                "complexity": "O(V+E)",
+                "use": "Cycle detection, topological sort, pathfinding"
+              }
+            ],
+            "shortest_path": [
+              {
+                "algorithm": "Dijkstra's",
+                "complexity": "O((V+E) log V)",
+                "works_on": "Non-negative weights"
+              },
+              {
+                "algorithm": "Bellman-Ford",
+                "complexity": "O(VE)",
+                "works_on": "Negative weights, detects negative cycles"
+              },
+              {
+                "algorithm": "Floyd-Warshall",
+                "complexity": "O(V³)",
+                "finds": "All-pairs shortest paths"
+              },
+              {
+                "algorithm": "A*",
+                "use": "Heuristic search, game development"
+              }
+            ],
+            "minimum_spanning_tree": [
+              {
+                "algorithm": "Kruskal's",
+                "complexity": "O(E log E)"
+              },
+              {
+                "algorithm": "Prim's",
+                "complexity": "O(E log V)"
+              }
+            ],
+            "advanced_graph": [
+              "Topological sorting",
+              "Strongly connected components (Kosaraju, Tarjan)",
+              "Articulation points and bridges",
+              "Network flow (Ford-Fulkerson)",
+              "Bipartite matching"
+            ]
+          },
+          "advanced_structures": {
+            "union_find": {
+              "operations": {
+                "find": "O(α(n)) ≈ O(1)",
+                "union": "O(α(n)) ≈ O(1)"
+              },
+              "use": "Kruskal's MST, cycle detection"
+            },
+            "fenwick_tree": {
+              "operations": "O(log n)",
+              "use": "Range sum queries, frequency tables"
+            },
+            "suffix_array": {
+              "use": "Pattern searching, string problems"
+            }
+          }
+        },
+        "algorithm_paradigms": {
+          "divide_and_conquer": {
+            "strategy": "Divide problem into subproblems, solve recursively, combine",
+            "examples": [
+              "Merge sort",
+              "Quick sort",
+              "Binary search",
+              "Closest pair of points"
+            ]
+          },
+          "dynamic_programming": {
+            "approaches": [
+              "Top-down (Memoization)",
+              "Bottom-up (Tabulation)"
+            ],
+            "classic_problems": [
+              "Fibonacci",
+              "0/1 Knapsack",
+              "Longest Common Subsequence (LCS)",
+              "Longest Increasing Subsequence (LIS)",
+              "Edit distance",
+              "Matrix chain multiplication",
+              "Coin change",
+              "Subset sum",
+              "Partition problem"
+            ],
+            "patterns": [
+              "Linear DP",
+              "2D DP",
+              "DP on trees",
+              "DP with bitmask",
+              "Digit DP"
+            ],
+            "tavsiye": "Interview'larda en çok çıkan konu, çok practice gerektirir"
+          },
+          "greedy_algorithms": {
+            "strategy": "Make locally optimal choice at each step",
+            "examples": [
+              "Activity selection",
+              "Huffman coding",
+              "Fractional knapsack",
+              "Dijkstra's algorithm",
+              "Prim's and Kruskal's MST"
+            ],
+            "dikkat": "Greedy her zaman optimal sonuç vermez, proof gerektirir"
+          },
+          "backtracking": {
+            "strategy": "Try all possibilities with pruning",
+            "examples": [
+              "N-Queens problem",
+              "Sudoku solver",
+              "Permutations and combinations",
+              "Subset generation",
+              "Graph coloring",
+              "Hamiltonian path"
+            ]
+          },
+          "two_pointers": {
+            "use": "Array/string problems, optimization",
+            "examples": [
+              "Two sum (sorted array)",
+              "Remove duplicates",
+              "Container with most water",
+              "Trapping rain water"
+            ]
+          },
+          "sliding_window": {
+            "use": "Substring/subarray problems",
+            "examples": [
+              "Maximum sum subarray of size K",
+              "Longest substring without repeating characters",
+              "Minimum window substring"
+            ]
+          }
+        },
+        "advanced_topics": {
+          "string_algorithms": [
+            "KMP (Knuth-Morris-Pratt) pattern matching",
+            "Rabin-Karp algorithm",
+            "Z-algorithm",
+            "Manacher's algorithm (longest palindrome)",
+            "Aho-Corasick (multiple pattern matching)"
+          ],
+          "bit_manipulation": [
+            "Bitwise operators (AND, OR, XOR, NOT, shifts)",
+            "Count set bits",
+            "Power of 2 check",
+            "Single number problems",
+            "Subset generation using bitmask"
+          ],
+          "mathematical_algorithms": [
+            "Prime number algorithms (Sieve of Eratosthenes)",
+            "GCD and LCM (Euclidean algorithm)",
+            "Modular arithmetic",
+            "Fast exponentiation",
+            "Combinatorics"
+          ]
+        }
+      },
+      "pratik_uygulamalar": {
+        "study_plan": {
+          "beginner": {
+            "sure": "2-3 ay",
+            "program": [
+              "Week 1-2: Arrays, strings, basic loops",
+              "Week 3-4: Linked lists, stacks, queues",
+              "Week 5-6: Basic recursion, binary search",
+              "Week 7-8: Basic sorting algorithms",
+              "Week 9-10: Hash tables, two pointers",
+              "Week 11-12: Trees (binary tree, BST), BFS/DFS"
+            ],
+            "daily_practice": "2-3 easy problems"
+          },
+          "intermediate": {
+            "sure": "3-4 ay",
+            "program": [
+              "Week 1-4: Dynamic programming (1D, 2D)",
+              "Week 5-6: Advanced trees (heaps, tries)",
+              "Week 7-8: Graph algorithms (BFS, DFS, Dijkstra)",
+              "Week 9-10: Greedy, backtracking",
+              "Week 11-12: Sliding window, advanced two pointers",
+              "Week 13-16: Mixed practice"
+            ],
+            "daily_practice": "2 medium problems"
+          },
+          "advanced": {
+            "sure": "2-3 ay",
+            "program": [
+              "Advanced DP (DP on trees, bitmask DP)",
+              "Advanced graph (MST, Tarjan, network flow)",
+              "Segment trees, Fenwick trees",
+              "String algorithms",
+              "System design problems"
+            ],
+            "daily_practice": "1-2 hard problems + 1 medium"
+          }
+        },
+        "problem_solving_platforms": [
+          {
+            "platform": "LeetCode",
+            "problems": "2800+",
+            "tavsiye": "#1 choice for FAANG interviews",
+            "features": ["Company tags", "Discussion", "Solutions"],
+            "plan": "LeetCode 75 or Blind 75 lists"
+          },
+          {
+            "platform": "HackerRank",
+            "focus": "Interview preparation kits",
+            "beginner_friendly": true
+          },
+          {
+            "platform": "Codeforces",
+            "focus": "Competitive programming",
+            "difficulty": "Hard",
+            "tavsiye": "Advanced users için"
+          },
+          {
+            "platform": "CodeChef",
+            "focus": "Monthly contests",
+            "difficulty": "Varied"
+          },
+          {
+            "platform": "AtCoder",
+            "focus": "Japanese competitive programming",
+            "quality": "High-quality problems"
+          },
+          {
+            "platform": "InterviewBit",
+            "focus": "Structured interview prep",
+            "path": "Guided learning path"
+          },
+          {
+            "platform": "GeeksforGeeks",
+            "focus": "Theory + practice",
+            "resource": "Excellent tutorials"
+          }
+        ],
+        "famous_problem_lists": [
+          {
+            "list": "Blind 75",
+            "problems": "75 essential LeetCode problems",
+            "sure": "4-6 hafta",
+            "tavsiye": "En popüler interview prep list"
+          },
+          {
+            "list": "LeetCode 75",
+            "problems": "75 curated problems",
+            "organizasyon": "By LeetCode"
+          },
+          {
+            "list": "Grind 75",
+            "problems": "Customizable study plan",
+            "url": "https://grind75.com"
+          },
+          {
+            "list": "NeetCode 150",
+            "problems": "150 problems with video solutions",
+            "creator": "NeetCode (YouTube)"
+          }
+        ],
+        "company_specific_prep": {
+          "FAANG": {
+            "focus": [
+              "Medium-hard DSA problems",
+              "System design (senior roles)",
+              "Behavioral questions"
+            ],
+            "companies": ["Facebook/Meta", "Amazon", "Apple", "Netflix", "Google"]
+          },
+          "practice_by_company": [
+            "LeetCode company tags",
+            "Glassdoor interview questions",
+            "Blind (teamblind.com) discussions"
+          ]
+        },
+        "mock_interviews": [
+          {
+            "platform": "Pramp",
+            "tip": "Peer-to-peer mock interviews",
+            "ucret": "Free"
+          },
+          {
+            "platform": "interviewing.io",
+            "tip": "Anonymous technical interviews",
+            "ucret": "Free + paid tiers"
+          },
+          {
+            "platform": "LeetCode Mock Interviews",
+            "tip": "Simulated company interviews"
+          }
+        ]
+      },
+      "tools_ve_teknolojiler": {
+        "learning_resources": {
+          "books": [
+            {
+              "kitap": "Introduction to Algorithms (CLRS)",
+              "yazar": "Cormen, Leiserson, Rivest, Stein",
+              "level": "Academic, comprehensive"
+            },
+            {
+              "kitap": "Cracking the Coding Interview",
+              "yazar": "Gayle Laakmann McDowell",
+              "tavsiye": "Interview bible, must-read"
+            },
+            {
+              "kitap": "Elements of Programming Interviews",
+              "yazar": "Aziz, Lee, Prakash",
+              "versions": ["Python", "Java", "C++"]
+            },
+            {
+              "kitap": "Grokking Algorithms",
+              "yazar": "Aditya Bhargava",
+              "tavsiye": "Beginner-friendly, visual"
+            },
+            {
+              "kitap": "Algorithm Design Manual",
+              "yazar": "Steven Skiena",
+              "tavsiye": "Practical approach"
+            }
+          ],
+          "online_courses": [
+            {
+              "kurs": "Algorithms Specialization",
+              "platform": "Coursera",
+              "instructor": "Tim Roughgarden (Stanford)",
+              "parts": 4
+            },
+            {
+              "kurs": "Data Structures and Algorithms",
+              "platform": "Coursera",
+              "universite": "UC San Diego"
+            },
+            {
+              "kurs": "Master the Coding Interview",
+              "platform": "Udemy",
+              "instructor": "Andrei Neagoie"
+            },
+            {
+              "kurs": "AlgoExpert",
+              "tip": "Interview prep platform",
+              "ucret": "$99-$199",
+              "features": ["Video explanations", "160+ problems"]
+            }
+          ],
+          "youtube_channels": [
+            {
+              "channel": "NeetCode",
+              "focus": "LeetCode solutions, patterns",
+              "tavsiye": "Excellent explanations"
+            },
+            {
+              "channel": "Abdul Bari",
+              "focus": "Algorithm theory"
+            },
+            {
+              "channel": "Tushar Roy",
+              "focus": "DP, graph algorithms"
+            },
+            {
+              "channel": "Back to Back SWE",
+              "focus": "Interview prep"
+            },
+            {
+              "channel": "William Fiset",
+              "focus": "Graph algorithms"
+            }
+          ],
+          "visualization_tools": [
+            {
+              "tool": "VisuAlgo",
+              "url": "https://visualgo.net",
+              "tavsiye": "Best algorithm visualizations"
+            },
+            {
+              "tool": "Algorithm Visualizer",
+              "url": "https://algorithm-visualizer.org"
+            },
+            {
+              "tool": "Data Structure Visualizations",
+              "url": "https://www.cs.usfca.edu/~galles/visualization"
+            }
+          ]
+        },
+        "coding_environments": [
+          "LeetCode Playground",
+          "Replit",
+          "CodeSandbox",
+          "Local IDE (VS Code, IntelliJ)"
+        ]
+      },
+      "sertifikasyon_yollari": {
+        "certifications": [
+          {
+            "note": "DSA için özel sertifika pek değerli değil",
+            "alternative": "Problem solving profile daha önemli"
+          },
+          {
+            "platform": "HackerRank",
+            "sertifika": "Problem Solving Certificates",
+            "levels": ["Basic", "Intermediate", "Advanced"],
+            "tavsiye": "Resume'de gösterilebilir"
+          },
+          {
+            "platform": "CodeSignal",
+            "sertifika": "Certified score",
+            "use": "Bazı şirketler kabul eder"
+          }
+        ],
+        "better_alternatives": [
+          {
+            "type": "LeetCode Profile",
+            "metrik": "Problems solved count, acceptance rate",
+            "hedef": "500+ problems (medium+hard focus)"
+          },
+          {
+            "type": "Codeforces Rating",
+            "metrik": "Competitive programming rank",
+            "tavsiye": "Advanced developers için prestige"
+          },
+          {
+            "type": "GitHub Portfolio",
+            "content": "DSA implementations, solutions",
+            "tavsiye": "Clean code, well-documented"
+          },
+          {
+            "type": "Technical Blog",
+            "platform": "Medium, Dev.to, personal blog",
+            "content": "Problem walkthroughs, patterns"
+          }
+        ],
+        "interview_prep_timeline": {
+          "3_months": {
+            "hedef": "Entry-level positions",
+            "daily": "2-3 hours",
+            "problems": "200-300 problems",
+            "focus": "Easy (40%), Medium (60%)"
+          },
+          "6_months": {
+            "hedef": "FAANG companies",
+            "daily": "3-4 hours",
+            "problems": "400-500 problems",
+            "focus": "Medium (60%), Hard (40%)"
+          },
+          "ongoing": {
+            "hedef": "Skill maintenance",
+            "frequency": "3-5 problems/week",
+            "tavsiye": "Never stop practicing"
+          }
+        },
+        "success_metrics": [
+          "Solve 70%+ medium problems independently",
+          "Solve 40%+ hard problems with hints",
+          "Identify patterns quickly",
+          "Optimize solutions (time & space)",
+          "Explain approach clearly",
+          "Handle edge cases"
+        ],
+        "interview_tips": [
+          "Always clarify problem before coding",
+          "Think out loud during interview",
+          "Start with brute force, then optimize",
+          "Test with examples",
+          "Discuss time/space complexity",
+          "Ask clarifying questions",
+          "Practice on whiteboard/paper"
+        ]
+      }
+    }
+  },
+  "genel_tavsiyeler": {
+    "tum_roadmap_lar_icin": [
+      "Tutarlı günlük pratik yapın (consistency > intensity)",
+      "Projeler oluşturun, sadece tutorial takip etmeyin",
+      "Open source'a katkıda bulunun",
+      "GitHub profilinizi aktif tutun",
+      "Networking: LinkedIn, Twitter, Discord, Reddit communities",
+      "Blog yazın ve öğrendiklerinizi paylaşın",
+      "Portfolyo oluşturun (personal website)",
+      "Mock interview'lar yapın",
+      "Burnout'tan kaçının, breaks alın",
+      "Mentorship bulun veya mentor olun"
+    ],
+    "learning_path": {
+      "1_fundamentals": "Temelleri atlamayın, sağlam öğrenin",
+      "2_practice": "Çok kod yazın, teoride kalmayın",
+      "3_projects": "Real-world projects build edin",
+      "4_community": "Community'ye katılın, networking yapın",
+      "5_specialize": "Bir alana derinleşin",
+      "6_continuous": "Sürekli öğrenmeye devam edin"
+    },
+    "job_search": {
+      "resume": "1 sayfa, ATS-friendly, tailored",
+      "portfolio": "3-5 polished projects",
+      "linkedin": "Professional, active, networking",
+      "applications": "Quality > quantity, personalize",
+      "interviews": "STAR method for behavioral, whiteboard practice",
+      "negotiation": "Know your worth, research salaries"
+    }
+  },
+  "metadata": {
+    "created_date": "2025-11-18",
+    "version": "1.0",
+    "last_updated": "2025-11-18",
+    "author": "Claude Code Assistant",
+    "purpose": "Comprehensive developer roadmap analysis",
+    "target_audience": "Aspiring and intermediate developers",
+    "language": "Turkish (Türkçe)",
+    "format": "JSON"
+  }
+}

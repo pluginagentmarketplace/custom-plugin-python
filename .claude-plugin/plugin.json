@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0.0",
+  "name": "Custom Plugin Python",
+  "id": "custom-plugin-python",
+  "version": "1.0.0",
+  "description": "Comprehensive developer roadmap plugin featuring 7 specialized agents, covering 65+ roles from frontend development to AI engineering with hands-on projects and skill assessments",
+  "author": "Developer Roadmap Team",
+  "license": "MIT",
+  "repository": "https://github.com/kamranahmedse/developer-roadmap",
+  "keywords": [
+    "developer-roadmap",
+    "learning",
+    "programming",
+    "web-development",
+    "backend",
+    "ai",
+    "data-science",
+    "devops",
+    "design",
+    "security",
+    "career"
+  ],
+  "agents": [
+    {
+      "id": "01-frontend-web-tech",
+      "name": "Frontend & Web Technologies Agent",
+      "file": "agents/01-frontend-web-tech.md",
+      "description": "Specializes in frontend development, web frameworks, and web technologies covering React, Vue, Angular, Next.js and modern web stack"
+    },
+    {
+      "id": "02-backend-database",
+      "name": "Backend & Database Agent",
+      "file": "agents/02-backend-database.md",
+      "description": "Focuses on backend development, databases, cloud infrastructure with PostgreSQL, MongoDB, Docker, Kubernetes and microservices architecture"
+    },
+    {
+      "id": "03-data-ai-ml",
+      "name": "Data, AI & Machine Learning Agent",
+      "file": "agents/03-data-ai-ml.md",
+      "description": "Guides through data science, machine learning, AI engineering, MLOps with practical implementations and AI systems development"
+    },
+    {
+      "id": "04-devops-infrastructure",
+      "name": "DevOps & Infrastructure Agent",
+      "file": "agents/04-devops-infrastructure.md",
+      "description": "Covers DevOps practices, cloud platforms, infrastructure as code, system design, and enterprise deployment strategies"
+    },
+    {
+      "id": "05-design-product",
+      "name": "Design & Product Management Agent",
+      "file": "agents/05-design-product.md",
+      "description": "Specializes in UX/UI design, design systems, product management, and technical writing for holistic product development"
+    },
+    {
+      "id": "06-security-blockchain",
+      "name": "Security & Blockchain Agent",
+      "file": "agents/06-security-blockchain.md",
+      "description": "Focuses on cybersecurity, ethical hacking, blockchain development, and secure architecture design"
+    },
+    {
+      "id": "07-languages-fundamentals",
+      "name": "Programming Languages & Fundamentals Agent",
+      "file": "agents/07-languages-fundamentals.md",
+      "description": "Teaches core programming languages (Python, JavaScript, Go, Rust, Java, C++) and CS fundamentals for strong foundation"
+    }
+  ],
+  "commands": [
+    {
+      "name": "roadmap",
+      "file": "commands/roadmap.md",
+      "description": "Choose your learning roadmap and get personalized guidance"
+    },
+    {
+      "name": "agent-guide",
+      "file": "commands/agent-guide.md",
+      "description": "Get specialized guidance from domain expert agents"
+    },
+    {
+      "name": "skill-assessment",
+      "file": "commands/skill-assessment.md",
+      "description": "Assess your knowledge and get recommendations"
+    },
+    {
+      "name": "project-builder",
+      "file": "commands/project-builder.md",
+      "description": "Explore hands-on projects and build your portfolio"
+    }
+  ],
+  "skills": [
+    {
+      "name": "frontend-web-stack",
+      "file": "skills/frontend/SKILL.md"
+    },
+    {
+      "name": "backend-infrastructure",
+      "file": "skills/backend/SKILL.md"
+    },
+    {
+      "name": "data-ai-systems",
+      "file": "skills/data-ai/SKILL.md"
+    },
+    {
+      "name": "devops-cloud",
+      "file": "skills/devops/SKILL.md"
+    },
+    {
+      "name": "design-product",
+      "file": "skills/design/SKILL.md"
+    },
+    {
+      "name": "security-blockchain",
+      "file": "skills/security/SKILL.md"
+    },
+    {
+      "name": "programming-languages",
+      "file": "skills/languages/SKILL.md"
+    }
+  ],
+  "hooks": {
+    "file": "hooks/hooks.json"
+  },
+  "settings": {
+    "enable_skills_auto_trigger": true,
+    "enable_progress_tracking": true,
+    "enable_assessments": true
+  }
+}

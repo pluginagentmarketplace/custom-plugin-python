@@ -1,0 +1,3197 @@
+{
+  "metadata": {
+    "title": "Data & AI Roles - Ultra Detailed Roadmap",
+    "version": "2025.1",
+    "source": "Developer-roadmap (roadmap.sh) & Industry Resources",
+    "last_updated": "2025-11-18",
+    "total_roles": 10
+  },
+  "roles": [
+    {
+      "id": "data_scientist",
+      "title": "Data Scientist",
+      "definition": {
+        "description": "A data scientist extracts actionable insights from data by using programming, statistics, machine learning, and domain knowledge. They work with both structured data (databases, spreadsheets) and unstructured data (videos, photos, text) to help organizations make informed decisions.",
+        "key_focus": "Transform raw data into actionable insights through statistical analysis and machine learning",
+        "work_type": "Predictive modeling, statistical analysis, experimental design, and insight generation"
+      },
+      "required_knowledge": {
+        "technical_skills": [
+          {
+            "category": "Programming",
+            "skills": [
+              {
+                "name": "Python",
+                "proficiency_level": "Advanced",
+                "key_libraries": ["NumPy", "Pandas", "Scikit-learn", "TensorFlow", "PyTorch", "Matplotlib", "Seaborn", "Plotly"],
+                "learning_priority": "Critical"
+              },
+              {
+                "name": "R",
+                "proficiency_level": "Intermediate",
+                "key_libraries": ["dplyr", "tidyr", "ggplot2", "caret", "shiny"],
+                "learning_priority": "Optional"
+              },
+              {
+                "name": "SQL",
+                "proficiency_level": "Advanced",
+                "use_cases": ["Data extraction", "Complex queries", "Database optimization"],
+                "learning_priority": "Critical"
+              }
+            ]
+          },
+          {
+            "category": "Mathematics & Statistics",
+            "topics": [
+              {
+                "name": "Probability & Statistics",
+                "subtopics": ["Distributions", "Hypothesis testing", "Bayesian inference", "A/B testing", "Statistical significance"]
+              },
+              {
+                "name": "Linear Algebra",
+                "subtopics": ["Matrices", "Vectors", "Eigenvalues", "Dimensionality reduction"]
+              },
+              {
+                "name": "Calculus",
+                "subtopics": ["Derivatives", "Gradients", "Optimization", "Chain rule"]
+              }
+            ]
+          },
+          {
+            "category": "Machine Learning",
+            "algorithms": [
+              {
+                "type": "Supervised Learning",
+                "methods": ["Linear/Logistic Regression", "Decision Trees", "Random Forest", "Gradient Boosting (XGBoost, LightGBM)", "SVM", "Neural Networks"]
+              },
+              {
+                "type": "Unsupervised Learning",
+                "methods": ["K-Means", "Hierarchical Clustering", "DBSCAN", "PCA", "t-SNE", "Autoencoders"]
+              },
+              {
+                "type": "Deep Learning",
+                "methods": ["CNNs", "RNNs", "LSTMs", "Transformers", "GANs"]
+              }
+            ]
+          },
+          {
+            "category": "Data Manipulation & Analysis",
+            "tools": [
+              "Pandas (Python)",
+              "NumPy (Python)",
+              "dplyr/tidyr (R)",
+              "Apache Spark (PySpark)",
+              "SQL databases"
+            ]
+          },
+          {
+            "category": "Data Visualization",
+            "tools": [
+              {
+                "name": "Tableau",
+                "type": "BI Tool",
+                "proficiency": "Intermediate"
+              },
+              {
+                "name": "Power BI",
+                "type": "BI Tool",
+                "proficiency": "Intermediate"
+              },
+              {
+                "name": "Matplotlib/Seaborn",
+                "type": "Python Library",
+                "proficiency": "Advanced"
+              },
+              {
+                "name": "Plotly/Dash",
+                "type": "Interactive Visualization",
+                "proficiency": "Intermediate"
+              }
+            ]
+          },
+          {
+            "category": "Big Data & Cloud",
+            "platforms": [
+              {
+                "name": "AWS",
+                "services": ["S3", "SageMaker", "Redshift", "EMR", "Lambda"]
+              },
+              {
+                "name": "Google Cloud",
+                "services": ["BigQuery", "Vertex AI", "Cloud Storage", "Dataflow"]
+              },
+              {
+                "name": "Azure",
+                "services": ["Azure ML", "Databricks", "Synapse Analytics"]
+              }
+            ],
+            "big_data_tools": ["Hadoop", "Spark", "Hive", "Kafka"]
+          }
+        ],
+        "soft_skills": [
+          {
+            "skill": "Critical Thinking",
+            "importance": "High",
+            "application": "Problem decomposition, hypothesis formation, result interpretation"
+          },
+          {
+            "skill": "Communication",
+            "importance": "Critical",
+            "application": "Presenting insights to non-technical stakeholders, storytelling with data"
+          },
+          {
+            "skill": "Domain Knowledge",
+            "importance": "High",
+            "application": "Understanding business context, industry-specific challenges"
+          },
+          {
+            "skill": "Curiosity",
+            "importance": "High",
+            "application": "Exploring data patterns, asking the right questions"
+          }
+        ]
+      },
+      "learning_path": {
+        "total_duration": "12-18 months",
+        "phases": [
+          {
+            "phase": 1,
+            "title": "Foundations",
+            "duration": "2-3 months",
+            "topics": [
+              "Python fundamentals (functions, loops, OOP)",
+              "SQL basics (SELECT, JOIN, WHERE, GROUP BY)",
+              "Statistics fundamentals (mean, median, variance, distributions)",
+              "Probability theory",
+              "Linear algebra basics",
+              "Data structures and algorithms"
+            ],
+            "resources": [
+              "Python for Data Analysis (Wes McKinney)",
+              "Khan Academy - Statistics & Probability",
+              "Coursera - Mathematics for Machine Learning",
+              "LeetCode SQL problems"
+            ]
+          },
+          {
+            "phase": 2,
+            "title": "Data Analysis & Visualization",
+            "duration": "2-3 months",
+            "topics": [
+              "Pandas for data manipulation",
+              "NumPy for numerical computing",
+              "Exploratory Data Analysis (EDA)",
+              "Data cleaning and preprocessing",
+              "Statistical hypothesis testing",
+              "Data visualization (Matplotlib, Seaborn, Plotly)",
+              "Dashboard creation (Tableau/Power BI)"
+            ],
+            "resources": [
+              "Kaggle Learn - Pandas",
+              "DataCamp - Data Manipulation with Pandas",
+              "Tableau Public - Free tutorials",
+              "Kaggle datasets for practice"
+            ]
+          },
+          {
+            "phase": 3,
+            "title": "Machine Learning",
+            "duration": "3-4 months",
+            "topics": [
+              "Supervised learning algorithms",
+              "Unsupervised learning algorithms",
+              "Feature engineering",
+              "Model evaluation metrics",
+              "Cross-validation",
+              "Hyperparameter tuning",
+              "Ensemble methods",
+              "Scikit-learn library mastery"
+            ],
+            "resources": [
+              "Andrew Ng - Machine Learning (Coursera)",
+              "Hands-On Machine Learning (Aurélien Géron)",
+              "Kaggle competitions (beginner-friendly)",
+              "Fast.ai - Practical Deep Learning"
+            ]
+          },
+          {
+            "phase": 4,
+            "title": "Advanced Topics & Specialization",
+            "duration": "3-4 months",
+            "topics": [
+              "Deep Learning (TensorFlow/PyTorch)",
+              "Natural Language Processing",
+              "Computer Vision",
+              "Time Series Analysis",
+              "Big Data tools (Spark)",
+              "Cloud platforms (AWS/GCP/Azure)",
+              "MLOps basics",
+              "A/B testing and experimentation"
+            ],
+            "resources": [
+              "Deep Learning Specialization (Andrew Ng)",
+              "Fast.ai courses",
+              "Hugging Face tutorials",
+              "AWS/GCP ML certifications"
+            ]
+          },
+          {
+            "phase": 5,
+            "title": "Real-World Projects & Portfolio",
+            "duration": "2-3 months",
+            "topics": [
+              "End-to-end ML projects",
+              "GitHub portfolio building",
+              "Technical blogging",
+              "Kaggle competitions",
+              "Contributing to open source",
+              "Interview preparation"
+            ],
+            "resources": [
+              "Kaggle competitions",
+              "GitHub Pages for portfolio",
+              "Medium/Dev.to for blogging",
+              "LeetCode/HackerRank for coding prep"
+            ]
+          }
+        ]
+      },
+      "tools_and_frameworks": {
+        "programming_languages": [
+          {"name": "Python", "usage": "Primary", "percentage": 90},
+          {"name": "R", "usage": "Secondary", "percentage": 30},
+          {"name": "SQL", "usage": "Essential", "percentage": 95},
+          {"name": "Scala", "usage": "Optional", "percentage": 10}
+        ],
+        "data_manipulation": [
+          "Pandas",
+          "NumPy",
+          "Polars",
+          "Dask",
+          "Vaex"
+        ],
+        "machine_learning": [
+          {
+            "name": "Scikit-learn",
+            "type": "Classical ML",
+            "use_cases": ["Classification", "Regression", "Clustering"]
+          },
+          {
+            "name": "XGBoost",
+            "type": "Gradient Boosting",
+            "use_cases": ["Structured data", "Competitions"]
+          },
+          {
+            "name": "LightGBM",
+            "type": "Gradient Boosting",
+            "use_cases": ["Large datasets", "Fast training"]
+          },
+          {
+            "name": "CatBoost",
+            "type": "Gradient Boosting",
+            "use_cases": ["Categorical features"]
+          }
+        ],
+        "deep_learning": [
+          {
+            "name": "TensorFlow",
+            "ecosystem": ["Keras", "TF Extended", "TF Lite"]
+          },
+          {
+            "name": "PyTorch",
+            "ecosystem": ["PyTorch Lightning", "Hugging Face Transformers"]
+          },
+          {
+            "name": "JAX",
+            "use_case": "Research, high-performance computing"
+          }
+        ],
+        "visualization": [
+          "Matplotlib",
+          "Seaborn",
+          "Plotly",
+          "Bokeh",
+          "Tableau",
+          "Power BI",
+          "Looker"
+        ],
+        "big_data": [
+          "Apache Spark (PySpark)",
+          "Hadoop",
+          "Hive",
+          "Dask",
+          "Ray"
+        ],
+        "cloud_platforms": [
+          {
+            "provider": "AWS",
+            "services": ["SageMaker", "S3", "Redshift", "EMR", "Glue", "Athena"]
+          },
+          {
+            "provider": "Google Cloud",
+            "services": ["BigQuery", "Vertex AI", "Dataflow", "Dataproc"]
+          },
+          {
+            "provider": "Azure",
+            "services": ["Azure ML", "Databricks", "Synapse Analytics", "Data Lake"]
+          }
+        ],
+        "version_control": [
+          "Git",
+          "GitHub",
+          "GitLab",
+          "DVC (Data Version Control)"
+        ],
+        "collaboration": [
+          "Jupyter Notebooks",
+          "JupyterLab",
+          "Google Colab",
+          "Databricks Notebooks"
+        ]
+      },
+      "project_examples": [
+        {
+          "title": "Customer Churn Prediction",
+          "difficulty": "Beginner",
+          "description": "Build a classification model to predict customer churn for a telecom company",
+          "skills_demonstrated": ["Binary classification", "Feature engineering", "Model evaluation", "Business impact analysis"],
+          "tech_stack": ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
+          "dataset_source": "Kaggle Telco Customer Churn"
+        },
+        {
+          "title": "House Price Prediction",
+          "difficulty": "Beginner",
+          "description": "Regression model to predict house prices based on various features",
+          "skills_demonstrated": ["Regression", "Feature selection", "Handling missing data", "Model interpretation"],
+          "tech_stack": ["Python", "Pandas", "Scikit-learn", "XGBoost", "Seaborn"],
+          "dataset_source": "Kaggle House Prices"
+        },
+        {
+          "title": "Sentiment Analysis on Product Reviews",
+          "difficulty": "Intermediate",
+          "description": "NLP project to classify sentiment of product reviews",
+          "skills_demonstrated": ["Text preprocessing", "NLP", "Deep learning", "Model deployment"],
+          "tech_stack": ["Python", "NLTK/spaCy", "TensorFlow/PyTorch", "Hugging Face Transformers"],
+          "dataset_source": "Amazon Product Reviews"
+        },
+        {
+          "title": "Recommendation System",
+          "difficulty": "Intermediate",
+          "description": "Build a movie/product recommendation engine",
+          "skills_demonstrated": ["Collaborative filtering", "Matrix factorization", "Evaluation metrics"],
+          "tech_stack": ["Python", "Surprise", "LightFM", "Spark MLlib"],
+          "dataset_source": "MovieLens dataset"
+        },
+        {
+          "title": "Image Classification with CNNs",
+          "difficulty": "Intermediate",
+          "description": "Deep learning model for image classification",
+          "skills_demonstrated": ["Computer vision", "Transfer learning", "Data augmentation", "Model optimization"],
+          "tech_stack": ["Python", "TensorFlow/PyTorch", "OpenCV", "Keras"],
+          "dataset_source": "CIFAR-10, ImageNet"
+        },
+        {
+          "title": "Time Series Forecasting (Sales/Stock)",
+          "difficulty": "Advanced",
+          "description": "Predict future values using time series analysis",
+          "skills_demonstrated": ["Time series analysis", "ARIMA", "LSTM", "Prophet", "Seasonal decomposition"],
+          "tech_stack": ["Python", "Statsmodels", "Prophet", "LSTM (PyTorch)", "Pandas"],
+          "dataset_source": "Retail sales data, Stock market data"
+        },
+        {
+          "title": "A/B Testing Framework",
+          "difficulty": "Advanced",
+          "description": "Statistical framework for running and analyzing A/B tests",
+          "skills_demonstrated": ["Experimental design", "Statistical inference", "Power analysis", "Causal inference"],
+          "tech_stack": ["Python", "SciPy", "Statsmodels", "Plotly"],
+          "dataset_source": "Real or simulated experiment data"
+        },
+        {
+          "title": "End-to-End ML Pipeline",
+          "difficulty": "Advanced",
+          "description": "Complete ML pipeline from data ingestion to model deployment",
+          "skills_demonstrated": ["Pipeline design", "Model deployment", "Monitoring", "CI/CD"],
+          "tech_stack": ["Python", "Airflow", "Docker", "FastAPI", "AWS/GCP"],
+          "dataset_source": "Any business problem"
+        }
+      ],
+      "career_path": {
+        "entry_level": {
+          "titles": ["Junior Data Scientist", "Data Scientist I", "Associate Data Scientist"],
+          "experience": "0-2 years",
+          "salary_range": {
+            "USD": "$54,000 - $110,000",
+            "EUR": "€35,000 - €55,000",
+            "GBP": "£35,000 - £50,000"
+          },
+          "responsibilities": [
+            "Data cleaning and preprocessing",
+            "Exploratory data analysis",
+            "Building basic ML models",
+            "Creating visualizations and reports",
+            "Supporting senior data scientists"
+          ],
+          "key_skills": ["Python", "SQL", "Statistics", "Pandas", "Scikit-learn"]
+        },
+        "mid_level": {
+          "titles": ["Data Scientist", "Data Scientist II", "Senior Data Scientist"],
+          "experience": "2-5 years",
+          "salary_range": {
+            "USD": "$100,000 - $160,000",
+            "EUR": "€55,000 - €85,000",
+            "GBP": "£50,000 - £75,000"
+          },
+          "responsibilities": [
+            "End-to-end ML project ownership",
+            "Complex model development",
+            "Feature engineering",
+            "Stakeholder communication",
+            "Mentoring junior members",
+            "A/B testing and experimentation"
+          ],
+          "key_skills": ["Advanced ML", "Deep Learning", "Big Data", "Cloud platforms", "Communication"]
+        },
+        "senior_level": {
+          "titles": ["Senior Data Scientist", "Lead Data Scientist", "Principal Data Scientist"],
+          "experience": "5-10 years",
+          "salary_range": {
+            "USD": "$140,000 - $220,000",
+            "EUR": "€80,000 - €120,000",
+            "GBP": "£75,000 - £110,000"
+          },
+          "responsibilities": [
+            "Strategic project planning",
+            "Team leadership and mentoring",
+            "Cross-functional collaboration",
+            "Research and innovation",
+            "Setting data science standards",
+            "Business impact assessment"
+          ],
+          "key_skills": ["Leadership", "Strategy", "Advanced ML/DL", "Business acumen", "Architecture design"]
+        },
+        "leadership": {
+          "titles": ["Staff Data Scientist", "Director of Data Science", "VP of Data Science", "Chief Data Scientist"],
+          "experience": "10+ years",
+          "salary_range": {
+            "USD": "$180,000 - $400,000+",
+            "EUR": "€110,000 - €200,000+",
+            "GBP": "£100,000 - £180,000+"
+          },
+          "responsibilities": [
+            "Organization-wide data strategy",
+            "Building and managing teams",
+            "Budget management",
+            "Executive stakeholder management",
+            "Industry thought leadership",
+            "Driving business transformation"
+          ],
+          "key_skills": ["Strategic leadership", "People management", "Business strategy", "Executive communication"]
+        },
+        "alternative_paths": [
+          {
+            "role": "Machine Learning Engineer",
+            "transition": "Focus more on engineering and deployment"
+          },
+          {
+            "role": "Research Scientist",
+            "transition": "Deep dive into theoretical research and publications"
+          },
+          {
+            "role": "Product Manager (Data/AI)",
+            "transition": "Leverage technical knowledge for product strategy"
+          },
+          {
+            "role": "Data Science Consultant",
+            "transition": "Independent consulting or joining consultancy firms"
+          }
+        ]
+      }
+    },
+    {
+      "id": "machine_learning_engineer",
+      "title": "Machine Learning Engineer",
+      "definition": {
+        "description": "Machine Learning Engineers design, build, and deploy scalable machine learning systems. They bridge the gap between data science and software engineering, focusing on productionizing ML models and creating robust ML infrastructure.",
+        "key_focus": "Building production-ready ML systems with emphasis on scalability, performance, and reliability",
+        "work_type": "ML pipeline development, model deployment, system optimization, and infrastructure management"
+      },
+      "required_knowledge": {
+        "technical_skills": [
+          {
+            "category": "Software Engineering",
+            "skills": [
+              {
+                "name": "Programming",
+                "languages": ["Python", "Java", "C++", "Go"],
+                "focus": "Production-quality code, design patterns, testing"
+              },
+              {
+                "name": "Software Design",
+                "topics": ["OOP", "Design patterns", "SOLID principles", "Microservices", "API design"]
+              },
+              {
+                "name": "Testing",
+                "types": ["Unit testing", "Integration testing", "Model testing", "A/B testing"]
+              }
+            ]
+          },
+          {
+            "category": "Machine Learning",
+            "skills": [
+              "ML algorithms (supervised, unsupervised, reinforcement learning)",
+              "Deep learning architectures",
+              "Model optimization techniques",
+              "Feature engineering",
+              "Model evaluation and validation",
+              "Transfer learning",
+              "AutoML"
+            ]
+          },
+          {
+            "category": "MLOps & Deployment",
+            "topics": [
+              "Model serving (REST APIs, gRPC)",
+              "Model versioning",
+              "CI/CD for ML",
+              "Model monitoring and observability",
+              "A/B testing frameworks",
+              "Feature stores",
+              "Model registry"
+            ]
+          },
+          {
+            "category": "Distributed Systems",
+            "skills": [
+              "Distributed training",
+              "Model parallelism",
+              "Data parallelism",
+              "Batch vs real-time inference",
+              "Caching strategies",
+              "Load balancing"
+            ]
+          },
+          {
+            "category": "Cloud & Infrastructure",
+            "platforms": ["AWS", "GCP", "Azure"],
+            "tools": ["Docker", "Kubernetes", "Terraform", "Ansible"]
+          }
+        ],
+        "soft_skills": [
+          "Problem-solving and debugging",
+          "Collaboration with data scientists and engineers",
+          "System thinking",
+          "Performance optimization mindset"
+        ]
+      },
+      "learning_path": {
+        "total_duration": "12-18 months",
+        "phases": [
+          {
+            "phase": 1,
+            "title": "Programming & Software Engineering",
+            "duration": "3 months",
+            "topics": [
+              "Advanced Python programming",
+              "Data structures and algorithms",
+              "Object-oriented programming",
+              "Design patterns",
+              "Git and version control",
+              "Testing frameworks (pytest, unittest)"
+            ]
+          },
+          {
+            "phase": 2,
+            "title": "Machine Learning Fundamentals",
+            "duration": "3 months",
+            "topics": [
+              "ML algorithms and theory",
+              "Scikit-learn mastery",
+              "Deep learning with TensorFlow/PyTorch",
+              "Model evaluation and validation",
+              "Feature engineering",
+              "Hyperparameter optimization"
+            ]
+          },
+          {
+            "phase": 3,
+            "title": "ML Engineering & Deployment",
+            "duration": "3-4 months",
+            "topics": [
+              "Model serving (Flask, FastAPI, TensorFlow Serving)",
+              "Docker containerization",
+              "Kubernetes basics",
+              "CI/CD pipelines",
+              "Model monitoring",
+              "MLflow, Weights & Biases",
+              "Feature stores (Feast)"
+            ]
+          },
+          {
+            "phase": 4,
+            "title": "Scalability & Production Systems",
+            "duration": "3-4 months",
+            "topics": [
+              "Distributed training (Horovod, PyTorch DDP)",
+              "Cloud platforms (AWS SageMaker, GCP Vertex AI)",
+              "Stream processing (Kafka, Flink)",
+              "Model optimization (quantization, pruning)",
+              "Edge deployment",
+              "Performance profiling"
+            ]
+          }
+        ]
+      },
+      "tools_and_frameworks": {
+        "programming_languages": ["Python", "Java", "Scala", "C++", "Go"],
+        "ml_frameworks": [
+          "TensorFlow",
+          "PyTorch",
+          "Scikit-learn",
+          "XGBoost",
+          "LightGBM",
+          "JAX"
+        ],
+        "deployment": [
+          "TensorFlow Serving",
+          "TorchServe",
+          "ONNX Runtime",
+          "FastAPI",
+          "Flask",
+          "gRPC",
+          "Triton Inference Server"
+        ],
+        "mlops": [
+          "MLflow",
+          "Kubeflow",
+          "Weights & Biases",
+          "DVC",
+          "Feast (feature store)",
+          "Seldon Core",
+          "BentoML"
+        ],
+        "containerization": [
+          "Docker",
+          "Kubernetes",
+          "Docker Compose",
+          "Helm"
+        ],
+        "cloud": [
+          {
+            "provider": "AWS",
+            "services": ["SageMaker", "Lambda", "ECS", "EKS", "S3"]
+          },
+          {
+            "provider": "GCP",
+            "services": ["Vertex AI", "Cloud Run", "GKE", "Cloud Functions"]
+          },
+          {
+            "provider": "Azure",
+            "services": ["Azure ML", "AKS", "Azure Functions"]
+          }
+        ],
+        "monitoring": [
+          "Prometheus",
+          "Grafana",
+          "ELK Stack",
+          "DataDog",
+          "Evidently AI",
+          "Whylabs"
+        ]
+      },
+      "project_examples": [
+        {
+          "title": "Real-time Recommendation API",
+          "difficulty": "Intermediate",
+          "description": "Build a scalable recommendation service with low-latency inference",
+          "tech_stack": ["Python", "FastAPI", "Redis", "Docker", "Kubernetes"]
+        },
+        {
+          "title": "ML Model CI/CD Pipeline",
+          "difficulty": "Intermediate",
+          "description": "Automated pipeline for model training, testing, and deployment",
+          "tech_stack": ["GitHub Actions", "MLflow", "Docker", "AWS/GCP"]
+        },
+        {
+          "title": "Distributed Training System",
+          "difficulty": "Advanced",
+          "description": "Multi-GPU/multi-node training for large models",
+          "tech_stack": ["PyTorch DDP", "Horovod", "Kubernetes", "AWS"]
+        },
+        {
+          "title": "Edge ML Deployment",
+          "difficulty": "Advanced",
+          "description": "Deploy optimized models on edge devices (mobile, IoT)",
+          "tech_stack": ["TensorFlow Lite", "ONNX", "TensorRT", "PyTorch Mobile"]
+        }
+      ],
+      "career_path": {
+        "entry_level": {
+          "titles": ["Junior ML Engineer", "ML Engineer I"],
+          "experience": "0-2 years",
+          "salary_range": {"USD": "$80,000 - $130,000"},
+          "responsibilities": [
+            "Model deployment and serving",
+            "Building ML pipelines",
+            "Code optimization",
+            "Model monitoring"
+          ]
+        },
+        "mid_level": {
+          "titles": ["ML Engineer", "Senior ML Engineer"],
+          "experience": "2-5 years",
+          "salary_range": {"USD": "$120,000 - $180,000"},
+          "responsibilities": [
+            "End-to-end ML system design",
+            "Infrastructure optimization",
+            "Team collaboration",
+            "Performance tuning"
+          ]
+        },
+        "senior_level": {
+          "titles": ["Staff ML Engineer", "Principal ML Engineer"],
+          "experience": "5-10 years",
+          "salary_range": {"USD": "$160,000 - $250,000"},
+          "responsibilities": [
+            "ML platform architecture",
+            "Technical leadership",
+            "Cross-team projects",
+            "Innovation and R&D"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mlops_engineer",
+      "title": "MLOps Engineer",
+      "definition": {
+        "description": "MLOps Engineers specialize in operationalizing machine learning models at scale. They create and maintain the infrastructure, tools, and processes that enable efficient ML development, deployment, and monitoring in production environments.",
+        "key_focus": "Building robust ML operations infrastructure, automating ML workflows, and ensuring model reliability",
+        "work_type": "ML infrastructure, automation, monitoring, CI/CD for ML, and operational excellence"
+      },
+      "required_knowledge": {
+        "technical_skills": [
+          {
+            "category": "DevOps Foundation",
+            "skills": [
+              "CI/CD pipelines",
+              "Infrastructure as Code (IaC)",
+              "Container orchestration",
+              "Monitoring and logging",
+              "Version control",
+              "Configuration management"
+            ]
+          },
+          {
+            "category": "ML Lifecycle Management",
+            "topics": [
+              "Experiment tracking",
+              "Model versioning",
+              "Model registry",
+              "Feature stores",
+              "Data versioning",
+              "Model lineage tracking"
+            ]
+          },
+          {
+            "category": "ML Infrastructure",
+            "components": [
+              "Training infrastructure (GPU clusters)",
+              "Serving infrastructure",
+              "Feature engineering pipelines",
+              "Data pipelines",
+              "Workflow orchestration",
+              "Resource management"
+            ]
+          },
+          {
+            "category": "Monitoring & Observability",
+            "areas": [
+              "Model performance monitoring",
+              "Data drift detection",
+              "Model drift detection",
+              "System metrics",
+              "Alerting systems",
+              "Root cause analysis"
+            ]
+          },
+          {
+            "category": "Cloud & Platforms",
+            "platforms": [
+              "AWS (SageMaker, EKS, Lambda)",
+              "GCP (Vertex AI, GKE, Cloud Functions)",
+              "Azure (Azure ML, AKS)",
+              "Databricks",
+              "Kubernetes"
+            ]
+          }
+        ],
+        "soft_skills": [
+          "Cross-functional collaboration",
+          "Process optimization",
+          "Incident management",
+          "Documentation"
+        ]
+      },
+      "learning_path": {
+        "total_duration": "10-15 months",
+        "phases": [
+          {
+            "phase": 1,
+            "title": "DevOps Fundamentals",
+            "duration": "2-3 months",
+            "topics": [
+              "Linux administration",
+              "Git and version control",
+              "CI/CD concepts and tools",
+              "Docker fundamentals",
+              "Infrastructure as Code (Terraform)",
+              "Bash/Python scripting"
+            ]
+          },
+          {
+            "phase": 2,
+            "title": "ML Basics & Python",
+            "duration": "2 months",
+            "topics": [
+              "Python for ML",
+              "ML fundamentals",
+              "Scikit-learn, TensorFlow/PyTorch basics",
+              "Jupyter notebooks",
+              "Data preprocessing"
+            ]
+          },
+          {
+            "phase": 3,
+            "title": "MLOps Tools & Platforms",
+            "duration": "3-4 months",
+            "topics": [
+              "MLflow for experiment tracking",
+              "Kubeflow pipelines",
+              "Airflow for orchestration",
+              "DVC for data versioning",
+              "Feature stores (Feast, Tecton)",
+              "Model registry solutions"
+            ]
+          },
+          {
+            "phase": 4,
+            "title": "Production ML Systems",
+            "duration": "3-4 months",
+            "topics": [
+              "Kubernetes for ML workloads",
+              "Model serving at scale",
+              "Monitoring and observability",
+              "A/B testing infrastructure",
+              "Cloud ML platforms",
+              "Security and compliance"
+            ]
+          }
+        ]
+      },
+      "tools_and_frameworks": {
+        "orchestration": [
+          "Apache Airflow",
+          "Kubeflow",
+          "Prefect",
+          "Dagster",
+          "Argo Workflows",
+          "Metaflow"
+        ],
+        "experiment_tracking": [
+          "MLflow",
+          "Weights & Biases",
+          "Neptune.ai",
+          "Comet.ml",
+          "TensorBoard"
+        ],
+        "model_serving": [
+          "TensorFlow Serving",
+          "TorchServe",
+          "Seldon Core",
+          "KServe",
+          "BentoML",
+          "Triton Inference Server"
+        ],
+        "feature_stores": [
+          "Feast",
+          "Tecton",
+          "Hopsworks",
+          "AWS Feature Store",
+          "Vertex AI Feature Store"
+        ],
+        "monitoring": [
+          "Prometheus + Grafana",
+          "Evidently AI",
+          "Whylabs",
+          "Fiddler",
+          "Arize AI",
+          "DataDog"
+        ],
+        "data_versioning": [
+          "DVC",
+          "Pachyderm",
+          "LakeFS",
+          "Git LFS"
+        ],
+        "infrastructure": [
+          "Docker",
+          "Kubernetes",
+          "Terraform",
+          "Ansible",
+          "Helm"
+        ],
+        "ci_cd": [
+          "GitHub Actions",
+          "GitLab CI",
+          "Jenkins",
+          "CircleCI",
+          "ArgoCD"
+        ]
+      },
+      "project_examples": [
+        {
+          "title": "Automated ML Pipeline",
+          "difficulty": "Intermediate",
+          "description": "End-to-end automated pipeline from data ingestion to model deployment",
+          "tech_stack": ["Airflow", "MLflow", "Docker", "Kubernetes"]
+        },
+        {
+          "title": "Model Monitoring Dashboard",
+          "difficulty": "Intermediate",
+          "description": "Real-time monitoring for model performance and data drift",
+          "tech_stack": ["Prometheus", "Grafana", "Evidently AI", "Python"]
+        },
+        {
+          "title": "Multi-Model Serving Platform",
+          "difficulty": "Advanced",
+          "description": "Scalable platform for serving multiple ML models",
+          "tech_stack": ["Kubernetes", "Seldon Core", "Istio", "Prometheus"]
+        },
+        {
+          "title": "Feature Store Implementation",
+          "difficulty": "Advanced",
+          "description": "Centralized feature store for offline and online serving",
+          "tech_stack": ["Feast", "Redis", "S3", "Spark"]
+        }
+      ],
+      "career_path": {
+        "entry_level": {
+          "titles": ["Junior MLOps Engineer", "MLOps Engineer I"],
+          "experience": "0-2 years",
+          "salary_range": {"USD": "$75,000 - $120,000"},
+          "responsibilities": [
+            "ML pipeline maintenance",
+            "Model deployment automation",
+            "Infrastructure monitoring",
+            "Documentation"
+          ]
+        },
+        "mid_level": {
+          "titles": ["MLOps Engineer", "Senior MLOps Engineer"],
+          "experience": "2-5 years",
+          "salary_range": {"USD": "$110,000 - $170,000"},
+          "responsibilities": [
+            "Platform design and development",
+            "Workflow optimization",
+            "Cross-team collaboration",
+            "Incident response"
+          ]
+        },
+        "senior_level": {
+          "titles": ["Staff MLOps Engineer", "Principal MLOps Engineer"],
+          "experience": "5-10 years",
+          "salary_range": {"USD": "$150,000 - $230,000"},
+          "responsibilities": [
+            "MLOps strategy and architecture",
+            "Technical leadership",
+            "Standards and best practices",
+            "Organization-wide initiatives"
+          ]
+        }
+      }
+    },
+    {
+      "id": "data_analyst",
+      "title": "Data Analyst",
+      "definition": {
+        "description": "Data Analysts transform raw data into actionable insights through analysis, visualization, and reporting. They help organizations make data-driven decisions by identifying trends, patterns, and anomalies in business data.",
+        "key_focus": "Descriptive and diagnostic analytics, business intelligence, and data visualization",
+        "work_type": "Data exploration, reporting, dashboard creation, and business insights generation"
+      },
+      "required_knowledge": {
+        "technical_skills": [
+          {
+            "category": "Data Analysis",
+            "tools": [
+              "Microsoft Excel (Advanced)",
+              "SQL (Critical)",
+              "Python/R (Important)",
+              "Statistical analysis",
+              "Data cleaning and preprocessing"
+            ]
+          },
+          {
+            "category": "Visualization Tools",
+            "platforms": [
+              {
+                "name": "Tableau",
+                "proficiency": "Advanced",
+                "use_cases": ["Interactive dashboards", "Business reporting"]
+              },
+              {
+                "name": "Power BI",
+                "proficiency": "Advanced",
+                "use_cases": ["Microsoft ecosystem integration", "Real-time dashboards"]
+              },
+              {
+                "name": "Looker",
+                "proficiency": "Intermediate",
+                "use_cases": ["Data exploration", "Self-service analytics"]
+              }
+            ]
+          },
+          {
+            "category": "Statistics",
+            "topics": [
+              "Descriptive statistics",
+              "Hypothesis testing",
+              "Correlation analysis",
+              "Regression analysis",
+              "A/B testing basics"
+            ]
+          },
+          {
+            "category": "Business Intelligence",
+            "skills": [
+              "KPI identification and tracking",
+              "Report automation",
+              "Data modeling",
+              "ETL basics",
+              "Business requirements gathering"
+            ]
+          }
+        ],
+        "soft_skills": [
+          {
+            "skill": "Business Acumen",
+            "importance": "Critical",
+            "description": "Understanding business context and translating data into business value"
+          },
+          {
+            "skill": "Communication",
+            "importance": "Critical",
+            "description": "Presenting findings to non-technical stakeholders"
+          },
+          {
+            "skill": "Attention to Detail",
+            "importance": "High",
+            "description": "Ensuring data accuracy and identifying anomalies"
+          },
+          {
+            "skill": "Critical Thinking",
+            "importance": "High",
+            "description": "Asking the right questions and challenging assumptions"
+          }
+        ]
+      },
+      "learning_path": {
+        "total_duration": "6-9 months",
+        "phases": [
+          {
+            "phase": 1,
+            "title": "Foundations",
+            "duration": "1-2 months",
+            "topics": [
+              "Excel fundamentals (formulas, pivot tables, charts)",
+              "Basic statistics",
+              "Business fundamentals",
+              "Data literacy",
+              "Introduction to databases"
+            ]
+          },
+          {
+            "phase": 2,
+            "title": "SQL Mastery",
+            "duration": "1-2 months",
+            "topics": [
+              "SQL basics (SELECT, WHERE, JOIN)",
+              "Aggregations and GROUP BY",
+              "Subqueries and CTEs",
+              "Window functions",
+              "Query optimization",
+              "Database design basics"
+            ]
+          },
+          {
+            "phase": 3,
+            "title": "Data Visualization",
+            "duration": "2-3 months",
+            "topics": [
+              "Data visualization principles",
+              "Tableau/Power BI mastery",
+              "Dashboard design",
+              "Interactive visualizations",
+              "Storytelling with data",
+              "Python visualization (Matplotlib, Seaborn, Plotly)"
+            ]
+          },
+          {
+            "phase": 4,
+            "title": "Advanced Analytics",
+            "duration": "2-3 months",
+            "topics": [
+              "Python for data analysis (Pandas, NumPy)",
+              "Statistical analysis",
+              "A/B testing",
+              "Predictive analytics basics",
+              "ETL processes",
+              "Report automation"
+            ]
+          }
+        ]
+      },
+      "tools_and_frameworks": {
+        "essential": [
+          "Microsoft Excel",
+          "SQL (PostgreSQL, MySQL, SQL Server)",
+          "Tableau or Power BI",
+          "Python (Pandas, NumPy)"
+        ],
+        "visualization": [
+          "Tableau",
+          "Power BI",
+          "Looker",
+          "Google Data Studio",
+          "Metabase",
+          "Plotly"
+        ],
+        "databases": [
+          "PostgreSQL",
+          "MySQL",
+          "SQL Server",
+          "BigQuery",
+          "Snowflake",
+          "Redshift"
+        ],
+        "programming": [
+          "Python (Pandas, NumPy, Matplotlib, Seaborn)",
+          "R (dplyr, ggplot2, tidyr)",
+          "SQL"
+        ],
+        "other_tools": [
+          "Jupyter Notebooks",
+          "Git/GitHub",
+          "Google Sheets",
+          "Jira/Confluence"
+        ]
+      },
+      "project_examples": [
+        {
+          "title": "Sales Performance Dashboard",
+          "difficulty": "Beginner",
+          "description": "Interactive dashboard showing sales KPIs, trends, and regional performance",
+          "tech_stack": ["Tableau/Power BI", "SQL", "Excel"]
+        },
+        {
+          "title": "Customer Segmentation Analysis",
+          "difficulty": "Intermediate",
+          "description": "Segment customers based on behavior and demographics for targeted marketing",
+          "tech_stack": ["Python", "SQL", "Tableau", "Clustering algorithms"]
+        },
+        {
+          "title": "Marketing Campaign Analysis",
+          "difficulty": "Intermediate",
+          "description": "Analyze campaign performance and ROI across different channels",
+          "tech_stack": ["SQL", "Python", "Power BI", "Statistical tests"]
+        },
+        {
+          "title": "Operational Efficiency Report",
+          "difficulty": "Advanced",
+          "description": "Automated reporting system for operational metrics with anomaly detection",
+          "tech_stack": ["Python", "SQL", "Airflow", "Tableau"]
+        }
+      ],
+      "career_path": {
+        "entry_level": {
+          "titles": ["Junior Data Analyst", "Data Analyst I"],
+          "experience": "0-2 years",
+          "salary_range": {
+            "USD": "$50,000 - $75,000",
+            "EUR": "€35,000 - €45,000"
+          },
+          "responsibilities": [
+            "Data collection and cleaning",
+            "Basic reporting and dashboards",
+            "SQL queries for data extraction",
+            "Supporting senior analysts"
+          ]
+        },
+        "mid_level": {
+          "titles": ["Data Analyst", "Senior Data Analyst"],
+          "experience": "2-5 years",
+          "salary_range": {
+            "USD": "$70,000 - $110,000",
+            "EUR": "€45,000 - €70,000"
+          },
+          "responsibilities": [
+            "Complex analysis and insights",
+            "Dashboard and report ownership",
+            "Stakeholder management",
+            "Process improvement",
+            "Mentoring junior analysts"
+          ]
+        },
+        "senior_level": {
+          "titles": ["Lead Data Analyst", "Principal Data Analyst"],
+          "experience": "5-8 years",
+          "salary_range": {
+            "USD": "$100,000 - $140,000",
+            "EUR": "€65,000 - €95,000"
+          },
+          "responsibilities": [
+            "Strategic analysis projects",
+            "Team leadership",
+            "Analytics strategy",
+            "Cross-functional collaboration",
+            "Standards and best practices"
+          ]
+        },
+        "alternative_paths": [
+          "Business Intelligence Analyst",
+          "Analytics Engineer",
+          "Product Analyst",
+          "Data Scientist (with additional ML skills)"
+        ]
+      }
+    },
+    {
+      "id": "bi_analyst",
+      "title": "Business Intelligence (BI) Analyst",
+      "definition": {
+        "description": "BI Analysts design, develop, and maintain business intelligence solutions that help organizations make informed decisions. They specialize in creating dashboards, reports, and data models that provide strategic insights to business stakeholders.",
+        "key_focus": "Enterprise-level reporting, data warehousing, BI platform development, and self-service analytics",
+        "work_type": "Dashboard development, data modeling, ETL design, and BI architecture"
+      },
+      "required_knowledge": {
+        "technical_skills": [
+          {
+            "category": "BI Platforms",
+            "tools": [
+              {
+                "name": "Power BI",
+                "components": ["Power Query", "DAX", "Power BI Service", "Dataflows", "Paginated Reports"],
+                "proficiency": "Advanced"
+              },
+              {
+                "name": "Tableau",
+                "components": ["Tableau Desktop", "Tableau Server", "Tableau Prep", "Calculations"],
+                "proficiency": "Advanced"
+              },
+              {
+                "name": "Looker",
+                "components": ["LookML", "Explores", "Dashboards"],
+                "proficiency": "Intermediate"
+              }
+            ]
+          },
+          {
+            "category": "Data Warehousing",
+            "concepts": [
+              "Star and snowflake schemas",
+              "Dimensional modeling",
+              "Fact and dimension tables",
+              "Slowly changing dimensions (SCD)",
+              "Data vault modeling",
+              "OLAP vs OLTP"
+            ],
+            "platforms": [
+              "Snowflake",
+              "BigQuery",
+              "Redshift",
+              "Azure Synapse",
+              "Oracle",
+              "Teradata"
+            ]
+          },
+          {
+            "category": "ETL/ELT",
+            "tools": [
+              "SSIS (SQL Server Integration Services)",
+              "Informatica",
+              "Talend",
+              "Azure Data Factory",
+              "AWS Glue",
+              "dbt (data build tool)",
+              "Matillion"
+            ]
+          },
+          {
+            "category": "SQL & Databases",
+            "skills": [
+              "Advanced SQL (window functions, CTEs, optimization)",
+              "Stored procedures and functions",
+              "Query performance tuning",
+              "Index optimization",
+              "Database administration basics"
+            ]
+          },
+          {
+            "category": "Programming",
+            "languages": [
+              {
+                "name": "SQL",
+                "proficiency": "Expert"
+              },
+              {
+                "name": "DAX (Power BI)",
+                "proficiency": "Advanced"
+              },
+              {
+                "name": "Python",
+                "proficiency": "Intermediate",
+                "use_case": "Data transformation, automation"
+              },
+              {
+                "name": "R",
+                "proficiency": "Basic",
+                "use_case": "Statistical analysis"
+              }
+            ]
+          }
+        ],
+        "soft_skills": [
+          "Stakeholder management",
+          "Requirements gathering",
+          "Business process understanding",
+          "Project management",
+          "Documentation and training"
+        ]
+      },
+      "learning_path": {
+        "total_duration": "8-12 months",
+        "phases": [
+          {
+            "phase": 1,
+            "title": "Fundamentals",
+            "duration": "2 months",
+            "topics": [
+              "Business fundamentals",
+              "SQL basics to advanced",
+              "Excel advanced features",
+              "Data warehousing concepts",
+              "BI terminology and concepts"
+            ]
+          },
+          {
+            "phase": 2,
+            "title": "BI Platform Mastery",
+            "duration": "3-4 months",
+            "topics": [
+              "Power BI Desktop and Service",
+              "DAX language mastery",
+              "Power Query (M language)",
+              "Tableau Desktop and Server",
+              "Dashboard design principles",
+              "Report optimization"
+            ]
+          },
+          {
+            "phase": 3,
+            "title": "Data Modeling & ETL",
+            "duration": "2-3 months",
+            "topics": [
+              "Dimensional modeling",
+              "Star schema design",
+              "ETL processes and tools",
+              "Data quality management",
+              "Performance optimization",
+              "dbt for data transformation"
+            ]
+          },
+          {
+            "phase": 4,
+            "title": "Enterprise BI",
+            "duration": "2-3 months",
+            "topics": [
+              "Cloud data warehouses (Snowflake, BigQuery)",
+              "Security and governance",
+              "CI/CD for BI",
+              "Version control for BI assets",
+              "Administration and deployment",
+              "Self-service BI enablement"
+            ]
+          }
+        ]
+      },
+      "tools_and_frameworks": {
+        "bi_platforms": [
+          "Power BI",
+          "Tableau",
+          "Looker",
+          "Qlik Sense",
+          "MicroStrategy",
+          "SAP BusinessObjects",
+          "Sisense"
+        ],
+        "data_warehouses": [
+          "Snowflake",
+          "Google BigQuery",
+          "Amazon Redshift",
+          "Azure Synapse Analytics",
+          "Databricks SQL",
+          "Oracle Autonomous DW"
+        ],
+        "etl_tools": [
+          "SSIS",
+          "Informatica PowerCenter",
+          "Talend",
+          "Azure Data Factory",
+          "AWS Glue",
+          "Apache Airflow",
+          "dbt"
+        ],
+        "databases": [
+          "SQL Server",
+          "PostgreSQL",
+          "MySQL",
+          "Oracle",
+          "Teradata"
+        ],
+        "other_tools": [
+          "Git for version control",
+          "JIRA for project management",
+          "Confluence for documentation",
+          "Python for automation",
+          "Excel for ad-hoc analysis"
+        ]
+      },
+      "project_examples": [
+        {
+          "title": "Executive Dashboard Suite",
+          "difficulty": "Intermediate",
+          "description": "Comprehensive dashboard showing company-wide KPIs for C-level executives",
+          "tech_stack": ["Power BI", "SQL Server", "DAX"]
+        },
+        {
+          "title": "Sales Analytics Platform",
+          "difficulty": "Intermediate",
+          "description": "End-to-end BI solution for sales analysis with drill-down capabilities",
+          "tech_stack": ["Tableau", "Snowflake", "dbt", "Airflow"]
+        },
+        {
+          "title": "Financial Reporting System",
+          "difficulty": "Advanced",
+          "description": "Automated financial reporting with governance and audit trails",
+          "tech_stack": ["Power BI", "Azure Synapse", "SSIS", "Power Automate"]
+        },
+        {
+          "title": "Self-Service BI Portal",
+          "difficulty": "Advanced",
+          "description": "Enterprise-wide self-service analytics platform with data governance",
+          "tech_stack": ["Looker", "BigQuery", "dbt", "Git"]
+        }
+      ],
+      "career_path": {
+        "entry_level": {
+          "titles": ["Junior BI Analyst", "BI Developer I"],
+          "experience": "0-2 years",
+          "salary_range": {
+            "USD": "$55,000 - $80,000",
+            "EUR": "€38,000 - €50,000"
+          },
+          "responsibilities": [
+            "Report and dashboard development",
+            "Data model maintenance",
+            "SQL query development",
+            "User support"
+          ]
+        },
+        "mid_level": {
+          "titles": ["BI Analyst", "Senior BI Analyst", "BI Developer"],
+          "experience": "2-5 years",
+          "salary_range": {
+            "USD": "$80,000 - $120,000",
+            "EUR": "€50,000 - €75,000"
+          },
+          "responsibilities": [
+            "BI solution design",
+            "Complex data modeling",
+            "ETL development",
+            "Stakeholder management",
+            "Team mentoring"
+          ]
+        },
+        "senior_level": {
+          "titles": ["Lead BI Analyst", "BI Architect", "Principal BI Developer"],
+          "experience": "5-10 years",
+          "salary_range": {
+            "USD": "$110,000 - $160,000",
+            "EUR": "€70,000 - €100,000"
+          },
+          "responsibilities": [
+            "BI architecture design",
+            "Strategy and roadmap",
+            "Team leadership",
+            "Standards and governance",
+            "Enterprise-wide initiatives"
+          ]
+        },
+        "leadership": {
+          "titles": ["BI Manager", "Director of BI", "VP of Business Intelligence"],
+          "experience": "10+ years",
+          "salary_range": {
+            "USD": "$130,000 - $200,000+",
+            "EUR": "€90,000 - €140,000+"
+          }
+        }
+      }
+    },
+    {
+      "id": "data_engineer",
+      "title": "Data Engineer",
+      "definition": {
+        "description": "Data Engineers design, build, and maintain scalable data infrastructure and pipelines that enable data collection, storage, processing, and accessibility across the organization. They are the architects of data systems that power analytics and ML initiatives.",
+        "key_focus": "Building robust, scalable data pipelines and infrastructure for batch and real-time processing",
+        "work_type": "ETL/ELT pipeline development, data architecture, data warehouse design, and infrastructure management"
+      },
+      "required_knowledge": {
+        "technical_skills": [
+          {
+            "category": "Programming",
+            "languages": [
+              {
+                "name": "Python",
+                "proficiency": "Advanced",
+                "libraries": ["Pandas", "NumPy", "PySpark", "Airflow"],
+                "priority": "Critical"
+              },
+              {
+                "name": "SQL",
+                "proficiency": "Expert",
+                "use_cases": ["Complex queries", "Performance optimization", "Data modeling"],
+                "priority": "Critical"
+              },
+              {
+                "name": "Scala/Java",
+                "proficiency": "Intermediate",
+                "use_case": "Spark development, JVM ecosystem",
+                "priority": "Important"
+              },
+              {
+                "name": "Bash/Shell",
+                "proficiency": "Intermediate",
+                "use_case": "Automation, scripting",
+                "priority": "Important"
+              }
+            ]
+          },
+          {
+            "category": "Data Processing",
+            "batch_processing": [
+              {
+                "name": "Apache Spark",
+                "components": ["Spark SQL", "DataFrames", "RDDs", "Spark Streaming"],
+                "importance": "Critical"
+              },
+              {
+                "name": "Apache Hive",
+                "use_case": "SQL on Hadoop"
+              },
+              {
+                "name": "Presto/Trino",
+                "use_case": "Distributed SQL queries"
+              }
+            ],
+            "stream_processing": [
+              {
+                "name": "Apache Kafka",
+                "importance": "Critical",
+                "components": ["Producers", "Consumers", "Streams API", "Connect"]
+              },
+              {
+                "name": "Apache Flink",
+                "use_case": "Real-time stream processing"
+              },
+              {
+                "name": "Spark Streaming",
+                "use_case": "Micro-batch streaming"
+              },
+              {
+                "name": "AWS Kinesis",
+                "use_case": "AWS-native streaming"
+              }
+            ]
+          },
+          {
+            "category": "Data Warehousing",
+            "modern_warehouses": [
+              {
+                "name": "Snowflake",
+                "features": ["Separation of compute/storage", "Zero-copy cloning", "Time travel"]
+              },
+              {
+                "name": "BigQuery",
+                "features": ["Serverless", "Columnar storage", "ML built-in"]
+              },
+              {
+                "name": "Redshift",
+                "features": ["AWS integration", "Columnar storage", "Spectrum for S3"]
+              },
+              {
+                "name": "Databricks",
+                "features": ["Delta Lake", "Lakehouse architecture", "ML integration"]
+              }
+            ],
+            "modeling": [
+              "Dimensional modeling (Kimball)",
+              "Data vault 2.0",
+              "Star schema",
+              "Snowflake schema",
+              "OBT (One Big Table)"
+            ]
+          },
+          {
+            "category": "Orchestration",
+            "tools": [
+              {
+                "name": "Apache Airflow",
+                "importance": "Critical",
+                "concepts": ["DAGs", "Operators", "Sensors", "XComs"]
+              },
+              {
+                "name": "Prefect",
+                "features": ["Modern workflow engine", "Dynamic DAGs"]
+              },
+              {
+                "name": "Dagster",
+                "features": ["Software-defined assets", "Type system"]
+              },
+              {
+                "name": "dbt",
+                "importance": "Critical",
+                "use_case": "Data transformation, testing, documentation"
+              }
+            ]
+          },
+          {
+            "category": "Cloud Platforms",
+            "aws": [
+              "S3",
+              "Redshift",
+              "Glue",
+              "EMR",
+              "Athena",
+              "Lambda",
+              "Kinesis",
+              "RDS"
+            ],
+            "gcp": [
+              "BigQuery",
+              "Cloud Storage",
+              "Dataflow",
+              "Dataproc",
+              "Pub/Sub",
+              "Cloud Functions"
+            ],
+            "azure": [
+              "Azure Data Lake",
+              "Synapse Analytics",
+              "Data Factory",
+              "Databricks",
+              "Event Hubs"
+            ]
+          },
+          {
+            "category": "Databases",
+            "relational": ["PostgreSQL", "MySQL", "SQL Server", "Oracle"],
+            "nosql": [
+              {
+                "type": "Document",
+                "databases": ["MongoDB", "Couchbase"]
+              },
+              {
+                "type": "Key-Value",
+                "databases": ["Redis", "DynamoDB"]
+              },
+              {
+                "type": "Columnar",
+                "databases": ["Cassandra", "HBase"]
+              },
+              {
+                "type": "Graph",
+                "databases": ["Neo4j", "Amazon Neptune"]
+              }
+            ]
+          },
+          {
+            "category": "Infrastructure",
+            "tools": [
+              "Docker",
+              "Kubernetes",
+              "Terraform",
+              "Ansible",
+              "Git/GitHub",
+              "CI/CD (Jenkins, GitHub Actions, GitLab CI)"
+            ]
+          },
+          {
+            "category": "Data Quality & Governance",
+            "tools": [
+              "Great Expectations",
+              "Soda",
+              "Monte Carlo",
+              "Apache Atlas",
+              "Collibra",
+              "Alation"
+            ]
+          }
+        ],
+        "soft_skills": [
+          "System design thinking",
+          "Problem-solving and debugging",
+          "Collaboration with data scientists and analysts",
+          "Understanding business requirements"
+        ]
+      },
+      "learning_path": {
+        "total_duration": "12-18 months",
+        "phases": [
+          {
+            "phase": 1,
+            "title": "Programming Foundations",
+            "duration": "2-3 months",
+            "topics": [
+              "Python programming (functions, OOP, modules)",
+              "SQL mastery (joins, window functions, CTEs, optimization)",
+              "Data structures and algorithms",
+              "Git version control",
+              "Linux/Unix basics",
+              "Bash scripting"
+            ]
+          },
+          {
+            "phase": 2,
+            "title": "Data Storage & Modeling",
+            "duration": "2-3 months",
+            "topics": [
+              "Relational databases (PostgreSQL, MySQL)",
+              "Database design and normalization",
+              "Dimensional modeling",
+              "NoSQL databases (MongoDB, Redis, Cassandra)",
+              "Data warehousing concepts",
+              "Introduction to cloud storage (S3, GCS)"
+            ]
+          },
+          {
+            "phase": 3,
+            "title": "Big Data & Processing",
+            "duration": "3-4 months",
+            "topics": [
+              "Apache Spark (PySpark)",
+              "Hadoop ecosystem basics",
+              "Distributed computing concepts",
+              "Batch processing patterns",
+              "Stream processing (Kafka, Flink)",
+              "ETL/ELT design patterns"
+            ]
+          },
+          {
+            "phase": 4,
+            "title": "Cloud & Modern Tools",
+            "duration": "3-4 months",
+            "topics": [
+              "Cloud platforms (AWS/GCP/Azure)",
+              "Cloud data warehouses (Snowflake, BigQuery, Redshift)",
+              "Workflow orchestration (Airflow)",
+              "dbt for transformations",
+              "Docker and containerization",
+              "Infrastructure as Code (Terraform)"
+            ]
+          },
+          {
+            "phase": 5,
+            "title": "Production & Best Practices",
+            "duration": "2-3 months",
+            "topics": [
+              "Data quality and testing",
+              "Monitoring and observability",
+              "CI/CD for data pipelines",
+              "Data governance and security",
+              "Performance optimization",
+              "Real-world projects and portfolio"
+            ]
+          }
+        ]
+      },
+      "tools_and_frameworks": {
+        "processing_frameworks": [
+          "Apache Spark (PySpark)",
+          "Apache Flink",
+          "Apache Beam",
+          "Presto/Trino",
+          "dbt"
+        ],
+        "orchestration": [
+          "Apache Airflow",
+          "Prefect",
+          "Dagster",
+          "Argo Workflows",
+          "Luigi"
+        ],
+        "streaming": [
+          "Apache Kafka",
+          "Apache Pulsar",
+          "AWS Kinesis",
+          "Google Pub/Sub",
+          "Azure Event Hubs",
+          "RabbitMQ"
+        ],
+        "data_warehouses": [
+          "Snowflake",
+          "Google BigQuery",
+          "Amazon Redshift",
+          "Azure Synapse",
+          "Databricks",
+          "ClickHouse"
+        ],
+        "databases": {
+          "relational": ["PostgreSQL", "MySQL", "SQL Server"],
+          "nosql": ["MongoDB", "Cassandra", "Redis", "DynamoDB", "Elasticsearch"]
+        },
+        "cloud": {
+          "AWS": ["S3", "Redshift", "Glue", "EMR", "Athena", "Lambda"],
+          "GCP": ["BigQuery", "Dataflow", "Dataproc", "Cloud Storage"],
+          "Azure": ["Synapse", "Data Factory", "Data Lake", "Databricks"]
+        },
+        "infrastructure": [
+          "Docker",
+          "Kubernetes",
+          "Terraform",
+          "Ansible"
+        ],
+        "data_quality": [
+          "Great Expectations",
+          "Soda",
+          "dbt tests",
+          "Monte Carlo"
+        ]
+      },
+      "project_examples": [
+        {
+          "title": "Batch ETL Pipeline",
+          "difficulty": "Beginner",
+          "description": "Daily batch pipeline to extract data from APIs, transform, and load to warehouse",
+          "tech_stack": ["Python", "Airflow", "PostgreSQL", "Docker"]
+        },
+        {
+          "title": "Real-time Data Pipeline",
+          "difficulty": "Intermediate",
+          "description": "Streaming pipeline for real-time event processing",
+          "tech_stack": ["Kafka", "Spark Streaming", "Redis", "Elasticsearch"]
+        },
+        {
+          "title": "Cloud Data Warehouse",
+          "difficulty": "Intermediate",
+          "description": "Build a scalable data warehouse on cloud with dbt transformations",
+          "tech_stack": ["Snowflake/BigQuery", "dbt", "Airflow", "Python"]
+        },
+        {
+          "title": "Data Lakehouse",
+          "difficulty": "Advanced",
+          "description": "Implement a lakehouse architecture with Delta Lake",
+          "tech_stack": ["Databricks", "Delta Lake", "Spark", "S3", "dbt"]
+        },
+        {
+          "title": "Multi-Source Data Integration",
+          "difficulty": "Advanced",
+          "description": "Integrate data from multiple sources (APIs, databases, files) with quality checks",
+          "tech_stack": ["Airflow", "Spark", "Great Expectations", "Snowflake", "Terraform"]
+        }
+      ],
+      "career_path": {
+        "entry_level": {
+          "titles": ["Junior Data Engineer", "Data Engineer I"],
+          "experience": "0-2 years",
+          "salary_range": {
+            "USD": "$70,000 - $110,000",
+            "EUR": "€45,000 - €60,000"
+          },
+          "responsibilities": [
+            "Building and maintaining data pipelines",
+            "Writing ETL scripts",
+            "Data quality checks",
+            "Supporting senior engineers"
+          ]
+        },
+        "mid_level": {
+          "titles": ["Data Engineer", "Senior Data Engineer"],
+          "experience": "2-5 years",
+          "salary_range": {
+            "USD": "$100,000 - $160,000",
+            "EUR": "€60,000 - €90,000"
+          },
+          "responsibilities": [
+            "Designing data architectures",
+            "Complex pipeline development",
+            "Performance optimization",
+            "Cross-team collaboration",
+            "Mentoring junior engineers"
+          ]
+        },
+        "senior_level": {
+          "titles": ["Staff Data Engineer", "Principal Data Engineer", "Lead Data Engineer"],
+          "experience": "5-10 years",
+          "salary_range": {
+            "USD": "$140,000 - $220,000",
+            "EUR": "€85,000 - £125,000"
+          },
+          "responsibilities": [
+            "Data platform architecture",
+            "Technical leadership",
+            "Strategy and roadmap",
+            "Organization-wide initiatives",
+            "Standards and best practices"
+          ]
+        },
+        "leadership": {
+          "titles": ["Engineering Manager (Data)", "Director of Data Engineering", "VP of Data Engineering"],
+          "experience": "10+ years",
+          "salary_range": {
+            "USD": "$160,000 - $350,000+",
+            "EUR": "€100,000 - €180,000+"
+          }
+        }
+      }
+    },
+    {
+      "id": "ai_engineer",
+      "title": "AI Engineer",
+      "definition": {
+        "description": "AI Engineers use pre-trained models and existing AI tools to improve user experiences, focusing on applying AI in practical ways without building models from scratch. They bridge the gap between AI research and production applications.",
+        "key_focus": "Integrating AI capabilities into applications, fine-tuning models, and creating AI-powered features",
+        "work_type": "AI application development, model integration, API development, and user experience optimization"
+      },
+      "required_knowledge": {
+        "technical_skills": [
+          {
+            "category": "AI/ML Fundamentals",
+            "topics": [
+              "Machine learning basics",
+              "Deep learning concepts",
+              "Neural network architectures",
+              "Transfer learning",
+              "Model fine-tuning",
+              "Evaluation metrics"
+            ]
+          },
+          {
+            "category": "Foundation Models",
+            "areas": [
+              {
+                "name": "Large Language Models (LLMs)",
+                "models": ["GPT-4", "Claude", "Llama", "Mistral", "Gemini"],
+                "techniques": ["Prompt engineering", "Fine-tuning", "RAG", "Function calling"]
+              },
+              {
+                "name": "Computer Vision",
+                "models": ["CLIP", "SAM", "YOLO", "Stable Diffusion"],
+                "applications": ["Image classification", "Object detection", "Image generation"]
+              },
+              {
+                "name": "Speech/Audio",
+                "models": ["Whisper", "Bark", "MusicGen"],
+                "applications": ["Speech-to-text", "Text-to-speech", "Audio generation"]
+              }
+            ]
+          },
+          {
+            "category": "Software Engineering",
+            "skills": [
+              "Python programming (advanced)",
+              "API development (FastAPI, Flask)",
+              "Software design patterns",
+              "Testing and debugging",
+              "Version control (Git)",
+              "Docker and containerization"
+            ]
+          },
+          {
+            "category": "AI Frameworks & Libraries",
+            "tools": [
+              {
+                "name": "Hugging Face",
+                "components": ["Transformers", "Datasets", "Tokenizers", "Accelerate"]
+              },
+              {
+                "name": "LangChain",
+                "use_case": "LLM application development"
+              },
+              {
+                "name": "LlamaIndex",
+                "use_case": "RAG and data indexing"
+              },
+              {
+                "name": "OpenAI API",
+                "use_case": "GPT integration"
+              },
+              {
+                "name": "Anthropic API",
+                "use_case": "Claude integration"
+              }
+            ]
+          },
+          {
+            "category": "Retrieval Augmented Generation (RAG)",
+            "components": [
+              "Vector databases (Pinecone, Weaviate, Chroma, Qdrant)",
+              "Embeddings (OpenAI, Sentence Transformers)",
+              "Document loaders and chunking",
+              "Semantic search",
+              "Hybrid search"
+            ]
+          },
+          {
+            "category": "Deployment & MLOps",
+            "skills": [
+              "Model deployment (Hugging Face Inference, AWS SageMaker)",
+              "API design and scalability",
+              "Monitoring and logging",
+              "A/B testing",
+              "Cost optimization"
+            ]
+          }
+        ],
+        "soft_skills": [
+          "Product thinking",
+          "User experience focus",
+          "Rapid prototyping",
+          "Staying updated with AI trends"
+        ]
+      },
+      "learning_path": {
+        "total_duration": "8-12 months",
+        "phases": [
+          {
+            "phase": 1,
+            "title": "Foundations",
+            "duration": "2 months",
+            "topics": [
+              "Python programming",
+              "ML basics (Scikit-learn)",
+              "Deep learning fundamentals",
+              "Neural networks",
+              "Software engineering basics"
+            ]
+          },
+          {
+            "phase": 2,
+            "title": "Modern AI & LLMs",
+            "duration": "3 months",
+            "topics": [
+              "Transformer architecture",
+              "Working with LLMs (OpenAI, Anthropic APIs)",
+              "Prompt engineering",
+              "Fine-tuning pre-trained models",
+              "Hugging Face ecosystem",
+              "Embeddings and vector search"
+            ]
+          },
+          {
+            "phase": 3,
+            "title": "AI Application Development",
+            "duration": "3 months",
+            "topics": [
+              "LangChain and LlamaIndex",
+              "RAG systems",
+              "Vector databases",
+              "Building chatbots and agents",
+              "API development (FastAPI)",
+              "Function calling and tool use"
+            ]
+          },
+          {
+            "phase": 4,
+            "title": "Production & Specialization",
+            "duration": "2-4 months",
+            "topics": [
+              "Model deployment",
+              "Monitoring and evaluation",
+              "Cost optimization",
+              "Security and safety",
+              "Multimodal AI",
+              "Real-world projects"
+            ]
+          }
+        ]
+      },
+      "tools_and_frameworks": {
+        "ai_platforms": [
+          "OpenAI API (GPT-4, DALL-E, Whisper)",
+          "Anthropic (Claude)",
+          "Google Vertex AI (Gemini)",
+          "Hugging Face",
+          "Cohere",
+          "Replicate"
+        ],
+        "frameworks": [
+          "LangChain",
+          "LlamaIndex",
+          "Haystack",
+          "Semantic Kernel",
+          "AutoGen",
+          "CrewAI"
+        ],
+        "vector_databases": [
+          "Pinecone",
+          "Weaviate",
+          "Chroma",
+          "Qdrant",
+          "Milvus",
+          "FAISS"
+        ],
+        "ml_libraries": [
+          "Hugging Face Transformers",
+          "TensorFlow",
+          "PyTorch",
+          "Scikit-learn",
+          "ONNX Runtime"
+        ],
+        "development": [
+          "Python",
+          "FastAPI",
+          "Streamlit",
+          "Gradio",
+          "Docker",
+          "Git"
+        ],
+        "deployment": [
+          "Hugging Face Spaces",
+          "AWS SageMaker",
+          "Google Cloud Run",
+          "Modal",
+          "Replicate"
+        ]
+      },
+      "project_examples": [
+        {
+          "title": "AI Chatbot with RAG",
+          "difficulty": "Beginner",
+          "description": "Build a chatbot that answers questions from your documents using RAG",
+          "tech_stack": ["OpenAI API", "LangChain", "Chroma", "Streamlit"]
+        },
+        {
+          "title": "Document Q&A System",
+          "difficulty": "Intermediate",
+          "description": "Enterprise document search and Q&A with semantic search",
+          "tech_stack": ["LlamaIndex", "Pinecone", "FastAPI", "GPT-4"]
+        },
+        {
+          "title": "AI Content Generator",
+          "difficulty": "Intermediate",
+          "description": "Multi-purpose content generation tool (text, images, code)",
+          "tech_stack": ["OpenAI API", "Stable Diffusion API", "FastAPI", "React"]
+        },
+        {
+          "title": "AI Agents System",
+          "difficulty": "Advanced",
+          "description": "Multi-agent system for complex task automation",
+          "tech_stack": ["AutoGen", "LangChain", "GPT-4", "Custom tools"]
+        },
+        {
+          "title": "Multimodal AI Application",
+          "difficulty": "Advanced",
+          "description": "Application combining vision, language, and audio AI",
+          "tech_stack": ["GPT-4V", "Whisper", "DALL-E", "LangChain"]
+        }
+      ],
+      "career_path": {
+        "entry_level": {
+          "titles": ["Junior AI Engineer", "AI Engineer I"],
+          "experience": "0-2 years",
+          "salary_range": {
+            "USD": "$80,000 - $130,000"
+          },
+          "responsibilities": [
+            "Integrating AI APIs",
+            "Building AI features",
+            "Prompt engineering",
+            "Model evaluation"
+          ]
+        },
+        "mid_level": {
+          "titles": ["AI Engineer", "Senior AI Engineer"],
+          "experience": "2-5 years",
+          "salary_range": {
+            "USD": "$120,000 - $190,000"
+          },
+          "responsibilities": [
+            "AI system design",
+            "Fine-tuning models",
+            "Production deployment",
+            "Performance optimization"
+          ]
+        },
+        "senior_level": {
+          "titles": ["Staff AI Engineer", "Principal AI Engineer"],
+          "experience": "5-10 years",
+          "salary_range": {
+            "USD": "$160,000 - $280,000"
+          },
+          "responsibilities": [
+            "AI architecture",
+            "Technical leadership",
+            "Innovation and R&D",
+            "Strategic planning"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ai_agents",
+      "title": "AI Agents Specialist",
+      "definition": {
+        "description": "AI Agents Specialists design, build, and deploy autonomous AI systems that can perceive their environment, make decisions, and take actions to achieve specific goals. They create intelligent agents that can operate independently or collaboratively.",
+        "key_focus": "Building autonomous AI systems with planning, reasoning, tool use, and multi-agent coordination",
+        "work_type": "Agent architecture design, tool integration, multi-agent orchestration, and autonomous system development"
+      },
+      "required_knowledge": {
+        "technical_skills": [
+          {
+            "category": "AI Agent Fundamentals",
+            "concepts": [
+              "Agent architectures (ReAct, Plan-and-Execute, Reflexion)",
+              "Reasoning and planning",
+              "Memory systems (short-term, long-term)",
+              "Tool use and function calling",
+              "Multi-agent systems",
+              "Agent evaluation and benchmarking"
+            ]
+          },
+          {
+            "category": "LLM & Foundation Models",
+            "skills": [
+              "Advanced prompt engineering",
+              "Chain-of-thought prompting",
+              "Self-reflection and self-critique",
+              "Few-shot learning",
+              "Function calling",
+              "Structured outputs"
+            ]
+          },
+          {
+            "category": "Agent Frameworks",
+            "tools": [
+              {
+                "name": "LangChain Agents",
+                "components": ["ReAct agents", "OpenAI Functions", "Custom agents"]
+              },
+              {
+                "name": "AutoGen",
+                "use_case": "Multi-agent conversations and collaboration"
+              },
+              {
+                "name": "CrewAI",
+                "use_case": "Role-based multi-agent systems"
+              },
+              {
+                "name": "LlamaIndex Agents",
+                "use_case": "Data-focused agents with RAG"
+              },
+              {
+                "name": "Semantic Kernel",
+                "use_case": "Microsoft's AI orchestration framework"
+              }
+            ]
+          },
+          {
+            "category": "Tool Integration",
+            "areas": [
+              "API integrations",
+              "Web scraping and browsing",
+              "Database access",
+              "Code execution",
+              "File system operations",
+              "External service integration"
+            ]
+          },
+          {
+            "category": "Memory & State Management",
+            "components": [
+              "Vector stores for semantic memory",
+              "Conversation history management",
+              "Entity tracking",
+              "Knowledge graphs",
+              "State persistence"
+            ]
+          },
+          {
+            "category": "Safety & Control",
+            "topics": [
+              "Guardrails and constraints",
+              "Human-in-the-loop systems",
+              "Output validation",
+              "Risk mitigation",
+              "Failure handling",
+              "Monitoring and observability"
+            ]
+          }
+        ],
+        "soft_skills": [
+          "System design thinking",
+          "Problem decomposition",
+          "Understanding user workflows",
+          "Safety-conscious mindset"
+        ]
+      },
+      "learning_path": {
+        "total_duration": "6-9 months",
+        "prerequisite": "LLM/AI engineering fundamentals",
+        "phases": [
+          {
+            "phase": 1,
+            "title": "LLM & Prompt Engineering",
+            "duration": "1-2 months",
+            "topics": [
+              "LLM APIs (OpenAI, Anthropic)",
+              "Advanced prompt engineering",
+              "Chain-of-thought reasoning",
+              "Function calling",
+              "Prompt optimization"
+            ]
+          },
+          {
+            "phase": 2,
+            "title": "Agent Fundamentals",
+            "duration": "2 months",
+            "topics": [
+              "Agent architectures (ReAct, Plan-and-Execute)",
+              "Tool use and integration",
+              "Memory systems",
+              "LangChain agents",
+              "Simple autonomous agents"
+            ]
+          },
+          {
+            "phase": 3,
+            "title": "Multi-Agent Systems",
+            "duration": "2-3 months",
+            "topics": [
+              "Multi-agent architectures",
+              "Agent communication protocols",
+              "AutoGen and CrewAI",
+              "Collaborative task solving",
+              "Agent orchestration"
+            ]
+          },
+          {
+            "phase": 4,
+            "title": "Production & Advanced Topics",
+            "duration": "2-3 months",
+            "topics": [
+              "Agent deployment",
+              "Monitoring and evaluation",
+              "Safety and guardrails",
+              "Cost optimization",
+              "Complex workflows",
+              "Real-world applications"
+            ]
+          }
+        ]
+      },
+      "tools_and_frameworks": {
+        "agent_frameworks": [
+          "LangChain",
+          "AutoGen (Microsoft)",
+          "CrewAI",
+          "LlamaIndex Agents",
+          "Semantic Kernel",
+          "AgentGPT",
+          "BabyAGI",
+          "SuperAGI"
+        ],
+        "llm_providers": [
+          "OpenAI (GPT-4)",
+          "Anthropic (Claude)",
+          "Google (Gemini)",
+          "Open-source (Llama, Mistral)"
+        ],
+        "tools_integration": [
+          "LangChain Tools",
+          "Browser automation (Playwright, Selenium)",
+          "API clients",
+          "Code interpreters",
+          "Search APIs"
+        ],
+        "memory_systems": [
+          "Vector databases (Pinecone, Weaviate, Chroma)",
+          "Redis for state",
+          "Neo4j for knowledge graphs",
+          "SQL databases"
+        ],
+        "orchestration": [
+          "LangGraph",
+          "Temporal",
+          "Prefect",
+          "Custom state machines"
+        ],
+        "monitoring": [
+          "LangSmith",
+          "Weights & Biases",
+          "Custom logging",
+          "OpenTelemetry"
+        ]
+      },
+      "project_examples": [
+        {
+          "title": "Research Assistant Agent",
+          "difficulty": "Beginner",
+          "description": "Agent that can search the web, read articles, and synthesize information",
+          "tech_stack": ["LangChain", "OpenAI", "Search API", "Python"]
+        },
+        {
+          "title": "Code Generation Agent",
+          "difficulty": "Intermediate",
+          "description": "Agent that writes, tests, and debugs code autonomously",
+          "tech_stack": ["GPT-4", "Code interpreter", "Git integration", "Testing frameworks"]
+        },
+        {
+          "title": "Multi-Agent Task Force",
+          "difficulty": "Intermediate",
+          "description": "Team of specialized agents working together (researcher, writer, critic)",
+          "tech_stack": ["AutoGen", "GPT-4", "Custom tools"]
+        },
+        {
+          "title": "Business Process Automation",
+          "difficulty": "Advanced",
+          "description": "Agents automating complex business workflows with human oversight",
+          "tech_stack": ["CrewAI", "Multiple APIs", "Database", "Notification systems"]
+        },
+        {
+          "title": "Autonomous Customer Support",
+          "difficulty": "Advanced",
+          "description": "Multi-agent system handling customer queries with escalation",
+          "tech_stack": ["LangGraph", "RAG", "CRM integration", "Human-in-the-loop"]
+        }
+      ],
+      "career_path": {
+        "entry_level": {
+          "titles": ["AI Agent Developer", "Junior AI Automation Engineer"],
+          "experience": "0-2 years",
+          "salary_range": {
+            "USD": "$90,000 - $140,000"
+          },
+          "responsibilities": [
+            "Building simple agents",
+            "Tool integration",
+            "Prompt optimization",
+            "Agent testing"
+          ]
+        },
+        "mid_level": {
+          "titles": ["AI Agents Engineer", "Senior AI Automation Engineer"],
+          "experience": "2-5 years",
+          "salary_range": {
+            "USD": "$130,000 - $200,000"
+          },
+          "responsibilities": [
+            "Multi-agent system design",
+            "Complex workflow automation",
+            "Agent orchestration",
+            "Production deployment"
+          ]
+        },
+        "senior_level": {
+          "titles": ["Staff AI Agents Engineer", "AI Agents Architect"],
+          "experience": "5+ years",
+          "salary_range": {
+            "USD": "$170,000 - $300,000"
+          },
+          "responsibilities": [
+            "Agent platform architecture",
+            "Innovation and R&D",
+            "Technical leadership",
+            "Strategic planning"
+          ]
+        }
+      }
+    },
+    {
+      "id": "prompt_engineer",
+      "title": "Prompt Engineer",
+      "definition": {
+        "description": "Prompt Engineers specialize in designing, testing, and optimizing prompts to get the best possible outputs from large language models and other AI systems. They bridge the gap between AI capabilities and user needs through effective prompt design.",
+        "key_focus": "Crafting effective prompts, optimizing AI outputs, and developing prompt patterns for various use cases",
+        "work_type": "Prompt design and optimization, AI interaction patterns, evaluation, and documentation"
+      },
+      "required_knowledge": {
+        "technical_skills": [
+          {
+            "category": "Prompt Engineering Techniques",
+            "methods": [
+              {
+                "name": "Zero-shot Prompting",
+                "description": "Getting results with just instructions, no examples"
+              },
+              {
+                "name": "Few-shot Prompting",
+                "description": "Providing examples to guide the AI"
+              },
+              {
+                "name": "Chain-of-Thought (CoT)",
+                "description": "Asking AI to reason step-by-step"
+              },
+              {
+                "name": "Tree of Thoughts",
+                "description": "Exploring multiple reasoning paths"
+              },
+              {
+                "name": "ReAct",
+                "description": "Reasoning and Acting in interleaved manner"
+              },
+              {
+                "name": "Self-Consistency",
+                "description": "Generating multiple outputs and selecting the best"
+              },
+              {
+                "name": "Meta Prompting",
+                "description": "Prompts that generate prompts"
+              }
+            ]
+          },
+          {
+            "category": "LLM Understanding",
+            "topics": [
+              "How LLMs work (transformers, attention)",
+              "Model capabilities and limitations",
+              "Context windows and token limits",
+              "Temperature and sampling parameters",
+              "Different model families (GPT, Claude, Llama, etc.)",
+              "Multimodal models"
+            ]
+          },
+          {
+            "category": "Advanced Techniques",
+            "areas": [
+              "Prompt chaining",
+              "Retrieval Augmented Generation (RAG)",
+              "Function calling and tool use",
+              "Structured outputs (JSON, XML)",
+              "Prompt compression",
+              "Adversarial prompting and jailbreaking (for safety testing)"
+            ]
+          },
+          {
+            "category": "Evaluation & Testing",
+            "methods": [
+              "Output quality metrics",
+              "A/B testing prompts",
+              "Human evaluation",
+              "Automated evaluation (LLM-as-judge)",
+              "Regression testing",
+              "Benchmark creation"
+            ]
+          },
+          {
+            "category": "Domain Applications",
+            "use_cases": [
+              "Content creation and copywriting",
+              "Code generation and debugging",
+              "Data extraction and analysis",
+              "Translation and localization",
+              "Summarization",
+              "Question answering",
+              "Creative writing"
+            ]
+          },
+          {
+            "category": "Tools & Platforms",
+            "tools": [
+              "LLM APIs (OpenAI, Anthropic, Google)",
+              "Prompt management tools (PromptLayer, Langfuse)",
+              "LangChain for prompt templates",
+              "Playground interfaces",
+              "Version control for prompts"
+            ]
+          }
+        ],
+        "soft_skills": [
+          {
+            "skill": "Clarity and Precision",
+            "description": "Writing clear, unambiguous instructions"
+          },
+          {
+            "skill": "Iterative Thinking",
+            "description": "Testing and refining prompts systematically"
+          },
+          {
+            "skill": "Domain Knowledge",
+            "description": "Understanding the use case and user needs"
+          },
+          {
+            "skill": "Creativity",
+            "description": "Finding novel approaches to prompt design"
+          }
+        ]
+      },
+      "learning_path": {
+        "total_duration": "3-6 months",
+        "phases": [
+          {
+            "phase": 1,
+            "title": "LLM Basics",
+            "duration": "2-3 weeks",
+            "topics": [
+              "How LLMs work",
+              "Understanding tokens and context",
+              "Model parameters (temperature, top_p, etc.)",
+              "Different model families",
+              "Basic prompt writing"
+            ],
+            "resources": [
+              "OpenAI documentation",
+              "Anthropic Claude documentation",
+              "LLM introduction courses"
+            ]
+          },
+          {
+            "phase": 2,
+            "title": "Core Prompt Engineering",
+            "duration": "1-2 months",
+            "topics": [
+              "Zero-shot and few-shot prompting",
+              "Chain-of-thought reasoning",
+              "Prompt formatting and structure",
+              "Role prompting and personas",
+              "Output formatting",
+              "Common pitfalls and how to avoid them"
+            ],
+            "resources": [
+              "Prompt Engineering Guide (DAIR.AI)",
+              "Learn Prompting course",
+              "OpenAI Cookbook"
+            ]
+          },
+          {
+            "phase": 3,
+            "title": "Advanced Techniques",
+            "duration": "1-2 months",
+            "topics": [
+              "Advanced prompting patterns",
+              "Prompt chaining",
+              "RAG integration",
+              "Function calling",
+              "Multi-turn conversations",
+              "Multimodal prompting",
+              "Prompt optimization"
+            ],
+            "resources": [
+              "LangChain documentation",
+              "Advanced prompt engineering courses",
+              "Research papers (arXiv)"
+            ]
+          },
+          {
+            "phase": 4,
+            "title": "Production & Specialization",
+            "duration": "1-2 months",
+            "topics": [
+              "Prompt versioning and management",
+              "Evaluation and testing frameworks",
+              "Cost optimization",
+              "Safety and bias mitigation",
+              "Domain-specific applications",
+              "Building prompt libraries"
+            ],
+            "resources": [
+              "Real-world projects",
+              "Industry case studies",
+              "Community forums and discussions"
+            ]
+          }
+        ]
+      },
+      "tools_and_frameworks": {
+        "llm_platforms": [
+          "OpenAI (GPT-4, GPT-3.5)",
+          "Anthropic (Claude)",
+          "Google (Gemini, PaLM)",
+          "Cohere",
+          "Open-source (Llama, Mistral, etc.)"
+        ],
+        "prompt_tools": [
+          {
+            "name": "LangChain",
+            "use_case": "Prompt templates and chaining"
+          },
+          {
+            "name": "LlamaIndex",
+            "use_case": "RAG and data-augmented prompts"
+          },
+          {
+            "name": "PromptLayer",
+            "use_case": "Prompt management and analytics"
+          },
+          {
+            "name": "Langfuse",
+            "use_case": "LLM observability and prompt tracking"
+          },
+          {
+            "name": "Dust",
+            "use_case": "Prompt engineering platform"
+          }
+        ],
+        "testing_evaluation": [
+          "OpenAI Evals",
+          "Promptfoo",
+          "LangSmith",
+          "Custom evaluation frameworks"
+        ],
+        "development": [
+          "Python",
+          "Jupyter Notebooks",
+          "API clients",
+          "Git for version control"
+        ],
+        "playgrounds": [
+          "OpenAI Playground",
+          "Anthropic Console",
+          "Hugging Face Spaces",
+          "Google AI Studio"
+        ]
+      },
+      "project_examples": [
+        {
+          "title": "Content Generation System",
+          "difficulty": "Beginner",
+          "description": "Optimized prompts for generating marketing copy, blog posts, and social media content",
+          "deliverables": ["Prompt templates", "Style guides", "Quality evaluation metrics"]
+        },
+        {
+          "title": "Code Assistant Prompts",
+          "difficulty": "Intermediate",
+          "description": "Prompts for code generation, debugging, and documentation",
+          "deliverables": ["Multi-language support", "Context-aware prompts", "Testing framework"]
+        },
+        {
+          "title": "Customer Support Automation",
+          "difficulty": "Intermediate",
+          "description": "Prompts for automated customer support with escalation handling",
+          "deliverables": ["Intent classification", "Response templates", "Quality assurance"]
+        },
+        {
+          "title": "RAG System Optimization",
+          "difficulty": "Advanced",
+          "description": "Optimizing prompts for retrieval-augmented generation systems",
+          "deliverables": ["Query reformulation", "Context integration", "Answer synthesis"]
+        },
+        {
+          "title": "Multi-Agent Prompt Library",
+          "difficulty": "Advanced",
+          "description": "Comprehensive prompt library for multi-agent systems",
+          "deliverables": ["Role definitions", "Interaction patterns", "Evaluation suite"]
+        }
+      ],
+      "career_path": {
+        "entry_level": {
+          "titles": ["Prompt Engineer", "AI Content Specialist"],
+          "experience": "0-2 years",
+          "salary_range": {
+            "USD": "$70,000 - $120,000"
+          },
+          "responsibilities": [
+            "Writing and testing prompts",
+            "Optimizing AI outputs",
+            "Documentation",
+            "Quality assurance"
+          ]
+        },
+        "mid_level": {
+          "titles": ["Senior Prompt Engineer", "Lead AI Content Engineer"],
+          "experience": "2-4 years",
+          "salary_range": {
+            "USD": "$110,000 - $170,000"
+          },
+          "responsibilities": [
+            "Advanced prompt design",
+            "System architecture",
+            "Team leadership",
+            "Strategy development",
+            "Cross-functional collaboration"
+          ]
+        },
+        "senior_level": {
+          "titles": ["Principal Prompt Engineer", "AI Interaction Architect"],
+          "experience": "4+ years",
+          "salary_range": {
+            "USD": "$150,000 - $250,000"
+          },
+          "responsibilities": [
+            "Organization-wide prompt strategy",
+            "Innovation and research",
+            "Technical leadership",
+            "Best practices and standards"
+          ]
+        },
+        "alternative_paths": [
+          "AI Product Manager",
+          "AI UX Designer",
+          "AI Safety Researcher",
+          "Technical Writer (AI-focused)"
+        ]
+      }
+    },
+    {
+      "id": "ai_red_teaming",
+      "title": "AI Red Teaming Specialist",
+      "definition": {
+        "description": "AI Red Teaming Specialists are security professionals who proactively test AI systems for vulnerabilities, biases, safety issues, and potential misuse. They use adversarial techniques to identify weaknesses before malicious actors can exploit them.",
+        "key_focus": "Adversarial testing of AI systems, identifying vulnerabilities, bias detection, and safety evaluation",
+        "work_type": "Security testing, adversarial attacks, safety evaluation, and vulnerability assessment of AI systems"
+      },
+      "required_knowledge": {
+        "technical_skills": [
+          {
+            "category": "AI/ML Security",
+            "topics": [
+              {
+                "name": "Adversarial Attacks",
+                "types": [
+                  "Prompt injection attacks",
+                  "Jailbreaking",
+                  "Data poisoning",
+                  "Model inversion",
+                  "Membership inference",
+                  "Backdoor attacks"
+                ]
+              },
+              {
+                "name": "Model Vulnerabilities",
+                "areas": [
+                  "Privacy leakage",
+                  "Bias and fairness issues",
+                  "Robustness failures",
+                  "Safety misalignment",
+                  "Hallucination and misinformation"
+                ]
+              },
+              {
+                "name": "LLM-Specific Attacks",
+                "techniques": [
+                  "Prompt injection",
+                  "Indirect prompt injection",
+                  "Context manipulation",
+                  "System prompt extraction",
+                  "PII extraction",
+                  "Harmful content generation"
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Security Fundamentals",
+            "skills": [
+              "Cybersecurity principles",
+              "Penetration testing",
+              "Threat modeling",
+              "Risk assessment",
+              "Security frameworks (OWASP, NIST)",
+              "Incident response"
+            ]
+          },
+          {
+            "category": "AI/ML Knowledge",
+            "areas": [
+              "Deep learning fundamentals",
+              "LLM architecture and behavior",
+              "Training and fine-tuning processes",
+              "Model deployment patterns",
+              "RAG systems",
+              "AI agents and autonomous systems"
+            ]
+          },
+          {
+            "category": "Testing Methodologies",
+            "approaches": [
+              {
+                "name": "Manual Testing",
+                "techniques": ["Creative adversarial prompting", "Edge case discovery", "Behavioral analysis"]
+              },
+              {
+                "name": "Automated Testing",
+                "tools": ["Fuzzing", "Automated attack generation", "Continuous testing pipelines"]
+              },
+              {
+                "name": "Evaluation Frameworks",
+                "methods": ["OWASP LLM Top 10", "NIST AI Risk Framework", "Custom benchmarks"]
+              }
+            ]
+          },
+          {
+            "category": "Tools & Frameworks",
+            "security_tools": [
+              "Adversarial Robustness Toolbox (ART)",
+              "TextAttack",
+              "Garak (LLM vulnerability scanner)",
+              "PromptInject",
+              "PyRIT (Python Risk Identification Toolkit)"
+            ],
+            "testing_platforms": [
+              "HackTheBox AI challenges",
+              "Anthropic's Red Team toolkit",
+              "Custom testing frameworks"
+            ]
+          }
+        ],
+        "soft_skills": [
+          {
+            "skill": "Adversarial Thinking",
+            "description": "Ability to think like an attacker and anticipate misuse"
+          },
+          {
+            "skill": "Ethical Responsibility",
+            "description": "Understanding responsible disclosure and ethical testing boundaries"
+          },
+          {
+            "skill": "Communication",
+            "description": "Clearly documenting and reporting vulnerabilities"
+          },
+          {
+            "skill": "Collaboration",
+            "description": "Working with development teams to remediate issues"
+          }
+        ]
+      },
+      "learning_path": {
+        "total_duration": "6-12 months",
+        "prerequisite": "Security fundamentals and AI/ML basics",
+        "phases": [
+          {
+            "phase": 1,
+            "title": "Security & AI Foundations",
+            "duration": "2-3 months",
+            "topics": [
+              "Cybersecurity fundamentals",
+              "Penetration testing basics",
+              "ML/DL fundamentals",
+              "LLM architecture and behavior",
+              "Security frameworks (OWASP, NIST)"
+            ],
+            "resources": [
+              "OWASP AI Security and Privacy Guide",
+              "Cybersecurity courses",
+              "ML/AI fundamentals courses"
+            ]
+          },
+          {
+            "phase": 2,
+            "title": "AI-Specific Attacks",
+            "duration": "2-3 months",
+            "topics": [
+              "Adversarial examples",
+              "Prompt injection techniques",
+              "Jailbreaking methods",
+              "Data poisoning",
+              "Model extraction",
+              "Privacy attacks",
+              "OWASP LLM Top 10"
+            ],
+            "resources": [
+              "OWASP LLM Top 10",
+              "Research papers on adversarial ML",
+              "Hands-on labs and CTFs"
+            ]
+          },
+          {
+            "phase": 3,
+            "title": "Testing & Tooling",
+            "duration": "2-3 months",
+            "topics": [
+              "Red teaming methodologies",
+              "Automated testing tools",
+              "Custom attack development",
+              "Evaluation frameworks",
+              "Documentation and reporting",
+              "Remediation strategies"
+            ],
+            "resources": [
+              "ART, TextAttack documentation",
+              "Red teaming guides",
+              "Real-world engagements"
+            ]
+          },
+          {
+            "phase": 4,
+            "title": "Advanced & Emerging Threats",
+            "duration": "2-3 months",
+            "topics": [
+              "Multi-agent system attacks",
+              "Supply chain vulnerabilities",
+              "Multimodal AI attacks",
+              "Advanced evasion techniques",
+              "AI safety research",
+              "Emerging threats and trends"
+            ],
+            "resources": [
+              "Latest research papers",
+              "AI safety communities",
+              "Bug bounty programs"
+            ]
+          }
+        ]
+      },
+      "tools_and_frameworks": {
+        "attack_tools": [
+          {
+            "name": "Adversarial Robustness Toolbox (ART)",
+            "use_case": "Library for adversarial attacks and defenses",
+            "platform": "IBM Research"
+          },
+          {
+            "name": "TextAttack",
+            "use_case": "Framework for adversarial attacks on NLP models"
+          },
+          {
+            "name": "Garak",
+            "use_case": "LLM vulnerability scanner"
+          },
+          {
+            "name": "PromptInject",
+            "use_case": "Prompt injection attack framework"
+          },
+          {
+            "name": "PyRIT",
+            "use_case": "Python Risk Identification Toolkit for GenAI",
+            "platform": "Microsoft"
+          }
+        ],
+        "frameworks": [
+          "OWASP LLM Top 10",
+          "OWASP AI Security and Privacy Guide",
+          "NIST AI Risk Management Framework",
+          "MITRE ATLAS (Adversarial Threat Landscape)",
+          "Gen AI Red Teaming Guide (OWASP)"
+        ],
+        "testing_platforms": [
+          "HackTheBox AI challenges",
+          "TryHackMe AI security rooms",
+          "AI Village CTF",
+          "Bug bounty platforms (HackerOne, Bugcrowd)"
+        ],
+        "development": [
+          "Python",
+          "LLM APIs (OpenAI, Anthropic, etc.)",
+          "LangChain for testing",
+          "Custom testing scripts"
+        ],
+        "monitoring": [
+          "LangSmith",
+          "Arize AI",
+          "Whylabs",
+          "Custom logging and alerting"
+        ]
+      },
+      "project_examples": [
+        {
+          "title": "LLM Jailbreak Testing",
+          "difficulty": "Beginner",
+          "description": "Test popular LLMs for jailbreak vulnerabilities and document bypass techniques",
+          "deliverables": ["Jailbreak attempts", "Success/failure documentation", "Mitigation recommendations"]
+        },
+        {
+          "title": "Prompt Injection Assessment",
+          "difficulty": "Intermediate",
+          "description": "Comprehensive testing for prompt injection vulnerabilities in an AI application",
+          "deliverables": ["Attack vectors", "Proof of concepts", "Severity ratings", "Remediation guide"]
+        },
+        {
+          "title": "RAG System Security Audit",
+          "difficulty": "Intermediate",
+          "description": "Red team assessment of a RAG-based application",
+          "areas": ["Data extraction", "Unauthorized access", "Misinformation injection", "Privacy leaks"]
+        },
+        {
+          "title": "Multi-Agent System Attack",
+          "difficulty": "Advanced",
+          "description": "Identify vulnerabilities in multi-agent AI systems",
+          "attack_surfaces": ["Agent-to-agent communication", "Tool misuse", "Coordination failures"]
+        },
+        {
+          "title": "AI Safety Evaluation Framework",
+          "difficulty": "Advanced",
+          "description": "Build comprehensive testing framework for AI safety",
+          "components": ["Automated test generation", "Bias detection", "Safety benchmarks", "CI/CD integration"]
+        }
+      ],
+      "career_path": {
+        "entry_level": {
+          "titles": ["AI Security Analyst", "Junior AI Red Teamer"],
+          "experience": "0-2 years",
+          "salary_range": {
+            "USD": "$80,000 - $130,000"
+          },
+          "responsibilities": [
+            "Manual security testing",
+            "Vulnerability documentation",
+            "Following test plans",
+            "Learning attack techniques"
+          ]
+        },
+        "mid_level": {
+          "titles": ["AI Red Team Engineer", "Senior AI Security Researcher"],
+          "experience": "2-5 years",
+          "salary_range": {
+            "USD": "$120,000 - $190,000"
+          },
+          "responsibilities": [
+            "Independent red team engagements",
+            "Developing custom attacks",
+            "Building testing frameworks",
+            "Mentoring junior team members",
+            "Threat modeling"
+          ]
+        },
+        "senior_level": {
+          "titles": ["Lead AI Red Teamer", "Principal AI Security Researcher"],
+          "experience": "5+ years",
+          "salary_range": {
+            "USD": "$160,000 - $280,000+"
+          },
+          "responsibilities": [
+            "Leading red team programs",
+            "Research and innovation",
+            "Strategy development",
+            "Industry collaboration",
+            "Speaking and publishing"
+          ]
+        },
+        "alternative_paths": [
+          "AI Safety Researcher",
+          "AI Security Architect",
+          "AI Governance Specialist",
+          "Security Product Manager (AI)"
+        ]
+      },
+      "industry_resources": {
+        "standards_frameworks": [
+          "OWASP LLM Top 10 (2025)",
+          "NIST AI Risk Management Framework",
+          "MITRE ATLAS",
+          "ISO/IEC 42001 (AI Management System)",
+          "EU AI Act compliance"
+        ],
+        "communities": [
+          "AI Village (DEF CON)",
+          "OWASP AI Security Project",
+          "MLSecOps community",
+          "AI Safety communities (LessWrong, AI Alignment Forum)"
+        ],
+        "certifications": [
+          "Certified AI Security Specialist (emerging)",
+          "CISSP (with AI focus)",
+          "OSCP (for pentesting background)",
+          "AI Red Teaming certification (emerging)"
+        ]
+      }
+    }
+  ]
+}
