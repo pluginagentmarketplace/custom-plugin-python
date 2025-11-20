@@ -1,67 +1,69 @@
 {
   "schema_version": "1.0.0",
-  "name": "Custom Plugin Python",
+  "name": "Python Development Mastery",
   "id": "custom-plugin-python",
-  "version": "1.0.0",
-  "description": "Comprehensive developer roadmap plugin featuring 7 specialized agents, covering 65+ roles from frontend development to AI engineering with hands-on projects and skill assessments",
-  "author": "Developer Roadmap Team",
+  "version": "2.0.0",
+  "description": "Master Python development from fundamentals to advanced topics: web frameworks (Django, FastAPI), data science (Pandas, NumPy), testing (pytest), async programming, packaging, and performance optimization",
+  "author": "Python Learning Team",
   "license": "MIT",
-  "repository": "https://github.com/kamranahmedse/developer-roadmap",
+  "repository": "https://github.com/pluginagentmarketplace/custom-plugin-python",
   "keywords": [
-    "developer-roadmap",
-    "learning",
-    "programming",
-    "web-development",
-    "backend",
-    "ai",
+    "python",
+    "django",
+    "flask",
+    "fastapi",
+    "pandas",
+    "numpy",
+    "pytest",
+    "asyncio",
+    "poetry",
     "data-science",
-    "devops",
-    "design",
-    "security",
-    "career"
+    "web-development",
+    "performance",
+    "testing"
   ],
   "agents": [
     {
-      "id": "01-frontend-web-tech",
-      "name": "Frontend & Web Technologies Agent",
-      "file": "agents/01-frontend-web-tech.md",
-      "description": "Specializes in frontend development, web frameworks, and web technologies covering React, Vue, Angular, Next.js and modern web stack"
+      "id": "01-python-fundamentals",
+      "name": "Python Fundamentals Agent",
+      "file": "agents/01-python-fundamentals.md",
+      "description": "Master Python syntax, data types, control flow, functions, OOP, and standard library with hands-on projects"
     },
     {
-      "id": "02-backend-database",
-      "name": "Backend & Database Agent",
-      "file": "agents/02-backend-database.md",
-      "description": "Focuses on backend development, databases, cloud infrastructure with PostgreSQL, MongoDB, Docker, Kubernetes and microservices architecture"
+      "id": "02-web-development",
+      "name": "Python Web Development Agent",
+      "file": "agents/02-web-development.md",
+      "description": "Build production-ready web applications with Django, Flask, and FastAPI frameworks"
     },
     {
-      "id": "03-data-ai-ml",
-      "name": "Data, AI & Machine Learning Agent",
-      "file": "agents/03-data-ai-ml.md",
-      "description": "Guides through data science, machine learning, AI engineering, MLOps with practical implementations and AI systems development"
+      "id": "03-data-science",
+      "name": "Python Data Science Agent",
+      "file": "agents/03-data-science.md",
+      "description": "Master data analysis and machine learning with Pandas, NumPy, scikit-learn, and visualization tools"
     },
     {
-      "id": "04-devops-infrastructure",
-      "name": "DevOps & Infrastructure Agent",
-      "file": "agents/04-devops-infrastructure.md",
-      "description": "Covers DevOps practices, cloud platforms, infrastructure as code, system design, and enterprise deployment strategies"
+      "id": "04-testing-quality",
+      "name": "Python Testing & Quality Agent",
+      "file": "agents/04-testing-quality.md",
+      "description": "Implement comprehensive testing with pytest, unittest, and quality assurance practices"
     },
     {
-      "id": "05-design-product",
-      "name": "Design & Product Management Agent",
-      "file": "agents/05-design-product.md",
-      "description": "Specializes in UX/UI design, design systems, product management, and technical writing for holistic product development"
+      "id": "05-async-concurrency",
+      "name": "Python Async & Concurrency Agent",
+      "file": "agents/05-async-concurrency.md",
+      "description": "Master asynchronous programming with asyncio, concurrent operations, and parallel processing"
     },
     {
-      "id": "06-security-blockchain",
-      "name": "Security & Blockchain Agent",
-      "file": "agents/06-security-blockchain.md",
-      "description": "Focuses on cybersecurity, ethical hacking, blockchain development, and secure architecture design"
+      "id": "06-package-deployment",
+      "name": "Python Packaging & Deployment Agent",
+      "file": "agents/06-package-deployment.md",
+      "description": "Package and deploy Python applications with Poetry, Docker, and CI/CD pipelines"
     },
     {
-      "id": "07-languages-fundamentals",
-      "name": "Programming Languages & Fundamentals Agent",
-      "file": "agents/07-languages-fundamentals.md",
-      "description": "Teaches core programming languages (Python, JavaScript, Go, Rust, Java, C++) and CS fundamentals for strong foundation"
+      "id": "07-best-practices",
+      "name": "Python Best Practices Agent",
+      "file": "agents/07-best-practices.md",
+      "description": "Learn Python coding standards, design patterns, performance optimization, and professional development practices"
     }
   ],
   "commands": [
@@ -88,32 +90,32 @@
   ],
   "skills": [
     {
-      "name": "frontend-web-stack",
-      "file": "skills/frontend/SKILL.md"
+      "name": "python-fundamentals",
+      "file": "skills/python-fundamentals/SKILL.md"
     },
     {
-      "name": "backend-infrastructure",
-      "file": "skills/backend/SKILL.md"
+      "name": "django-framework",
+      "file": "skills/django-framework/SKILL.md"
     },
     {
-      "name": "data-ai-systems",
-      "file": "skills/data-ai/SKILL.md"
+      "name": "pandas-data-analysis",
+      "file": "skills/pandas-data-analysis/SKILL.md"
     },
     {
-      "name": "devops-cloud",
-      "file": "skills/devops/SKILL.md"
+      "name": "pytest-testing",
+      "file": "skills/pytest-testing/SKILL.md"
     },
     {
-      "name": "design-product",
-      "file": "skills/design/SKILL.md"
+      "name": "asyncio-programming",
+      "file": "skills/asyncio-programming/SKILL.md"
     },
     {
-      "name": "security-blockchain",
-      "file": "skills/security/SKILL.md"
+      "name": "poetry-packaging",
+      "file": "skills/poetry-packaging/SKILL.md"
     },
     {
-      "name": "programming-languages",
-      "file": "skills/languages/SKILL.md"
+      "name": "python-performance",
+      "file": "skills/python-performance/SKILL.md"
     }
   ],
   "hooks": {
