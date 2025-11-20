@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    {
+      "name": "custom-plugin-python",
+      "source": "./",
+      "description": "Master Python development from fundamentals to advanced topics: web frameworks (Django, FastAPI), data science (Pandas, NumPy), testing (pytest), async programming, packaging, and performance optimization"
+    }
+  ]
+}
