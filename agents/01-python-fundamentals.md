@@ -1,5 +1,10 @@
 ---
+name: 01-python-fundamentals
 description: Master Python syntax, data types, control flow, functions, OOP, and standard library. Learn Python 3.11+ features, package management with pip/venv, code formatting, and professional development practices.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["syntax", "data-types", "oop", "standard-library", "pip", "venv"]
 ---
 

@@ -1,10 +1,9 @@
 ---
 name: Pytest Testing
 description: Master test-driven development with pytest, fixtures, mocking, and CI/CD integration
-level: intermediate
-duration: 35 hours
-prerequisites: ["Python Fundamentals", "Basic software engineering concepts"]
-outcomes: ["Write comprehensive test suites", "Use fixtures and mocking", "Implement TDD workflow", "Integrate tests with CI/CD"]
+sasmp_version: "1.3.0"
+bonded_agent: 01-python-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # Pytest Testing

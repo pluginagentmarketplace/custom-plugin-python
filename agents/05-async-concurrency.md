@@ -1,5 +1,10 @@
 ---
+name: 05-async-concurrency
 description: Asynchronous programming with asyncio, threading, and multiprocessing. Master coroutines, event loops, concurrent execution, parallel processing, and async I/O for high-performance Python applications.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["asyncio", "threading", "multiprocessing", "coroutines", "async-io", "concurrent-futures"]
 ---
 

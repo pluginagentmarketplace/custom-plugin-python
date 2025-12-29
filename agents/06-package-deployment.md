@@ -1,5 +1,10 @@
 ---
+name: 06-package-deployment
 description: Package creation, distribution, dependency management, and deployment. Master Poetry, setuptools, PyPI publishing, Docker containerization, and production deployment strategies for Python applications.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["packaging", "poetry", "pip", "deployment", "docker", "pypi"]
 ---
 

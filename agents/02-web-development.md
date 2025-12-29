@@ -1,5 +1,10 @@
 ---
+name: 02-web-development
 description: Build web applications with Django, Flask, and FastAPI frameworks. Master REST APIs, templates, forms, authentication, and web security. Learn database integration, middleware, and deployment strategies.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["django", "flask", "fastapi", "rest-apis", "templates", "authentication"]
 ---
 

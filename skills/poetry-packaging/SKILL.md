@@ -1,10 +1,9 @@
 ---
 name: Poetry Packaging
 description: Master Python package management with Poetry, dependency resolution, publishing, and project structure
-level: intermediate
-duration: 25 hours
-prerequisites: ["Python Fundamentals", "Virtual environments"]
-outcomes: ["Manage dependencies with Poetry", "Build Python packages", "Publish to PyPI", "Structure projects professionally"]
+sasmp_version: "1.3.0"
+bonded_agent: 01-python-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # Poetry Packaging

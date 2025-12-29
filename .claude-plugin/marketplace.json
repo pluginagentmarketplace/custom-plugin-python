@@ -1,0 +1,24 @@
+{
+  "name": "pluginagentmarketplace-python",
+  "owner": {
+    "name": "Dr. Umit Kacar & Muhsin Elcicek",
+    "email": "kacarumit.phd@gmail.com",
+    "url": "https://github.com/pluginagentmarketplace"
+  },
+  "plugins": [
+    {
+      "name": "python-developer-plugin",
+      "source": "./",
+      "description": "Master Python development with 7 agents and 7 skills",
+      "version": "2.0.0",
+      "keywords": ["python", "django", "fastapi", "pandas", "pytest"],
+      "author": {
+        "name": "Dr. Umit Kacar & Muhsin Elcicek",
+        "email": "kacarumit.phd@gmail.com",
+        "url": "https://github.com/pluginagentmarketplace"
+      },
+      "repository": "https://github.com/pluginagentmarketplace/custom-plugin-python",
+      "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-python"
+    }
+  ]
+}

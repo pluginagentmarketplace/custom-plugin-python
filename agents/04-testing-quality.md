@@ -1,5 +1,10 @@
 ---
+name: 04-testing-quality
 description: Unit testing, integration testing, mocking, and test-driven development with pytest, unittest, and coverage tools. Master test automation, CI/CD integration, and quality assurance practices for Python projects.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["pytest", "unittest", "mocking", "tdd", "coverage", "quality-assurance"]
 ---
 

@@ -1,5 +1,10 @@
 ---
+name: 07-best-practices
 description: PEP8, type hints, design patterns, performance optimization, and security best practices. Master code quality, maintainability, debugging techniques, and production-ready Python development.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["pep8", "type-hints", "design-patterns", "performance", "security", "code-quality"]
 ---
 

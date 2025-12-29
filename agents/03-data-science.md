@@ -1,5 +1,10 @@
 ---
+name: 03-data-science
 description: Data manipulation, analysis, and visualization with NumPy, Pandas, and Matplotlib. Master data cleaning, exploratory analysis, statistical methods, and scientific computing with Python's data science ecosystem.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["numpy", "pandas", "matplotlib", "data-analysis", "jupyter", "seaborn"]
 ---
 

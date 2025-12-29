@@ -1,10 +1,9 @@
 ---
 name: Python Fundamentals
 description: Master Python syntax, data types, control flow, functions, OOP, and standard library
-level: beginner
-duration: 40 hours
-prerequisites: ["Basic programming concepts"]
-outcomes: ["Write idiomatic Python code", "Use Python data structures", "Implement OOP designs", "Use standard library modules"]
+sasmp_version: "1.3.0"
+bonded_agent: 01-python-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # Python Fundamentals

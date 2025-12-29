@@ -1,129 +1,39 @@
 {
-  "schema_version": "1.0.0",
-  "name": "Python Development Mastery",
-  "id": "custom-plugin-python",
+  "name": "python-developer-plugin",
   "version": "2.0.0",
   "description": "Master Python development from fundamentals to advanced topics: web frameworks (Django, FastAPI), data science (Pandas, NumPy), testing (pytest), async programming, packaging, and performance optimization",
-  "author": "Python Learning Team",
-  "license": "MIT",
+  "author": {
+    "name": "Dr. Umit Kacar & Muhsin Elcicek",
+    "email": "kacarumit.phd@gmail.com",
+    "url": "https://github.com/pluginagentmarketplace"
+  },
+  "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-python",
   "repository": "https://github.com/pluginagentmarketplace/custom-plugin-python",
-  "keywords": [
-    "python",
-    "django",
-    "flask",
-    "fastapi",
-    "pandas",
-    "numpy",
-    "pytest",
-    "asyncio",
-    "poetry",
-    "data-science",
-    "web-development",
-    "performance",
-    "testing"
-  ],
+  "license": "MIT",
+  "keywords": ["python", "django", "flask", "fastapi", "pandas", "pytest", "asyncio", "claude-code", "plugin"],
   "agents": [
-    {
-      "id": "01-python-fundamentals",
-      "name": "Python Fundamentals Agent",
-      "file": "agents/01-python-fundamentals.md",
-      "description": "Master Python syntax, data types, control flow, functions, OOP, and standard library with hands-on projects"
-    },
-    {
-      "id": "02-web-development",
-      "name": "Python Web Development Agent",
-      "file": "agents/02-web-development.md",
-      "description": "Build production-ready web applications with Django, Flask, and FastAPI frameworks"
-    },
-    {
-      "id": "03-data-science",
-      "name": "Python Data Science Agent",
-      "file": "agents/03-data-science.md",
-      "description": "Master data analysis and machine learning with Pandas, NumPy, scikit-learn, and visualization tools"
-    },
-    {
-      "id": "04-testing-quality",
-      "name": "Python Testing & Quality Agent",
-      "file": "agents/04-testing-quality.md",
-      "description": "Implement comprehensive testing with pytest, unittest, and quality assurance practices"
-    },
-    {
-      "id": "05-async-concurrency",
-      "name": "Python Async & Concurrency Agent",
-      "file": "agents/05-async-concurrency.md",
-      "description": "Master asynchronous programming with asyncio, concurrent operations, and parallel processing"
-    },
-    {
-      "id": "06-package-deployment",
-      "name": "Python Packaging & Deployment Agent",
-      "file": "agents/06-package-deployment.md",
-      "description": "Package and deploy Python applications with Poetry, Docker, and CI/CD pipelines"
-    },
-    {
-      "id": "07-best-practices",
-      "name": "Python Best Practices Agent",
-      "file": "agents/07-best-practices.md",
-      "description": "Learn Python coding standards, design patterns, performance optimization, and professional development practices"
-    }
-  ],
-  "commands": [
-    {
-      "name": "roadmap",
-      "file": "commands/roadmap.md",
-      "description": "Choose your learning roadmap and get personalized guidance"
-    },
-    {
-      "name": "agent-guide",
-      "file": "commands/agent-guide.md",
-      "description": "Get specialized guidance from domain expert agents"
-    },
-    {
-      "name": "skill-assessment",
-      "file": "commands/skill-assessment.md",
-      "description": "Assess your knowledge and get recommendations"
-    },
-    {
-      "name": "project-builder",
-      "file": "commands/project-builder.md",
-      "description": "Explore hands-on projects and build your portfolio"
-    }
+    "./agents/01-python-fundamentals.md",
+    "./agents/02-web-development.md",
+    "./agents/03-data-science.md",
+    "./agents/04-testing-quality.md",
+    "./agents/05-async-concurrency.md",
+    "./agents/06-package-deployment.md",
+    "./agents/07-best-practices.md"
   ],
   "skills": [
-    {
-      "name": "python-fundamentals",
-      "file": "skills/python-fundamentals/SKILL.md"
-    },
-    {
-      "name": "django-framework",
-      "file": "skills/django-framework/SKILL.md"
-    },
-    {
-      "name": "pandas-data-analysis",
-      "file": "skills/pandas-data-analysis/SKILL.md"
-    },
-    {
-      "name": "pytest-testing",
-      "file": "skills/pytest-testing/SKILL.md"
-    },
-    {
-      "name": "asyncio-programming",
-      "file": "skills/asyncio-programming/SKILL.md"
-    },
-    {
-      "name": "poetry-packaging",
-      "file": "skills/poetry-packaging/SKILL.md"
-    },
-    {
-      "name": "python-performance",
-      "file": "skills/python-performance/SKILL.md"
-    }
+    "./skills/asyncio-programming/SKILL.md",
+    "./skills/django-framework/SKILL.md",
+    "./skills/pandas-data-analysis/SKILL.md",
+    "./skills/poetry-packaging/SKILL.md",
+    "./skills/pytest-testing/SKILL.md",
+    "./skills/python-fundamentals/SKILL.md",
+    "./skills/python-performance/SKILL.md"
   ],
-  "hooks": {
-    "file": "hooks/hooks.json"
-  },
-  "settings": {
-    "enable_skills_auto_trigger": true,
-    "enable_progress_tracking": true,
-    "enable_assessments": true
-  }
+  "commands": [
+    "./commands/agent-guide.md",
+    "./commands/project-builder.md",
+    "./commands/roadmap.md",
+    "./commands/skill-assessment.md"
+  ],
+  "hooks": "./hooks/hooks.json"
 }

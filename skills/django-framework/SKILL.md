@@ -1,10 +1,9 @@
 ---
 name: Django Framework
 description: Build production-ready web applications with Django MVC, ORM, authentication, and REST APIs
-level: intermediate
-duration: 50 hours
-prerequisites: ["Python Fundamentals", "Basic HTML/CSS", "SQL basics"]
-outcomes: ["Build full-stack web apps", "Design database models", "Implement authentication", "Create REST APIs"]
+sasmp_version: "1.3.0"
+bonded_agent: 01-python-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # Django Framework

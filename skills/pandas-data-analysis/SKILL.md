@@ -1,10 +1,9 @@
 ---
 name: Pandas Data Analysis
 description: Master data manipulation, analysis, and visualization with Pandas, NumPy, and Matplotlib
-level: intermediate
-duration: 45 hours
-prerequisites: ["Python Fundamentals", "Basic statistics"]
-outcomes: ["Manipulate data with Pandas", "Perform statistical analysis", "Create visualizations", "Clean and transform datasets"]
+sasmp_version: "1.3.0"
+bonded_agent: 01-python-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # Pandas Data Analysis

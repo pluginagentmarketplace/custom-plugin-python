@@ -1,10 +1,9 @@
 ---
 name: Asyncio Programming
 description: Master asynchronous programming with asyncio, async/await, concurrent operations, and async frameworks
-level: advanced
-duration: 40 hours
-prerequisites: ["Python Fundamentals", "Understanding of concurrency concepts"]
-outcomes: ["Write async code with asyncio", "Build concurrent applications", "Use async frameworks", "Optimize I/O-bound operations"]
+sasmp_version: "1.3.0"
+bonded_agent: 01-python-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # Asyncio Programming
