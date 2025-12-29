@@ -1,3 +1,9 @@
+---
+name: roadmap
+description: /roadmap
+allowed-tools: Read
+---
+
 # /roadmap
 
 Start your personalized learning journey with custom roadmaps.

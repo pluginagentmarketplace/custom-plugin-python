@@ -1,3 +1,9 @@
+---
+name: project-builder
+description: builder
+allowed-tools: Read
+---
+
 # /project-builder
 
 Explore hands-on projects and build your professional portfolio.

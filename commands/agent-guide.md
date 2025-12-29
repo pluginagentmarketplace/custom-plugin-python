@@ -1,3 +1,9 @@
+---
+name: agent-guide
+description: guide
+allowed-tools: Read
+---
+
 # /agent-guide
 
 Get expert guidance from specialized domain agents.

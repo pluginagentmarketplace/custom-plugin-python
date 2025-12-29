@@ -9,8 +9,18 @@
   },
   "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-python",
   "repository": "https://github.com/pluginagentmarketplace/custom-plugin-python",
-  "license": "MIT",
-  "keywords": ["python", "django", "flask", "fastapi", "pandas", "pytest", "asyncio", "claude-code", "plugin"],
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "python",
+    "django",
+    "flask",
+    "fastapi",
+    "pandas",
+    "pytest",
+    "asyncio",
+    "claude-code",
+    "plugin"
+  ],
   "agents": [
     "./agents/01-python-fundamentals.md",
     "./agents/02-web-development.md",
