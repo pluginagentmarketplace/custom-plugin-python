@@ -1,9 +1,16 @@
 ---
 name: Pytest Testing
 description: Master test-driven development with pytest, fixtures, mocking, and CI/CD integration
+version: "2.1.0"
 sasmp_version: "1.3.0"
-bonded_agent: 01-python-fundamentals
+bonded_agent: 04-testing-quality
 bond_type: PRIMARY_BOND
+
+# Skill Configuration
+retry_strategy: exponential_backoff
+observability:
+  logging: true
+  metrics: coverage_percent
 ---
 
 # Pytest Testing

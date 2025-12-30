@@ -1,9 +1,16 @@
 ---
-name: debugging
-description: Python debugging techniques and tools
+name: Debugging
+description: Python debugging techniques, pdb, and IDE debugging tools
+version: "2.1.0"
 sasmp_version: "1.3.0"
 bonded_agent: 04-testing-quality
 bond_type: PRIMARY_BOND
+
+# Skill Configuration
+retry_strategy: exponential_backoff
+observability:
+  logging: true
+  metrics: issue_resolution_time
 ---
 
 # Python Debugging Skill

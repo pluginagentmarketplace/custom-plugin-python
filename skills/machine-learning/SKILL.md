@@ -1,9 +1,16 @@
 ---
-name: machine-learning
-description: Python machine learning with scikit-learn and PyTorch
+name: Machine Learning
+description: Python machine learning with scikit-learn, PyTorch, and TensorFlow
+version: "2.1.0"
 sasmp_version: "1.3.0"
 bonded_agent: 03-data-science
 bond_type: PRIMARY_BOND
+
+# Skill Configuration
+retry_strategy: exponential_backoff
+observability:
+  logging: true
+  metrics: model_accuracy
 ---
 
 # Python Machine Learning Skill

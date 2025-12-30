@@ -1,221 +1,195 @@
 ---
 name: agent-guide
-description: guide
+description: Navigate Python developer agents and get expert guidance
+version: "2.1.0"
 allowed-tools: Read
+exit_codes:
+  0: success
+  1: agent_not_found
+  2: invalid_input
 ---
 
 # /agent-guide
 
-Get expert guidance from specialized domain agents.
+Get expert guidance from specialized Python development agents.
 
-## Usage
+## Python Developer Agents
 
-Connect with expert agents who specialize in:
+### 01 - Python Fundamentals Agent
+**Expertise:** Core Python syntax, data types, OOP, standard library
 
-### Available Agents
+**Use When:**
+- Learning Python from scratch
+- Understanding Python data structures
+- Implementing OOP designs
+- Setting up development environment
 
-#### 1️⃣ Frontend & Web Technologies Agent
-**Specialties:** React, Vue, Angular, TypeScript, CSS, Performance
-
-When to use:
-- Building React/Vue applications
-- Optimizing web performance
-- Learning modern frontend patterns
-- Debugging component issues
-- Implementing state management
-
-**Can help with:**
-- Framework selection
-- Component architecture
-- State management solutions
-- Testing strategies
-- Performance optimization
-- TypeScript mastery
+**Skills:** `python-fundamentals`, `type-hints`, `debugging`
 
 ---
 
-#### 2️⃣ Backend & Database Agent
-**Specialties:** Node.js, Python, Databases, APIs, Cloud
+### 02 - Web Development Agent
+**Expertise:** Django, Flask, FastAPI, REST APIs, authentication
 
-When to use:
-- Building REST/GraphQL APIs
-- Designing database schemas
-- Choosing backend frameworks
-- Scaling applications
+**Use When:**
+- Building web applications
+- Creating REST/GraphQL APIs
 - Implementing authentication
+- Deploying web services
 
-**Can help with:**
-- API design patterns
-- Database optimization
-- Authentication/Authorization
-- Microservices architecture
-- Cloud deployment
-- Performance tuning
+**Skills:** `django-framework`, `fastapi`
 
 ---
 
-#### 3️⃣ Data, AI & Machine Learning Agent
-**Specialties:** ML, AI, Data Science, LLMs, AI Agents
+### 03 - Data Science Agent
+**Expertise:** NumPy, Pandas, Matplotlib, statistical analysis
 
-When to use:
-- Building ML models
-- Data analysis and visualization
-- AI system development
-- Prompt engineering
-- MLOps and deployment
+**Use When:**
+- Analyzing datasets
+- Creating visualizations
+- Performing statistical analysis
+- Building data pipelines
 
-**Can help with:**
-- Model selection
-- Feature engineering
-- Data pipeline design
-- LLM integration
-- AI agent development
-- Production ML systems
+**Skills:** `pandas-data-analysis`, `machine-learning`
 
 ---
 
-#### 4️⃣ DevOps & Infrastructure Agent
-**Specialties:** Docker, Kubernetes, Terraform, AWS, CI/CD
+### 04 - Testing & Quality Agent
+**Expertise:** pytest, unittest, TDD, mocking, coverage
 
-When to use:
-- Container orchestration
-- Cloud infrastructure setup
-- Automation and CI/CD
-- System scaling
-- Monitoring and logging
+**Use When:**
+- Writing unit/integration tests
+- Setting up CI testing
+- Improving code coverage
+- Implementing TDD
 
-**Can help with:**
-- Kubernetes deployment
-- Terraform configuration
-- AWS architecture
-- CI/CD pipeline design
-- Infrastructure monitoring
+**Skills:** `pytest-testing`, `debugging`, `security`
+
+---
+
+### 05 - Async & Concurrency Agent
+**Expertise:** asyncio, threading, multiprocessing
+
+**Use When:**
+- Building async applications
+- Optimizing I/O-bound tasks
+- Parallel processing
+- Real-time systems
+
+**Skills:** `asyncio-programming`
+
+---
+
+### 06 - Package & Deployment Agent
+**Expertise:** Poetry, Docker, PyPI, production deployment
+
+**Use When:**
+- Creating Python packages
+- Publishing to PyPI
+- Containerizing applications
+- Production deployments
+
+**Skills:** `poetry-packaging`
+
+---
+
+### 07 - Best Practices Agent
+**Expertise:** PEP 8, type hints, design patterns, security
+
+**Use When:**
+- Improving code quality
+- Adding type annotations
+- Implementing design patterns
 - Security hardening
 
----
-
-#### 5️⃣ Design & Product Management Agent
-**Specialties:** UX/UI, Design Systems, Product Strategy
-
-When to use:
-- Creating design systems
-- Product roadmapping
-- User research
-- Team leadership
-- Quality assurance
-
-**Can help with:**
-- Design system setup
-- Product discovery
-- Roadmap prioritization
-- Team management
-- Accessibility compliance
-- Testing strategies
+**Skills:** `type-hints`, `security`, `python-performance`
 
 ---
 
-#### 6️⃣ Security & Blockchain Agent
-**Specialties:** Cybersecurity, Smart Contracts, Ethical Hacking
+### 08 - DevOps & Automation Agent
+**Expertise:** CI/CD, GitHub Actions, Boto3, CLI tools
 
-When to use:
-- Security architecture
-- Penetration testing
-- Smart contract development
-- Vulnerability assessment
-- Compliance and standards
+**Use When:**
+- Setting up CI/CD pipelines
+- AWS automation
+- Building CLI tools
+- Infrastructure scripting
 
-**Can help with:**
-- Security audits
-- Smart contract development
-- Cryptography implementation
-- Penetration testing
-- Incident response
-- DeFi protocol design
+**Skills:** `poetry-packaging`, `pytest-testing`
 
 ---
 
-#### 7️⃣ Programming Languages & Fundamentals Agent
-**Specialties:** Core CS, Algorithms, Data Structures
+## Agent Selection Decision Tree
 
-When to use:
-- Learning programming fundamentals
-- Solving algorithmic problems
-- Preparing for interviews
-- Choosing a programming language
-- Building data structures
-
-**Can help with:**
-- Algorithm design
-- Data structure selection
-- Complexity analysis
-- Design pattern implementation
-- Language selection
-- Interview preparation
-
----
+```
+                    ┌─────────────────────┐
+                    │  What are you       │
+                    │  working on?        │
+                    └──────────┬──────────┘
+                               │
+    ┌──────────┬───────────────┼───────────────┬──────────────┐
+    ▼          ▼               ▼               ▼              ▼
+Learning    Web App       Data Analysis    Testing      Deployment
+Python?     or API?                        Code?
+    │          │               │               │              │
+    ▼          ▼               ▼               ▼              ▼
+ Agent 01   Agent 02       Agent 03       Agent 04       Agent 06
+```
 
 ## How to Get Agent Help
 
 1. **Describe your problem** - Be specific about what you're working on
-2. **Provide context** - Share your experience level and constraints
-3. **Specify your goal** - What are you trying to achieve?
+2. **Provide context** - Share your Python version, frameworks, constraints
+3. **Specify your goal** - What outcome do you want to achieve?
 
 ## Example Questions
 
-**For Frontend Agent:**
-- "Help me optimize my React component performance"
-- "How do I structure a large application with multiple routes?"
-- "What's the best approach for state management in my app?"
+**For Agent 01 (Fundamentals):**
+- "Help me understand Python decorators"
+- "How do I structure a Python project?"
+- "Explain list comprehensions vs generators"
 
-**For Backend Agent:**
-- "Design a scalable API for user authentication"
-- "How do I optimize slow database queries?"
-- "What's the best approach for this microservices architecture?"
+**For Agent 02 (Web Development):**
+- "Design a REST API for user authentication"
+- "Should I use Django or FastAPI for my project?"
+- "How do I handle file uploads in FastAPI?"
 
-**For Data/AI Agent:**
-- "How do I handle class imbalance in my dataset?"
-- "Guide me through building an LLM-powered chatbot"
-- "What preprocessing steps do I need for time series data?"
+**For Agent 03 (Data Science):**
+- "How do I handle missing data in Pandas?"
+- "Create a visualization for time series data"
+- "Optimize this groupby operation"
 
-**For DevOps Agent:**
-- "How do I containerize my application with Docker?"
-- "Help me set up a Kubernetes cluster"
-- "Design a CI/CD pipeline for my project"
+**For Agent 04 (Testing):**
+- "Help me write pytest fixtures for database testing"
+- "How do I mock external API calls?"
+- "Set up coverage reporting in CI"
 
-**For Design/Product Agent:**
-- "Help me create a design system for our team"
-- "Guide me through user research"
-- "How should I structure my product roadmap?"
+**For Agent 05 (Async):**
+- "Convert this sync code to async"
+- "How do I limit concurrent requests?"
+- "Debug this asyncio deadlock"
 
-**For Security Agent:**
-- "How do I secure my API endpoints?"
-- "Guide me through smart contract security"
-- "What are the key penetration testing steps?"
+**For Agent 06 (Deployment):**
+- "Package my library for PyPI"
+- "Create a multi-stage Dockerfile"
+- "Set up Poetry for my project"
 
-**For Fundamentals Agent:**
-- "Help me understand this algorithm"
-- "How do I approach this coding problem?"
-- "What's the best way to learn [language]?"
+**For Agent 07 (Best Practices):**
+- "Add type hints to this module"
+- "Review my code for security issues"
+- "Implement the repository pattern"
+
+**For Agent 08 (DevOps):**
+- "Create a GitHub Actions workflow"
+- "Automate S3 uploads with Boto3"
+- "Build a CLI tool with Typer"
 
 ---
-
-## Agent Collaboration
-
-Agents can work together! For example:
-- **Frontend + Design Agent**: Building accessible UI components
-- **Backend + Security Agent**: Secure API design
-- **DevOps + Backend Agent**: Cloud deployment architecture
-- **Data Agent + Backend Agent**: ML model serving
 
 ## Tips for Best Results
 
-✅ Be specific and detailed in your questions
-✅ Share code examples when relevant
-✅ Mention your constraints (time, budget, team size)
-✅ Ask follow-up questions for clarification
-✅ Request explanations of "why" not just "how"
-✅ Ask for best practices and trade-offs
-
----
-
-**Ready to learn?** Choose an agent above and describe what you're working on!
+- Be specific about Python version (3.11, 3.12, etc.)
+- Share relevant code snippets
+- Mention frameworks and libraries in use
+- Specify constraints (performance, memory, etc.)
+- Ask for trade-offs between approaches

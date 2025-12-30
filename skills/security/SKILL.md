@@ -1,9 +1,16 @@
 ---
-name: security
-description: Python security best practices and vulnerability prevention
+name: Security
+description: Python security best practices, OWASP, and vulnerability prevention
+version: "2.1.0"
 sasmp_version: "1.3.0"
-bonded_agent: 04-testing-quality
+bonded_agent: 07-best-practices
 bond_type: PRIMARY_BOND
+
+# Skill Configuration
+retry_strategy: exponential_backoff
+observability:
+  logging: true
+  metrics: vulnerability_count
 ---
 
 # Python Security Skill

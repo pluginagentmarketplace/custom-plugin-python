@@ -1,7 +1,7 @@
 {
   "name": "python-developer-plugin",
-  "version": "2.0.0",
-  "description": "Master Python development from fundamentals to advanced topics: web frameworks (Django, FastAPI), data science (Pandas, NumPy), testing (pytest), async programming, packaging, and performance optimization",
+  "version": "2.1.0",
+  "description": "Production-grade Python development plugin: web frameworks (Django, FastAPI), data science (Pandas, NumPy), testing (pytest), async programming, packaging, DevOps automation, and performance optimization",
   "author": {
     "name": "Dr. Umit Kacar & Muhsin Elcicek",
     "email": "kacarumit.phd@gmail.com",
@@ -18,6 +18,7 @@
     "pandas",
     "pytest",
     "asyncio",
+    "devops",
     "claude-code",
     "plugin"
   ],
@@ -28,16 +29,22 @@
     "./agents/04-testing-quality.md",
     "./agents/05-async-concurrency.md",
     "./agents/06-package-deployment.md",
-    "./agents/07-best-practices.md"
+    "./agents/07-best-practices.md",
+    "./agents/08-python-devops-automation.md"
   ],
   "skills": [
     "./skills/asyncio-programming/SKILL.md",
+    "./skills/debugging/SKILL.md",
     "./skills/django-framework/SKILL.md",
+    "./skills/fastapi/SKILL.md",
+    "./skills/machine-learning/SKILL.md",
     "./skills/pandas-data-analysis/SKILL.md",
     "./skills/poetry-packaging/SKILL.md",
     "./skills/pytest-testing/SKILL.md",
     "./skills/python-fundamentals/SKILL.md",
-    "./skills/python-performance/SKILL.md"
+    "./skills/python-performance/SKILL.md",
+    "./skills/security/SKILL.md",
+    "./skills/type-hints/SKILL.md"
   ],
   "commands": [
     "./commands/agent-guide.md",

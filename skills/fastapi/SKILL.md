@@ -1,9 +1,16 @@
 ---
-name: fastapi
-description: FastAPI web framework for building modern APIs
+name: FastAPI
+description: FastAPI web framework for building modern APIs with async support
+version: "2.1.0"
 sasmp_version: "1.3.0"
 bonded_agent: 02-web-development
 bond_type: PRIMARY_BOND
+
+# Skill Configuration
+retry_strategy: exponential_backoff
+observability:
+  logging: true
+  metrics: request_latency
 ---
 
 # FastAPI Skill

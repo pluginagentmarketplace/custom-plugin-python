@@ -1,9 +1,16 @@
 ---
 name: Python Performance
 description: Master Python optimization techniques, profiling, memory management, and high-performance computing
+version: "2.1.0"
 sasmp_version: "1.3.0"
-bonded_agent: 01-python-fundamentals
+bonded_agent: 07-best-practices
 bond_type: PRIMARY_BOND
+
+# Skill Configuration
+retry_strategy: exponential_backoff
+observability:
+  logging: true
+  metrics: execution_time_improvement
 ---
 
 # Python Performance Optimization

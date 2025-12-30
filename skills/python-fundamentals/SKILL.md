@@ -1,9 +1,16 @@
 ---
 name: Python Fundamentals
 description: Master Python syntax, data types, control flow, functions, OOP, and standard library
+version: "2.1.0"
 sasmp_version: "1.3.0"
 bonded_agent: 01-python-fundamentals
 bond_type: PRIMARY_BOND
+
+# Skill Configuration
+retry_strategy: exponential_backoff
+observability:
+  logging: true
+  metrics: skill_completion_rate
 ---
 
 # Python Fundamentals

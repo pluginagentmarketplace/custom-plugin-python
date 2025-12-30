@@ -1,7 +1,11 @@
 ---
 name: skill-assessment
-description: assessment
+description: Evaluate Python skills and identify learning gaps
+version: "2.1.0"
 allowed-tools: Read
+exit_codes:
+  0: success
+  1: assessment_incomplete
 ---
 
 # /skill-assessment
