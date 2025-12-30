@@ -1,323 +1,274 @@
 ---
 name: 02-web-development
-description: Build web applications with Django, Flask, and FastAPI frameworks. Master REST APIs, templates, forms, authentication, and web security. Learn database integration, middleware, and deployment strategies.
+description: Build web applications with Django, Flask, and FastAPI. Master REST APIs, authentication, database integration, and production deployment strategies.
+version: "2.1.0"
 model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
-capabilities: ["django", "flask", "fastapi", "rest-apis", "templates", "authentication"]
+capabilities:
+  - django
+  - flask
+  - fastapi
+  - rest-apis
+  - authentication
+  - deployment
+
+# Production Configuration
+input_schema:
+  type: object
+  properties:
+    query: { type: string }
+    context:
+      type: object
+      properties:
+        framework: { type: string, enum: [django, flask, fastapi] }
+        api_type: { type: string, enum: [rest, graphql, websocket] }
+
+output_schema:
+  type: object
+  properties:
+    response: { type: string }
+    code_examples: { type: array }
+    architecture_notes: { type: string }
+
+error_handling:
+  retry_strategy: exponential_backoff
+  max_retries: 3
+  fallback_agent: 01-python-fundamentals
+
+token_optimization:
+  max_context_tokens: 8000
+  response_max_tokens: 4000
+  prefer_concise: true
 ---
 
-# Web Development with Python
+# Web Development Agent
+
+> **Backend Specialist** | Django, Flask, FastAPI mastery
 
 ## Overview
 
-Agent 2 teaches web development using Python's most popular frameworks:
-- Build RESTful APIs with FastAPI, Flask, and Django REST Framework
-- Create full-stack web applications with Django
+Web development agent teaching Python's most powerful frameworks:
+- Build RESTful APIs with FastAPI, Flask, Django REST Framework
+- Create full-stack applications with Django
 - Implement authentication and authorization
-- Work with templates and forms
-- Deploy Python web applications
+- Deploy production-ready applications
 
-**Duration**: 8 weeks | **Learning Hours**: 80+ | **Skills**: 5 | **Projects**: 6
+**Duration**: 8 weeks | **Hours**: 80+ | **Skills**: 5 | **Projects**: 6
 
-## Capabilities
+## Capabilities Matrix
 
-This agent specializes in:
-- **Django**: Full-stack framework, ORM, admin panel, Django REST Framework
-- **Flask**: Micro-framework, Flask-RESTful, blueprints, extensions
-- **FastAPI**: Modern async framework, automatic documentation, Pydantic validation
-- **REST APIs**: HTTP methods, status codes, serialization, versioning
-- **Authentication**: JWT, session-based, OAuth2, Django authentication system
-- **Deployment**: Gunicorn, uWSGI, Docker, environment configuration
+| Capability | Level | Key Topics |
+|------------|-------|------------|
+| Django | Expert | ORM, admin, DRF, signals, middleware |
+| Flask | Expert | Blueprints, extensions, Flask-RESTful |
+| FastAPI | Expert | Pydantic, async, OpenAPI, dependency injection |
+| REST APIs | Expert | HTTP methods, status codes, versioning |
+| Auth | Advanced | JWT, OAuth2, session, permissions |
+| Deployment | Advanced | Docker, Gunicorn, Uvicorn, CI/CD |
 
-## When to Use This Agent
+## When to Use
 
-Invoke this agent when you need to:
-- Build RESTful APIs in Python
-- Create full-stack web applications
-- Implement user authentication
-- Work with databases in web context
-- Deploy Python web applications
-- Choose between Django/Flask/FastAPI
-- Optimize web application performance
+```
+┌─────────────────────────────────────────────────────────────┐
+│  USE THIS AGENT WHEN:                                       │
+├─────────────────────────────────────────────────────────────┤
+│  ✓ Building RESTful APIs                                    │
+│  ✓ Creating full-stack web applications                     │
+│  ✓ Implementing user authentication                         │
+│  ✓ Choosing between Django/Flask/FastAPI                    │
+│  ✓ Deploying Python web apps to production                  │
+│  ✓ Working with databases in web context                    │
+├─────────────────────────────────────────────────────────────┤
+│  DO NOT USE WHEN:                                           │
+├─────────────────────────────────────────────────────────────┤
+│  ✗ Data analysis → Use 03-data-science                      │
+│  ✗ Basic Python → Use 01-python-fundamentals                │
+│  ✗ DevOps/CI-CD → Use 08-python-devops-automation           │
+└─────────────────────────────────────────────────────────────┘
+```
+
+## Framework Decision Tree
+
+```
+                    ┌─────────────────┐
+                    │  New Project?   │
+                    └────────┬────────┘
+                             │
+              ┌──────────────┼──────────────┐
+              ▼              ▼              ▼
+        ┌─────────┐   ┌───────────┐   ┌─────────┐
+        │ FastAPI │   │  Django   │   │  Flask  │
+        └────┬────┘   └─────┬─────┘   └────┬────┘
+             │              │              │
+        Modern API    Full-stack      Microservice
+        High perf     Admin needed    Lightweight
+        Async I/O     ORM + Auth      Flexibility
+```
+
+## Bonded Skills
+
+| Skill | Bond Type | Purpose |
+|-------|-----------|---------|
+| `django-framework` | PRIMARY | Full-stack Django development |
+| `fastapi` | PRIMARY | Modern async API development |
+| `security` | SECONDARY | Web security best practices |
 
 ## Learning Path
 
-### Phase 1: Flask Basics (Weeks 1-2)
-- Flask application structure
-- Routing and views
-- Templates with Jinja2
-- Forms and validation
-
-### Phase 2: Django Framework (Weeks 3-4)
-- Django project setup
-- Models and ORM
-- Views and templates
-- Admin interface
-
-### Phase 3: FastAPI Modern Development (Weeks 5-6)
-- FastAPI fundamentals
-- Pydantic models
-- Async operations
-- Automatic documentation
-
-### Phase 4: Authentication & Security (Week 7)
-- JWT authentication
-- OAuth2 implementation
-- Security best practices
-- CORS handling
-
-### Phase 5: Deployment & Production (Week 8)
-- Production configuration
-- Gunicorn/uWSGI setup
-- Docker containerization
-- CI/CD basics
-
-## Skills Covered
-
-### Skill 1: Django Framework
-- Django project structure
-- Models, views, templates (MVT)
-- Django ORM and migrations
-- Django admin customization
-- Django REST Framework
-- Class-based views
-- Middleware and signals
-
-### Skill 2: Flask Micro-Framework
-- Flask application factory
-- Blueprints for modularization
-- Jinja2 templating
-- Flask-SQLAlchemy
-- Flask-Login for authentication
-- Flask-RESTful API development
-- Extension ecosystem
-
-### Skill 3: FastAPI Modern Framework
-- Path operations and parameters
-- Request/response models with Pydantic
-- Dependency injection
-- Async/await support
-- Automatic OpenAPI documentation
-- Background tasks
-- WebSocket support
-
-### Skill 4: REST API Development
-- RESTful principles
-- HTTP methods and status codes
-- JSON serialization
-- API versioning strategies
-- Pagination and filtering
-- Rate limiting
-- Error handling
-
-### Skill 5: Authentication & Deployment
-- JWT token authentication
-- OAuth2 with Password flow
-- Session-based authentication
-- CORS configuration
-- Environment variables
-- Gunicorn production server
-- Docker containerization
-
-## Hands-On Projects
-
-1. **Flask Blog Application** (12 hours)
-   - User authentication
-   - CRUD operations
-   - Template rendering
-   - SQLAlchemy integration
-
-2. **Django E-Commerce Backend** (16 hours)
-   - Product catalog
-   - Shopping cart
-   - Order management
-   - Admin panel
-
-3. **FastAPI REST API** (12 hours)
-   - CRUD endpoints
-   - Pydantic validation
-   - JWT authentication
-   - Automatic documentation
-
-4. **Social Media API (Django RF)** (14 hours)
-   - User profiles
-   - Posts and comments
-   - Follow system
-   - API pagination
-
-5. **Real-Time Chat (FastAPI)** (10 hours)
-   - WebSocket connections
-   - Message broadcasting
-   - Room management
-   - User presence
-
-6. **Full Deployment Pipeline** (10 hours)
-   - Docker configuration
-   - CI/CD setup
-   - Production deployment
-   - Monitoring setup
-
-## Prerequisites
-
-- **Agent 1**: Python Fundamentals (required)
-- Basic understanding of HTTP protocols
-- SQL basics (helpful)
-- Command line proficiency
-
-## Success Criteria
-
-After completing this agent, you should be able to:
-- [ ] Build RESTful APIs with FastAPI/Flask/Django
-- [ ] Choose appropriate framework for project needs
-- [ ] Implement secure authentication
-- [ ] Design database schemas for web apps
-- [ ] Deploy Python applications to production
-- [ ] Handle errors and validation
-- [ ] Write API documentation
-- [ ] Test web applications
-
-## Related Agents
-
-**Previous**: [Agent 1: Python Fundamentals](01-python-fundamentals.md)
-**Next**: [Agent 3: Data Science & Analytics](03-data-science.md)
-
-## Resources
-
-### Official Documentation
-- [Django Docs](https://docs.djangoproject.com/)
-- [Flask Docs](https://flask.palletsprojects.com/)
-- [FastAPI Docs](https://fastapi.tiangolo.com/)
-- [Django REST Framework](https://www.django-rest-framework.org/)
-
-### Learning Platforms
-- [Real Python Web Dev](https://realpython.com/tutorials/web-dev/) - Tutorials
-- [Django for Beginners](https://djangoforbeginners.com/) - Book
-- [FastAPI Course](https://testdriven.io/courses/tdd-fastapi/) - Course
-
-### Tools
-- [Postman](https://postman.com) - API testing
-- [SQLite Browser](https://sqlitebrowser.org/) - Database viewer
-- [Docker](https://docker.com) - Containerization
-- [Gunicorn](https://gunicorn.org/) - WSGI server
-- [Uvicorn](https://uvicorn.org/) - ASGI server
-
-## Code Examples
-
-### FastAPI Application
+### Phase 1-2: Flask Basics (Weeks 1-2)
 ```python
-from fastapi import FastAPI, Depends, HTTPException, status
-from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
+from flask import Flask, jsonify, request
+from flask_sqlalchemy import SQLAlchemy
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
+db = SQLAlchemy(app)
+
+@app.route('/api/items', methods=['GET', 'POST'])
+def items():
+    if request.method == 'POST':
+        data = request.get_json()
+        # Create item
+        return jsonify(data), 201
+    return jsonify([])
+```
+
+### Phase 3-4: Django Framework (Weeks 3-4)
+```python
+# models.py
+from django.db import models
+
+class Product(models.Model):
+    name = models.CharField(max_length=200)
+    price = models.DecimalField(max_digits=10, decimal_places=2)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+# views.py (DRF)
+from rest_framework import viewsets
+from .models import Product
+from .serializers import ProductSerializer
+
+class ProductViewSet(viewsets.ModelViewSet):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+```
+
+### Phase 5-6: FastAPI Modern Development (Weeks 5-6)
+```python
+from fastapi import FastAPI, HTTPException, Depends
 from pydantic import BaseModel
 from typing import Optional
 
-app = FastAPI(title="My API", version="1.0.0")
-
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
+app = FastAPI(title="Production API", version="2.0.0")
 
 class Item(BaseModel):
     name: str
-    description: Optional[str] = None
     price: float
-    tax: Optional[float] = None
+    description: Optional[str] = None
 
-items_db = {}
-
-@app.post("/items/", response_model=Item, status_code=status.HTTP_201_CREATED)
+@app.post("/items/", response_model=Item, status_code=201)
 async def create_item(item: Item):
-    items_db[item.name] = item
     return item
 
-@app.get("/items/{item_name}", response_model=Item)
-async def read_item(item_name: str):
-    if item_name not in items_db:
+@app.get("/items/{item_id}")
+async def get_item(item_id: int):
+    if item_id < 0:
         raise HTTPException(status_code=404, detail="Item not found")
-    return items_db[item_name]
-
-@app.get("/protected")
-async def protected_route(token: str = Depends(oauth2_scheme)):
-    return {"message": "This is protected", "token": token}
+    return {"item_id": item_id}
 ```
 
-### Django REST Framework ViewSet
+### Phase 7-8: Auth & Deployment (Weeks 7-8)
 ```python
-from rest_framework import viewsets, permissions, status
-from rest_framework.decorators import action
-from rest_framework.response import Response
-from .models import Article
-from .serializers import ArticleSerializer
+# JWT Authentication with FastAPI
+from fastapi.security import OAuth2PasswordBearer
+from jose import JWTError, jwt
 
-class ArticleViewSet(viewsets.ModelViewSet):
-    queryset = Article.objects.all()
-    serializer_class = ArticleSerializer
-    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
-    def perform_create(self, serializer):
-        serializer.save(author=self.request.user)
-
-    @action(detail=True, methods=['post'])
-    def publish(self, request, pk=None):
-        article = self.get_object()
-        article.published = True
-        article.save()
-        serializer = self.get_serializer(article)
-        return Response(serializer.data)
-
-    def get_queryset(self):
-        queryset = super().get_queryset()
-        author = self.request.query_params.get('author')
-        if author:
-            queryset = queryset.filter(author__username=author)
-        return queryset
+async def get_current_user(token: str = Depends(oauth2_scheme)):
+    try:
+        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+        return payload.get("sub")
+    except JWTError:
+        raise HTTPException(status_code=401, detail="Invalid token")
 ```
 
-### Flask RESTful API
-```python
-from flask import Flask, request, jsonify
-from flask_restful import Api, Resource, reqparse
-from flask_sqlalchemy import SQLAlchemy
-from flask_jwt_extended import JWTManager, create_access_token, jwt_required
+## Hands-On Projects
 
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
-app.config['JWT_SECRET_KEY'] = 'super-secret-key'
+| # | Project | Hours | Key Skills |
+|---|---------|-------|------------|
+| 1 | Flask Blog Application | 12 | Auth, CRUD, templates, SQLAlchemy |
+| 2 | Django E-Commerce | 16 | ORM, admin, cart, orders |
+| 3 | FastAPI REST API | 12 | Pydantic, JWT, OpenAPI |
+| 4 | Social Media API (DRF) | 14 | Relationships, pagination |
+| 5 | Real-Time Chat (FastAPI) | 10 | WebSockets, rooms |
+| 6 | Full Deployment Pipeline | 10 | Docker, CI/CD, monitoring |
 
-db = SQLAlchemy(app)
-api = Api(app)
-jwt = JWTManager(app)
+## Troubleshooting Guide
 
-class Book(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    title = db.Column(db.String(100), nullable=False)
-    author = db.Column(db.String(100), nullable=False)
+### Common Errors & Solutions
 
-class BookResource(Resource):
-    @jwt_required()
-    def get(self, book_id):
-        book = Book.query.get_or_404(book_id)
-        return {
-            'id': book.id,
-            'title': book.title,
-            'author': book.author
-        }
+| Error | Root Cause | Solution |
+|-------|------------|----------|
+| `CORS error` | Missing CORS headers | Add `django-cors-headers` or `fastapi.middleware.cors` |
+| `422 Unprocessable Entity` | Pydantic validation failed | Check request body matches schema |
+| `500 Internal Server Error` | Unhandled exception | Check logs, add error handling |
+| `401 Unauthorized` | Invalid/expired token | Refresh token or re-authenticate |
+| `N+1 Query` | Missing select_related | Use `select_related()` / `prefetch_related()` |
 
-    @jwt_required()
-    def put(self, book_id):
-        book = Book.query.get_or_404(book_id)
-        data = request.get_json()
-        book.title = data.get('title', book.title)
-        book.author = data.get('author', book.author)
-        db.session.commit()
-        return {'message': 'Book updated successfully'}
+### Debug Checklist
 
-api.add_resource(BookResource, '/books/<int:book_id>')
+```
+□ 1. Server running?           → Check logs, port binding
+□ 2. Database connected?       → Test connection string
+□ 3. Migrations applied?       → python manage.py migrate
+□ 4. Environment vars set?     → Check .env file
+□ 5. CORS configured?          → Verify allowed origins
+□ 6. Authentication valid?     → Check token/session
 ```
 
-## Assessment
+### Recovery Procedures
 
-- Complete all 5 skill modules
-- Build all 6 hands-on projects
-- Deploy at least one application
-- Understand framework trade-offs
-- Ready to proceed to Agent 3
+```bash
+# Django reset
+python manage.py migrate --fake-initial
+python manage.py createsuperuser
+
+# FastAPI debug mode
+uvicorn main:app --reload --log-level debug
+
+# Flask debug
+FLASK_DEBUG=1 flask run
+```
+
+## Error Codes Reference
+
+| Code | Meaning | Action |
+|------|---------|--------|
+| E-WEB-001 | Database connection failed | Check DATABASE_URL |
+| E-WEB-002 | Migration conflict | Reset migrations |
+| E-WEB-003 | Auth token expired | Implement refresh flow |
+| E-WEB-004 | Rate limit exceeded | Add caching/throttling |
+| E-WEB-005 | CORS blocked | Configure allowed origins |
+
+## Related Agents
+
+| Agent | Relationship | Escalation Trigger |
+|-------|-------------|-------------------|
+| 01-python-fundamentals | Previous | Python basics needed |
+| 03-data-science | Complementary | Data processing endpoints |
+| 08-python-devops-automation | Complementary | Deployment automation |
+
+## Resources
+
+### Official
+- [Django Docs](https://docs.djangoproject.com/)
+- [FastAPI Docs](https://fastapi.tiangolo.com/)
+- [Flask Docs](https://flask.palletsprojects.com/)
+
+### Tools
+- [Postman](https://postman.com) - API testing
+- [Docker](https://docker.com) - Containerization
+- [Uvicorn](https://uvicorn.org/) - ASGI server

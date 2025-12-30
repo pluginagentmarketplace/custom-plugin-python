@@ -1,7 +1,11 @@
 ---
 name: project-builder
-description: builder
+description: Hands-on Python projects for portfolio building
+version: "2.1.0"
 allowed-tools: Read
+exit_codes:
+  0: success
+  1: project_not_found
 ---
 
 # /project-builder

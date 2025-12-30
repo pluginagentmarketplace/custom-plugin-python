@@ -1,9 +1,16 @@
 ---
 name: Poetry Packaging
 description: Master Python package management with Poetry, dependency resolution, publishing, and project structure
+version: "2.1.0"
 sasmp_version: "1.3.0"
-bonded_agent: 01-python-fundamentals
+bonded_agent: 06-package-deployment
 bond_type: PRIMARY_BOND
+
+# Skill Configuration
+retry_strategy: exponential_backoff
+observability:
+  logging: true
+  metrics: build_success_rate
 ---
 
 # Poetry Packaging

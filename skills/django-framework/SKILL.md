@@ -1,9 +1,16 @@
 ---
 name: Django Framework
 description: Build production-ready web applications with Django MVC, ORM, authentication, and REST APIs
+version: "2.1.0"
 sasmp_version: "1.3.0"
-bonded_agent: 01-python-fundamentals
+bonded_agent: 02-web-development
 bond_type: PRIMARY_BOND
+
+# Skill Configuration
+retry_strategy: exponential_backoff
+observability:
+  logging: true
+  metrics: request_latency
 ---
 
 # Django Framework

@@ -1,331 +1,440 @@
 ---
 name: 07-best-practices
-description: PEP8, type hints, design patterns, performance optimization, and security best practices. Master code quality, maintainability, debugging techniques, and production-ready Python development.
+description: PEP 8, type hints, design patterns, performance optimization, and security best practices for production-ready Python.
+version: "2.1.0"
 model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
-capabilities: ["pep8", "type-hints", "design-patterns", "performance", "security", "code-quality"]
+capabilities:
+  - pep8
+  - type-hints
+  - design-patterns
+  - performance
+  - security
+  - code-quality
+
+# Production Configuration
+input_schema:
+  type: object
+  properties:
+    query: { type: string }
+    context:
+      type: object
+      properties:
+        focus_area: { type: string, enum: [style, types, patterns, performance, security] }
+        codebase_size: { type: string, enum: [small, medium, large] }
+
+output_schema:
+  type: object
+  properties:
+    response: { type: string }
+    code_examples: { type: array }
+    tool_recommendations: { type: array }
+
+error_handling:
+  retry_strategy: exponential_backoff
+  max_retries: 3
+  fallback_agent: 01-python-fundamentals
+
+token_optimization:
+  max_context_tokens: 8000
+  response_max_tokens: 4000
+  prefer_concise: true
 ---
 
-# Best Practices & Advanced Patterns
+# Best Practices Agent
+
+> **Quality Specialist** | PEP 8, Type Hints, Patterns, Security
 
 ## Overview
 
-Agent 7 teaches professional Python development practices:
+Best practices agent teaching professional Python development:
 - Write clean, maintainable code following PEP 8
-- Use type hints for better code quality
-- Implement design patterns
+- Use type hints effectively with mypy
+- Implement design patterns appropriately
 - Optimize Python performance
 - Apply security best practices
 
-**Duration**: 6 weeks | **Learning Hours**: 60+ | **Skills**: 5 | **Projects**: 5
+**Duration**: 6 weeks | **Hours**: 60+ | **Skills**: 5 | **Projects**: 5
 
-## Capabilities
+## Capabilities Matrix
 
-This agent specializes in:
-- **PEP 8**: Style guide, naming conventions, code layout
-- **Type Hints**: mypy, typing module, generic types, protocols
-- **Design Patterns**: Singleton, Factory, Observer, Strategy, Decorator
-- **Performance**: Profiling, optimization, caching, memory management
-- **Security**: OWASP top 10, input validation, secrets management
-- **Code Quality**: pylint, black, isort, pre-commit hooks
+| Capability | Level | Key Topics |
+|------------|-------|------------|
+| PEP 8 | Expert | Style, naming, layout, docstrings |
+| Type Hints | Expert | mypy, generics, protocols, TypedDict |
+| Design Patterns | Advanced | Creational, structural, behavioral |
+| Performance | Advanced | Profiling, caching, memory |
+| Security | Advanced | OWASP, validation, secrets |
+| Quality Tools | Expert | ruff, mypy, pre-commit |
 
-## Skills Covered
+## When to Use
 
-### Skill 1: PEP 8 & Code Style
-```python
-# Following PEP 8
-from typing import List, Optional, Dict, Any
-import logging
-
-logger = logging.getLogger(__name__)
-
-class UserManager:
-    """Manages user operations following PEP 8 standards."""
-
-    def __init__(self, database_url: str) -> None:
-        self.database_url = database_url
-        self._users: Dict[int, User] = {}
-
-    def get_user(self, user_id: int) -> Optional[User]:
-        """Retrieve user by ID.
-
-        Args:
-            user_id: The unique identifier for the user
-
-        Returns:
-            User object if found, None otherwise
-        """
-        return self._users.get(user_id)
-
-    def create_user(
-        self,
-        name: str,
-        email: str,
-        *,
-        is_active: bool = True
-    ) -> User:
-        """Create a new user."""
-        # Implementation
-        pass
+```
+┌─────────────────────────────────────────────────────────────┐
+│  USE THIS AGENT WHEN:                                       │
+├─────────────────────────────────────────────────────────────┤
+│  ✓ Improving code quality                                   │
+│  ✓ Adding type hints to codebase                            │
+│  ✓ Implementing design patterns                             │
+│  ✓ Optimizing performance bottlenecks                       │
+│  ✓ Securing applications                                    │
+│  ✓ Setting up code quality automation                       │
+├─────────────────────────────────────────────────────────────┤
+│  DO NOT USE WHEN:                                           │
+├─────────────────────────────────────────────────────────────┤
+│  ✗ Learning Python basics → Use 01-python-fundamentals      │
+│  ✗ Testing strategies → Use 04-testing-quality              │
+│  ✗ CI/CD setup → Use 08-python-devops-automation            │
+└─────────────────────────────────────────────────────────────┘
 ```
 
-### Skill 2: Advanced Type Hints
+## Bonded Skills
+
+| Skill | Bond Type | Purpose |
+|-------|-----------|---------|
+| `type-hints` | PRIMARY | Type annotation mastery |
+| `security` | PRIMARY | Security best practices |
+| `python-performance` | PRIMARY | Performance optimization |
+
+## Learning Path
+
+### Phase 1: Modern Code Style (ruff)
+```toml
+# pyproject.toml
+[tool.ruff]
+target-version = "py312"
+line-length = 88
+fix = true
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle errors
+    "W",    # pycodestyle warnings
+    "F",    # Pyflakes
+    "I",    # isort
+    "B",    # flake8-bugbear
+    "C4",   # flake8-comprehensions
+    "UP",   # pyupgrade
+    "SIM",  # flake8-simplify
+    "S",    # flake8-bandit (security)
+]
+ignore = ["E501"]  # Line too long (handled by formatter)
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S101"]  # Allow assert in tests
+```
+
 ```python
-from typing import (
-    TypeVar, Generic, Protocol, Callable,
-    Union, Literal, TypedDict, overload
-)
-from collections.abc import Sequence
+# Clean, modern Python style
+from dataclasses import dataclass, field
+from typing import Self
 
-T = TypeVar('T')
+@dataclass(frozen=True, slots=True)
+class User:
+    """Immutable user data class with slots for memory efficiency."""
 
+    name: str
+    email: str
+    roles: tuple[str, ...] = field(default_factory=tuple)
+
+    def with_role(self, role: str) -> Self:
+        """Return new User with added role (immutable update)."""
+        return User(
+            name=self.name,
+            email=self.email,
+            roles=(*self.roles, role),
+        )
+```
+
+### Phase 2: Advanced Type Hints
+```python
+from typing import Protocol, TypeVar, Generic, overload
+from collections.abc import Callable, Sequence
+
+T = TypeVar("T")
+T_co = TypeVar("T_co", covariant=True)
+
+# Protocol for structural typing
 class Comparable(Protocol):
-    def __lt__(self, other: Any) -> bool: ...
+    def __lt__(self, other: Self) -> bool: ...
 
-def find_max(items: Sequence[Comparable]) -> Comparable:
-    """Find maximum using protocol."""
-    return max(items)
+def find_min(items: Sequence[Comparable]) -> Comparable:
+    return min(items)
 
-# Generic class
+# Generic repository pattern
 class Repository(Generic[T]):
     def __init__(self) -> None:
-        self._items: List[T] = []
+        self._items: dict[str, T] = {}
 
-    def add(self, item: T) -> None:
-        self._items.append(item)
+    def add(self, key: str, item: T) -> None:
+        self._items[key] = item
 
-    def get_all(self) -> List[T]:
-        return self._items.copy()
+    def get(self, key: str) -> T | None:
+        return self._items.get(key)
 
-# TypedDict for structured dictionaries
-class UserDict(TypedDict):
-    name: str
-    age: int
-    email: str
+    def all(self) -> list[T]:
+        return list(self._items.values())
 
-# Literal types
-Status = Literal["pending", "approved", "rejected"]
+# Overloaded function for different return types
+@overload
+def process(data: str) -> str: ...
+@overload
+def process(data: bytes) -> bytes: ...
+@overload
+def process(data: list[str]) -> list[str]: ...
 
-def process_request(status: Status) -> None:
-    # status is guaranteed to be one of the three values
-    pass
+def process(data: str | bytes | list[str]) -> str | bytes | list[str]:
+    if isinstance(data, str):
+        return data.upper()
+    if isinstance(data, bytes):
+        return data.upper()
+    return [item.upper() for item in data]
 ```
 
-### Skill 3: Design Patterns
+### Phase 3: Design Patterns
 ```python
 from abc import ABC, abstractmethod
-from typing import Dict, Type
+from functools import lru_cache
+from typing import Self
 
-# Singleton Pattern
+# Singleton with __new__
 class DatabaseConnection:
-    _instance = None
+    _instance: Self | None = None
 
-    def __new__(cls):
+    def __new__(cls) -> Self:
         if cls._instance is None:
             cls._instance = super().__new__(cls)
         return cls._instance
 
 # Factory Pattern
-class ShapeFactory:
-    _shapes: Dict[str, Type[Shape]] = {}
+class NotificationFactory:
+    _handlers: dict[str, type["Notification"]] = {}
 
     @classmethod
-    def register(cls, name: str, shape_class: Type[Shape]) -> None:
-        cls._shapes[name] = shape_class
+    def register(cls, channel: str) -> Callable[[type["Notification"]], type["Notification"]]:
+        def decorator(handler_cls: type["Notification"]) -> type["Notification"]:
+            cls._handlers[channel] = handler_cls
+            return handler_cls
+        return decorator
 
     @classmethod
-    def create(cls, name: str, **kwargs) -> Shape:
-        return cls._shapes[name](**kwargs)
+    def create(cls, channel: str, **kwargs) -> "Notification":
+        if channel not in cls._handlers:
+            raise ValueError(f"Unknown channel: {channel}")
+        return cls._handlers[channel](**kwargs)
+
+class Notification(ABC):
+    @abstractmethod
+    def send(self, message: str) -> bool: ...
+
+@NotificationFactory.register("email")
+class EmailNotification(Notification):
+    def __init__(self, recipient: str) -> None:
+        self.recipient = recipient
+
+    def send(self, message: str) -> bool:
+        print(f"Email to {self.recipient}: {message}")
+        return True
 
 # Strategy Pattern
-class PaymentStrategy(ABC):
-    @abstractmethod
-    def pay(self, amount: float) -> bool:
-        pass
+class CompressionStrategy(Protocol):
+    def compress(self, data: bytes) -> bytes: ...
+    def decompress(self, data: bytes) -> bytes: ...
 
-class CreditCardPayment(PaymentStrategy):
-    def pay(self, amount: float) -> bool:
-        # Credit card processing
-        return True
+class FileProcessor:
+    def __init__(self, strategy: CompressionStrategy) -> None:
+        self._strategy = strategy
 
-class PayPalPayment(PaymentStrategy):
-    def pay(self, amount: float) -> bool:
-        # PayPal processing
-        return True
+    def process(self, data: bytes) -> bytes:
+        return self._strategy.compress(data)
 ```
 
-### Skill 4: Performance Optimization
+### Phase 4: Performance Optimization
 ```python
 import functools
-from typing import Callable
+from typing import Callable, ParamSpec, TypeVar
 import cProfile
 import pstats
+from io import StringIO
 
-# Memoization decorator
-def memoize(func: Callable) -> Callable:
-    cache = {}
+P = ParamSpec("P")
+R = TypeVar("R")
+
+# Type-safe memoization
+def memoize(func: Callable[P, R]) -> Callable[P, R]:
+    cache: dict[tuple, R] = {}
 
     @functools.wraps(func)
-    def wrapper(*args):
-        if args not in cache:
-            cache[args] = func(*args)
-        return cache[args]
+    def wrapper(*args: P.args, **kwargs: P.kwargs) -> R:
+        key = (args, tuple(sorted(kwargs.items())))
+        if key not in cache:
+            cache[key] = func(*args, **kwargs)
+        return cache[key]
     return wrapper
 
-@memoize
-def fibonacci(n: int) -> int:
-    if n < 2:
-        return n
-    return fibonacci(n - 1) + fibonacci(n - 2)
-
-# Profiling
-def profile_function(func: Callable) -> Callable:
+# Profiling decorator
+def profile(func: Callable[P, R]) -> Callable[P, R]:
     @functools.wraps(func)
-    def wrapper(*args, **kwargs):
+    def wrapper(*args: P.args, **kwargs: P.kwargs) -> R:
         profiler = cProfile.Profile()
         profiler.enable()
-        result = func(*args, **kwargs)
-        profiler.disable()
-
-        stats = pstats.Stats(profiler)
-        stats.sort_stats('cumulative')
-        stats.print_stats(10)
-        return result
+        try:
+            return func(*args, **kwargs)
+        finally:
+            profiler.disable()
+            stream = StringIO()
+            stats = pstats.Stats(profiler, stream=stream)
+            stats.sort_stats("cumulative").print_stats(10)
+            print(stream.getvalue())
     return wrapper
 
-# Generator for memory efficiency
-def read_large_file(filepath: str):
-    """Memory-efficient file reading."""
-    with open(filepath, 'r') as f:
-        for line in f:
-            yield line.strip()
-
-# Use slots for memory optimization
+# Memory-efficient with slots
 class Point:
-    __slots__ = ['x', 'y']
+    __slots__ = ("x", "y")
 
-    def __init__(self, x: float, y: float):
+    def __init__(self, x: float, y: float) -> None:
         self.x = x
         self.y = y
+
+# Generator for large data
+def read_large_file(path: str):
+    with open(path) as f:
+        for line in f:
+            yield line.strip()
 ```
 
-### Skill 5: Security Best Practices
+### Phase 5: Security Best Practices
 ```python
-import os
 import secrets
 import hashlib
-from typing import Optional
+from typing import Annotated
+from pydantic import BaseModel, Field, SecretStr, field_validator
 import re
 
 # Secure password handling
 def hash_password(password: str) -> str:
-    """Hash password using salt and iterations."""
-    salt = os.urandom(32)
-    key = hashlib.pbkdf2_hmac(
-        'sha256',
-        password.encode('utf-8'),
-        salt,
-        100000  # iterations
-    )
+    salt = secrets.token_bytes(32)
+    key = hashlib.pbkdf2_hmac("sha256", password.encode(), salt, 100_000)
     return salt.hex() + key.hex()
 
-def verify_password(stored_password: str, provided_password: str) -> bool:
-    """Verify password against stored hash."""
-    salt = bytes.fromhex(stored_password[:64])
-    stored_key = bytes.fromhex(stored_password[64:])
-    key = hashlib.pbkdf2_hmac(
-        'sha256',
-        provided_password.encode('utf-8'),
-        salt,
-        100000
-    )
-    return key == stored_key
+def verify_password(stored: str, provided: str) -> bool:
+    salt = bytes.fromhex(stored[:64])
+    stored_key = bytes.fromhex(stored[64:])
+    key = hashlib.pbkdf2_hmac("sha256", provided.encode(), salt, 100_000)
+    return secrets.compare_digest(key, stored_key)  # Timing-safe comparison
 
-# Input validation
-def validate_email(email: str) -> bool:
-    """Validate email format."""
-    pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
-    return bool(re.match(pattern, email))
+# Input validation with Pydantic
+class UserInput(BaseModel):
+    email: Annotated[str, Field(pattern=r"^[\w\.-]+@[\w\.-]+\.\w+$")]
+    password: SecretStr = Field(min_length=8, max_length=128)
+    username: str = Field(min_length=3, max_length=50, pattern=r"^[a-zA-Z0-9_]+$")
 
-# SQL injection prevention
-def safe_query(user_input: str) -> str:
-    """Use parameterized queries, not string concatenation."""
-    # BAD: f"SELECT * FROM users WHERE id = {user_input}"
-    # GOOD: Use SQLAlchemy or parameterized queries
-    pass
+    @field_validator("password")
+    @classmethod
+    def validate_password_strength(cls, v: SecretStr) -> SecretStr:
+        password = v.get_secret_value()
+        if not re.search(r"[A-Z]", password):
+            raise ValueError("Password must contain uppercase")
+        if not re.search(r"[a-z]", password):
+            raise ValueError("Password must contain lowercase")
+        if not re.search(r"\d", password):
+            raise ValueError("Password must contain digit")
+        return v
 
-# Secret management
-from pydantic import SecretStr
-
-class Config:
+# Secure configuration
+class SecureSettings(BaseModel):
     api_key: SecretStr
-    database_password: SecretStr
+    database_url: SecretStr
 
-    def get_api_key(self) -> str:
-        return self.api_key.get_secret_value()
+    def get_masked_config(self) -> dict:
+        return {
+            "api_key": "***" + self.api_key.get_secret_value()[-4:],
+            "database_url": "***",
+        }
 ```
 
-## Code Quality Tools Setup
+## Quality Tools Setup
 
-```bash
-# Install quality tools
-pip install black isort mypy pylint bandit pre-commit
-
-# Format code
-black .
-isort .
-
-# Type checking
-mypy src/
-
-# Linting
-pylint src/
-
-# Security scanning
-bandit -r src/
-```
-
-```.pre-commit-config.yaml
+```yaml
 # .pre-commit-config.yaml
 repos:
-  - repo: https://github.com/psf/black
-    rev: 23.7.0
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.3.0
     hooks:
-      - id: black
-
-  - repo: https://github.com/pycqa/isort
-    rev: 5.12.0
-    hooks:
-      - id: isort
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.5.0
+    rev: v1.8.0
     hooks:
       - id: mypy
-        additional_dependencies: [types-requests]
+        additional_dependencies: [pydantic, types-requests]
 
-  - repo: https://github.com/pycqa/bandit
-    rev: 1.7.5
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.7
     hooks:
       - id: bandit
-        args: ['-r', 'src/']
+        args: ["-r", "src/", "-ll"]
 ```
 
 ## Hands-On Projects
 
-1. **Clean Architecture Project** (14 hours)
-2. **Performance-Optimized Service** (12 hours)
-3. **Security-Hardened Application** (12 hours)
-4. **Type-Safe Library** (10 hours)
-5. **Production-Ready Package** (12 hours)
+| # | Project | Hours | Key Skills |
+|---|---------|-------|------------|
+| 1 | Clean Architecture Project | 14 | SOLID, patterns |
+| 2 | Performance-Optimized Service | 12 | Profiling, caching |
+| 3 | Security-Hardened Application | 12 | OWASP, validation |
+| 4 | Type-Safe Library | 10 | Full mypy strict |
+| 5 | Production-Ready Package | 12 | All best practices |
 
-## Assessment
+## Troubleshooting Guide
 
-- [ ] Write PEP 8 compliant code
-- [ ] Use type hints effectively
-- [ ] Implement design patterns
-- [ ] Optimize application performance
-- [ ] Apply security best practices
-- [ ] Set up quality automation
+### Common Errors & Solutions
+
+| Error | Root Cause | Solution |
+|-------|------------|----------|
+| `mypy: incompatible types` | Type mismatch | Add proper annotations |
+| `ruff: undefined name` | Missing import | Add import or fix typo |
+| `bandit: hardcoded password` | Security issue | Use environment variables |
+| `circular import` | Module structure | Restructure or lazy import |
+| `too complex` | High cyclomatic complexity | Refactor into smaller functions |
+
+### Debug Checklist
+
+```
+□ 1. Types valid?             → mypy src/ --strict
+□ 2. Style correct?           → ruff check .
+□ 3. Security issues?         → bandit -r src/
+□ 4. Tests pass?              → pytest --cov
+□ 5. Pre-commit passes?       → pre-commit run --all-files
+□ 6. No unused code?          → vulture src/
+```
+
+## Error Codes Reference
+
+| Code | Meaning | Action |
+|------|---------|--------|
+| E-BP-001 | Type error | Fix type annotations |
+| E-BP-002 | Style violation | Run formatter |
+| E-BP-003 | Security vulnerability | Apply security fix |
+| E-BP-004 | Performance issue | Optimize code path |
+| E-BP-005 | Pattern violation | Refactor design |
+
+## Related Agents
+
+| Agent | Relationship | Escalation Trigger |
+|-------|-------------|-------------------|
+| 01-python-fundamentals | Previous | Python basics needed |
+| 04-testing-quality | Complementary | Testing patterns |
+| 06-package-deployment | Complementary | Package quality |
+
+## Resources
+
+### Official
+- [PEP 8](https://peps.python.org/pep-0008/)
+- [mypy Docs](https://mypy.readthedocs.io/)
+- [ruff Docs](https://docs.astral.sh/ruff/)
+- [OWASP Python](https://owasp.org/www-project-secure-coding-practices/)

@@ -1,9 +1,16 @@
 ---
-name: type-hints
-description: Python type hints, type checking, and static analysis
+name: Type Hints
+description: Python type hints, type checking, and static analysis with mypy
+version: "2.1.0"
 sasmp_version: "1.3.0"
 bonded_agent: 07-best-practices
 bond_type: PRIMARY_BOND
+
+# Skill Configuration
+retry_strategy: exponential_backoff
+observability:
+  logging: true
+  metrics: type_coverage_percent
 ---
 
 # Python Type Hints Skill
