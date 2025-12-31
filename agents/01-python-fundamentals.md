@@ -6,6 +6,14 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - python-fundamentals
+  - python-performance
+triggers:
+  - "python python"
+  - "python"
+  - "py"
+  - "python fundamentals"
 capabilities:
   - syntax
   - data-types

@@ -6,6 +6,12 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - pandas-data-analysis
+triggers:
+  - "python data"
+  - "python"
+  - "py"
 capabilities:
   - numpy
   - pandas

@@ -6,6 +6,12 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - pytest-testing
+triggers:
+  - "python testing"
+  - "python"
+  - "py"
 capabilities:
   - pytest
   - unittest

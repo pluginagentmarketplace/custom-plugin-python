@@ -6,6 +6,14 @@ model: sonnet
 tools: Read, Write, Edit, Bash, Grep, Glob
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - python-fundamentals
+  - python-performance
+triggers:
+  - "python python"
+  - "python"
+  - "py"
+  - "python devops"
 capabilities:
   - ci-cd
   - github-actions

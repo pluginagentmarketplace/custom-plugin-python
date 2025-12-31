@@ -6,6 +6,12 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills: []
+triggers:
+  - "python package"
+  - "python"
+  - "py"
+  - "python deployment"
 capabilities:
   - packaging
   - poetry
