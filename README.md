@@ -63,7 +63,7 @@
 
 ```bash
 # Step 1️⃣ Add the marketplace
-/plugin add marketplace pluginagentmarketplace/custom-plugin-python
+/plugin marketplace add pluginagentmarketplace/custom-plugin-python
 
 # Step 2️⃣ Install the plugin
 /plugin install python-developer-plugin@pluginagentmarketplace-python

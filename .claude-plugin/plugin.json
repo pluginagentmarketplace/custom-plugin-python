@@ -51,6 +51,5 @@
     "./commands/project-builder.md",
     "./commands/roadmap.md",
     "./commands/skill-assessment.md"
-  ],
-  "hooks": "./hooks/hooks.json"
+  ]
 }
